@@ -1,0 +1,22 @@
+{% extends "books/base.html" %}
+{% load static %}
+
+{% block content %}
+<div id="loginScreen" style="display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #d4f8d4;">
+    <div id="loginForm" style="background-color: #155724; padding: 30px; border-radius: 10px; box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2); text-align: center; width: 300px;">
+        <!-- Teste com caminho absoluto primeiro -->
+        <img src="{% static 'images/logo_biblioteca.png' %}" alt="Logo" style="width: 250px; margin-bottom: 20px;">
+        
+        <form method="post" style="width: 100%;">
+            {% csrf_token %}
+            <input type="text" name="username" placeholder="Usuário" required style="width: 100%; padding: 10px; margin: 10px 0; border: none; border-radius: 5px; font-size: 14px;">
+            <input type="password" name="password" placeholder="Senha" required style="width: 100%; padding: 10px; margin: 10px 0; border: none; border-radius: 5px; font-size: 14px;">
+            <button type="submit" style="width: 100%; padding: 10px; margin-top: 10px; background-color: #28a745; color: white; border: none; border-radius: 5px; font-size: 16px; cursor: pointer;">Entrar</button>
+        </form>
+        
+        {% if error %}
+        <p style="color: #ff6b6b; font-size: 14px; margin-top: 10px;">{{ error }}</p>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}
