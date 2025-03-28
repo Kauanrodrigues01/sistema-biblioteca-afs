@@ -1,0 +1,5450 @@
+[
+    {
+        "title": "Helena",
+        "author": "Machado de Assis",
+        "isbn": "9788585030001",
+        "publisher": "Brink Brasil",
+        "year": "2018",
+        "genre": "Romance"
+    },
+    {
+        "title": "Poemas Escolhidos",
+        "author": "Mia Couto",
+        "isbn": "9788535926842",
+        "publisher": "Companhia das Letras",
+        "year": "2016",
+        "genre": "Poesia"
+    },
+    {
+        "title": "O Melhor do Conto Brasileiro",
+        "author": "Aníbal Machado, Josué Montello, Rachel de Queiroz, Orígenes Lessa",
+        "isbn": "9788503000505",
+        "publisher": "José Olympio Editora",
+        "year": "1970",
+        "genre": "Contos"
+    },
+    {
+        "title": "Inocência",
+        "author": "Visconde de Taunay",
+        "isbn": "9788587653673",
+        "publisher": "ABC",
+        "year": "2002",
+        "genre": "Romance"
+    },
+    {
+        "title": "A Pata da Gazela",
+        "author": "José de Alencar",
+        "isbn": "9788587653901",
+        "publisher": "Saraiva",
+        "year": "null",
+        "genre": "Romance"
+    },
+    {
+        "title": "Vito Grandam: Uma História de Voz",
+        "author": "Ziraldo, Pedro Bandeira (Apresentação), Walter Weiszflog (Organizador)",
+        "isbn": "9788506041055",
+        "publisher": "null",
+        "year": "null",
+        "genre": "Literatura Infantojuvenil"
+    },
+    {
+        "title": "De Gutenberg à Internet: direitos autorais na era digital",
+        "author": "Henrique Gandelman",
+        "isbn": "9788501078919",
+        "publisher": "Record",
+        "year": "2007",
+        "genre": "Direito Autoral"
+    },
+    {
+        "title": "Por Um Novo Reformismo",
+        "author": "Giuseppe Vacca, Luiz Sergio Henriques",
+        "isbn": "9788589216173",
+        "publisher": "Henriques, Luiz Sergio, Brazil",
+        "year": "2009",
+        "genre": "Política"
+    },
+    {
+        "title": "Conterrâneos",
+        "author": "Jansen Viana",
+        "isbn": "9788587062888",
+        "publisher": "Banco do Nordeste",
+        "year": "2007",
+        "genre": "Poesia"
+    },
+    {
+        "title": "Whatever",
+        "author": "Leonardo Brasiliense",
+        "isbn": "9788574211244",
+        "publisher": "Artes e Ofícios",
+        "year": "2009",
+        "genre": "Literatura Contemporânea"
+    },
+    {
+        "title": "Contos e Crônicas Para Ler Na Escola",
+        "author": "Moacyr Scliar",
+        "isbn": "9788539002733",
+        "publisher": "Objetiva",
+        "year": "2011",
+        "genre": "Contos"
+    },
+    {
+        "title": "Os Melhores Contos de Cães & Gatos",
+        "author": "Flávio Moreira da Costa",
+        "isbn": "9788500021985",
+        "publisher": "Ediouro",
+        "year": "2007",
+        "genre": "Contos"
+    },
+    {
+        "title": "A Prosa do Mundo",
+        "author": "Caio Fernando Abreu, José Castello, Carlos Drummond de Andrade, Moacyr Scliar, Cecília Meireles, Ignácio de Loyola Brandão, Luiz Vilela, Mário Quintana, Rachel de Queiroz",
+        "isbn": "9788575550175",
+        "publisher": "Gaia",
+        "year": "2008",
+        "genre": "Contos e Crônicas"
+    },
+    {
+        "title": "Contos tradicionais do Brasil para jovens",
+        "author": "Luís da Câmara Cascudo",
+        "isbn": "9788526011205",
+        "publisher": "null",
+        "year": "2006",
+        "genre": "Contos"
+    },
+    {
+        "title": "O Conto da Mulher Brasileira",
+        "author": "Vários Autores",
+        "isbn": "9788526012578",
+        "publisher": "Global",
+        "year": "2008",
+        "genre": "Contos"
+    },
+    {
+        "title": "Contos Tradicionais do Brasil",
+        "author": "Luís da Câmara Cascudo",
+        "isbn": "9788526006850",
+        "publisher": "Global Editora",
+        "year": "2005",
+        "genre": "Contos"
+    },
+    {
+        "title": "Kuriquiã, o romance das águas lendárias",
+        "author": "Almir Gomes de Castro",
+        "isbn": "9788575646359",
+        "publisher": "null",
+        "year": "2013",
+        "genre": "Romance"
+    },
+    {
+        "title": "O barril de Amontillado e O demônio da Perversidade",
+        "author": "Edgar Allan Poe, Rodrigo Espinosa Cabral",
+        "isbn": "9788533907492",
+        "publisher": "Rideel",
+        "year": "2005",
+        "genre": "Contos"
+    },
+    {
+        "title": "Antologia de folhetos de cordel",
+        "author": "Márcia Abreu",
+        "isbn": "9788516047610",
+        "publisher": "Moderna",
+        "year": "2005",
+        "genre": "Cordel"
+    },
+    {
+        "title": "O albatroz azul",
+        "author": "João Ubaldo Ribeiro",
+        "isbn": "9788520923863",
+        "publisher": "Nova Fronteira",
+        "year": "2009",
+        "genre": "Romance"
+    },
+    {
+        "title": "Contos de Mirábile",
+        "author": "Édimo de Almeida Pereira",
+        "isbn": "9788571604001",
+        "publisher": "Mazza",
+        "year": "2007",
+        "genre": "Contos"
+    },
+    {
+        "title": "A Madona de Cedro",
+        "author": "Antonio Callado",
+        "isbn": "9788578600846",
+        "publisher": "Vida Melhor",
+        "year": "2012",
+        "genre": "Romance"
+    },
+    {
+        "title": "Para Gostar de Ler - Volume 7 - Crônicas 6",
+        "author": "Carlos Eduardo Novaes, José Carlos Oliveira, Lourenço Diaféria, Luis Fernando Verissimo",
+        "isbn": "9788508083008",
+        "publisher": "Ática",
+        "year": "2005",
+        "genre": "Crônicas"
+    },
+    {
+        "title": "Janela Mágica",
+        "author": "Cecília Meireles",
+        "isbn": "9788516034900",
+        "publisher": "Moderna",
+        "year": "null",
+        "genre": "Poesia"
+    },
+    {
+        "title": "Cânticos",
+        "author": "Cecília Meireles",
+        "isbn": "9788516034832",
+        "publisher": "Moderna",
+        "year": "2003",
+        "genre": "Poesia"
+    },
+    {
+        "title": "A Morte e a Morte de Quincas Berro D'água",
+        "author": "Jorge Amado",
+        "isbn": "9788501004840",
+        "publisher": "Editora Afiliada",
+        "year": "1999",
+        "genre": "Romance"
+    },
+    {
+        "title": "O Coronel e o Lobisomem",
+        "author": "José Cândido de Carvalho",
+        "isbn": "9788503009805",
+        "publisher": "José Olympio",
+        "year": "1994",
+        "genre": "Romance"
+    },
+    {
+        "title": "Os Melhores Poemas de Mário Quintana",
+        "author": "Mário Quintana",
+        "isbn": "9788526001725",
+        "publisher": "Global",
+        "year": "2000",
+        "genre": "Poesia"
+    },
+    {
+        "title": "Um Hóspede na Sacada",
+        "author": "Liberato Vieira da Cunha",
+        "isbn": "9788520500910",
+        "publisher": "Sulina",
+        "year": "1997",
+        "genre": "Literatura"
+    },
+    {
+        "title": "Contos de Aprendiz",
+        "author": "Carlos Drummond de Andrade",
+        "isbn": "9788501062659",
+        "publisher": "Editora José Olympio",
+        "year": "1976",
+        "genre": "Contos"
+    },
+    {
+        "title": "Vozes da Ficção. Narrativas do Mundo do Trabalho",
+        "author": "Walnice Nogueira Galvão",
+        "isbn": "9788577431830",
+        "publisher": "Expressão Popular",
+        "year": "2011",
+        "genre": "Contos"
+    },
+    {
+        "title": "De Conto em Conto",
+        "author": "Antônio de Alcântara Machado, Artur Azevedo, Carlos Drummond de Andrade, Fernando Sabino, Ivan Ângelo, Lima Barreto, Luiz Vilela, Lygia Fagundes Telles, Machado de Assis, Marcos Rey, Pedro Bandeira, Wander Piroli",
+        "isbn": "9788508082711",
+        "publisher": "Editora Ática",
+        "year": "2002",
+        "genre": "Contos"
+    },
+    {
+        "title": "Contos novos",
+        "author": "Mário de Andrade",
+        "isbn": "9788500027390",
+        "publisher": "Ediouro",
+        "year": "2012",
+        "genre": "Contos"
+    },
+    {
+        "title": "Várias Histórias",
+        "author": "Machado de Assis",
+        "isbn": "9788589155427",
+        "publisher": "Germape",
+        "year": "2005",
+        "genre": "Contos"
+    },
+    {
+        "title": "Contos",
+        "author": "Guy de Maupassant",
+        "isbn": "9788575301609",
+        "publisher": "Cedic",
+        "year": "2009",
+        "genre": "Contos"
+    },
+    {
+        "title": "Meu Planeta Minha Casa",
+        "author": "Shirley Souza",
+        "isbn": "9788576667933",
+        "publisher": "Escala Educacional",
+        "year": "2000",
+        "genre": "Ecologia"
+    },
+    {
+        "title": "Olhos de Ver",
+        "author": "Tatiana Belinky",
+        "isbn": "9788516041953",
+        "publisher": "Editora Moderna",
+        "year": "2004",
+        "genre": "Crônicas"
+    },
+    {
+        "title": "Tudos",
+        "author": "Arnaldo Antunes, Loretta Emiri",
+        "isbn": "9788585219208",
+        "publisher": "Iluminuras",
+        "year": "1990",
+        "genre": "Poesia"
+    },
+    {
+        "title": "Poemas de Gregório de Matos",
+        "author": "Gregório de Matos",
+        "isbn": "9788586583117",
+        "publisher": "Autêntica",
+        "year": "1998",
+        "genre": "Poesia"
+    },
+    {
+        "title": "Breve História do Mundo",
+        "author": "Carlos Nejar",
+        "isbn": "9788500013256",
+        "publisher": "Ediouro",
+        "year": "2003",
+        "genre": "História"
+    },
+    {
+        "title": "Memórias Póstumas de Brás Cubas",
+        "author": "Machado de Assis",
+        "isbn": "9788589155151",
+        "publisher": "Germape",
+        "year": "2004",
+        "genre": "Romance"
+    },
+    {
+        "title": "Ortografia: Ensinar e Aprender",
+        "author": "Desconhecido",
+        "isbn": "9788508071890",
+        "publisher": "Ática",
+        "year": "1998",
+        "genre": "Educação"
+    },
+    {
+        "title": "200 Dias de Leitura e Escrita na Escola",
+        "author": "Rossana Ramos",
+        "isbn": "9788524911446",
+        "publisher": "Cortez",
+        "year": "2005",
+        "genre": "Educação"
+    },
+    {
+        "title": "Leitura e Escrita de Adolescentes na Internet e na Escola",
+        "author": "Maria Teresa de Assunção Freitas",
+        "isbn": "9788575261569",
+        "publisher": "Autêntica Editora",
+        "year": "2005",
+        "genre": "Educação"
+    },
+    {
+        "title": "Mestres da paixão: aprendendo com quem ama o que faz",
+        "author": "Domingos Pellegrini",
+        "isbn": "9788575681398",
+        "publisher": "Salamandra",
+        "year": "2021",
+        "genre": "Educação"
+    },
+    {
+        "title": "O castelo ao lado",
+        "author": "Edith Lacerda",
+        "isbn": "9786589755029",
+        "publisher": "Sandra Edições",
+        "year": "2021",
+        "genre": "Literatura"
+    },
+    {
+        "title": "O Sítio dos Bichos",
+        "author": "George Orwell",
+        "isbn": "9786559490646",
+        "publisher": "Carochinha",
+        "year": "2021",
+        "genre": "Fábula"
+    },
+    {
+        "title": "Instalações Elétricas",
+        "author": "Ademaro A. M. B. Cotrim",
+        "isbn": "9788576052081",
+        "publisher": "Pearson",
+        "year": "null",
+        "genre": "Tecnologia"
+    },
+    {
+        "title": "Teatro na Escola: Peças Para Crianças de 9 Anos Vol.2",
+        "author": "Ruth Salles",
+        "isbn": "9788575961223",
+        "publisher": "Editora Peirópolis",
+        "year": "2007",
+        "genre": "Educação"
+    },
+    {
+        "title": "Teatro na Escola: Peças Para Crianças de 7 e 8 Anos - Vol.1",
+        "author": "Ruth Salles",
+        "isbn": "9788575961094",
+        "publisher": "Editora Peirópolis",
+        "year": "2007",
+        "genre": "Educação"
+    },
+    {
+        "title": "101 Atividades Recreativas Para Grupos Em Viagens De Turismo",
+        "author": "Simão de Miranda",
+        "isbn": "9788530806606",
+        "publisher": "Papirus Editora",
+        "year": "null",
+        "genre": "Recreação"
+    },
+    {
+        "title": "Escalando Sonhos",
+        "author": "Gustavo Ziller",
+        "isbn": "9786599202759",
+        "publisher": "Kets",
+        "year": "2021",
+        "genre": "Biografia"
+    },
+    {
+        "title": "Um Caminho do Teatro na Escola",
+        "author": "Olga Reverbel",
+        "isbn": "9788526214033",
+        "publisher": "Scipione",
+        "year": "1989",
+        "genre": "Educação"
+    },
+    {
+        "title": "Povos indígenas e educação",
+        "author": "Maria Aparecida Bergamaschi",
+        "isbn": "9788577060306",
+        "publisher": "Mediacao",
+        "year": "2008",
+        "genre": "Estudos Indígenas"
+    },
+    {
+        "title": "Teatro na Escola: Peças Para Crianças de 11 Anos - Vol.4",
+        "author": "Ruth Salles",
+        "isbn": "9788575961247",
+        "publisher": "Editora Peirópolis",
+        "year": "2007",
+        "genre": "Educação"
+    },
+    {
+        "title": "Teatro na Escola: Peças Para Jovens de 12 e 13 Anos - Vol.5",
+        "author": "Ruth Salles",
+        "isbn": "9788575961254",
+        "publisher": "Editora Peirópolis",
+        "year": "2007",
+        "genre": "Educação"
+    },
+    {
+        "title": "Fábula Brasileira Ou Fábula Saborosa",
+        "author": "Lúcia Pimentel Góes",
+        "isbn": "9788535612806",
+        "publisher": "Paulinas",
+        "year": "2005",
+        "genre": "Fábulas"
+    },
+    {
+        "title": "Os Segredos do Sistema Solar",
+        "author": "Paulo Sérgio Bretones",
+        "isbn": "9788570565747",
+        "publisher": "Atual",
+        "year": "1994",
+        "genre": "Astronomia"
+    },
+    {
+        "title": "Iniciação à Astronomia",
+        "author": "Romildo Póvoa Faria",
+        "isbn": "9788508114603",
+        "publisher": "null",
+        "year": "2008",
+        "genre": "Astronomia"
+    },
+    {
+        "title": "Arte Por Toda Parte - Volume Único",
+        "author": "Solange Utuari",
+        "isbn": "9788596003643",
+        "publisher": "FTD",
+        "year": "2016",
+        "genre": "Arte"
+    },
+    {
+        "title": "Arte de Perto - Volume Único",
+        "author": "Maurilio Andrade Rocha",
+        "isbn": "9788545103455",
+        "publisher": "Leya",
+        "year": "2016",
+        "genre": "Arte"
+    },
+    {
+        "title": "Metodologia do Ensino de Arte",
+        "author": "Various",
+        "isbn": "9788524905087",
+        "publisher": "Cortez",
+        "year": "1991",
+        "genre": "Educação Artística"
+    },
+    {
+        "title": "Arte/Educação Contemporânea. Consonâncias Internacionais",
+        "author": "Unknown Author",
+        "isbn": "9788524911095",
+        "publisher": "Cortez Editora",
+        "year": "2006",
+        "genre": "Educação Artística"
+    },
+    {
+        "title": "José Alencar - Amor à vida: A saga de um brasileiro",
+        "author": "Eliane Cantanhêde",
+        "isbn": "9788575426241",
+        "publisher": "Primeira Pessoa (Sextante)",
+        "year": "2010",
+        "genre": "Biografia"
+    },
+    {
+        "title": "Contando a História do Samba",
+        "author": "Marcos Antônio Cardoso",
+        "isbn": "9788571602571",
+        "publisher": "Mazza",
+        "year": "2003",
+        "genre": "Música"
+    },
+    {
+        "title": "As Energias Curativas da Música",
+        "author": "Hal A. Ligerman",
+        "isbn": "9788531601484",
+        "publisher": "Cultrix",
+        "year": "1991",
+        "genre": "Musicoterapia"
+    },
+    {
+        "title": "Teatro Da Obsessão: Nelson Rodrigues",
+        "author": "Sábato Magaldi",
+        "isbn": "9788526009172",
+        "publisher": "Global",
+        "year": "2004",
+        "genre": "Teatro"
+    },
+    {
+        "title": "Melhor Teatro Domingos Oliveira",
+        "author": "Faria",
+        "isbn": "9788526008113",
+        "publisher": "Global",
+        "year": "2004",
+        "genre": "Teatro"
+    },
+    {
+        "title": "Música na Escola. A Contribuição do Ensino da Música no Aprendizado e no Convívio Social da Criança",
+        "author": "Hans Gunther Bastian",
+        "isbn": "9788535623901",
+        "publisher": "Paulinas",
+        "year": "2009",
+        "genre": "Educação Musical"
+    },
+    {
+        "title": "A Música da Natureza",
+        "author": "Rubem Alves",
+        "isbn": "9788530807436",
+        "publisher": "Papirus Editora",
+        "year": "2004",
+        "genre": "Natureza"
+    },
+    {
+        "title": "Ensinando Música Musicalmente",
+        "author": "Keith Swanwick",
+        "isbn": "9788516039073",
+        "publisher": "Editora Moderna",
+        "year": "2003",
+        "genre": "Educação Musical"
+    },
+    {
+        "title": "Jogos e Brincadeiras Musicais",
+        "author": "Aliana Daud",
+        "isbn": "9788535623833",
+        "publisher": "Paulinas",
+        "year": "2009",
+        "genre": "Música"
+    },
+    {
+        "title": "Círculos de Leitura: A Arte do Encontro",
+        "author": "Catalina Pages, Maria Aparecida Lamas (Orgs.)",
+        "isbn": "9788585055004",
+        "publisher": "Recriar",
+        "year": "2018",
+        "genre": "Educação"
+    },
+    {
+        "title": "Machado de Assis: Vida e Obra - Maturidade (Vol. 3)",
+        "author": "Raimundo Magalhães Júnior",
+        "isbn": "9788501076557",
+        "publisher": "Record",
+        "year": "2008",
+        "genre": "Biografia"
+    },
+    {
+        "title": "Antología Poética",
+        "author": "Mário Quintana",
+        "isbn": "9788500321429",
+        "publisher": "null",
+        "year": "1989",
+        "genre": "Poesia"
+    },
+    {
+        "title": "Dicionário Crítico de Educação Física",
+        "author": "Fernando Jaime González, Paulo Evaldo Fensterseifer",
+        "isbn": "9788574294803",
+        "publisher": "Editora Unijuí",
+        "year": "2005",
+        "genre": "Educação Física"
+    },
+    {
+        "title": "Pedagogia do Esporte - Jogos Coletivos de Invasão",
+        "author": "Alcides Scaglia, Riller Silva Reverdito",
+        "isbn": "9788576552109",
+        "publisher": "null",
+        "year": "null",
+        "genre": "Esportes"
+    },
+    {
+        "title": "Gramática Reflexiva - 6. Ano",
+        "author": "Cereja e Cochar",
+        "isbn": "9788535709650",
+        "publisher": "null",
+        "year": "null",
+        "genre": "Gramática"
+    },
+    {
+        "title": "Gramática Reflexiva. 6º Ano",
+        "author": "Heinrich Mann",
+        "isbn": "9788535714968",
+        "publisher": "Atual",
+        "year": "null",
+        "genre": "Gramática"
+    },
+    {
+        "title": "Gramatica Reflexiva. 8ª Série. 9º Ano",
+        "author": "William Roberto Cereja",
+        "isbn": "9788535709711",
+        "publisher": "Atual",
+        "year": "2008",
+        "genre": "Gramática"
+    },
+    {
+        "title": "O Texto na Sala de Aula",
+        "author": "João Wanderley Geraldi (Org.)",
+        "isbn": "9788575952009",
+        "publisher": "Anglo",
+        "year": "2012",
+        "genre": "Educação"
+    },
+    {
+        "title": "Língua e Liberdade",
+        "author": "Celso Pedro Luft",
+        "isbn": "9788508043149",
+        "publisher": "Ática",
+        "year": "1993",
+        "genre": "Linguística"
+    },
+    {
+        "title": "História & Livro e Leitura",
+        "author": "André Belo",
+        "isbn": "9788575260548",
+        "publisher": "Autêntica",
+        "year": "2007",
+        "genre": "História"
+    },
+    {
+        "title": "Para Gostar de Escrever",
+        "author": "C. E. Faraco",
+        "isbn": "9788508076703",
+        "publisher": "Ática",
+        "year": "2000",
+        "genre": "Redação"
+    },
+    {
+        "title": "Texto e Leitor",
+        "author": "Angela Kleiman",
+        "isbn": "9788571130272",
+        "publisher": "Pontes",
+        "year": "1989",
+        "genre": "Linguística"
+    },
+    {
+        "title": "Por que (não) ensinar gramática na escola",
+        "author": "Sirio Possenti",
+        "isbn": "9788585725242",
+        "publisher": "Mercado de Letras",
+        "year": "2004",
+        "genre": "Gramática"
+    },
+    {
+        "title": "O Texto e a Construção dos Sentidos",
+        "author": "Ingedore Grunfeld Villaça Koch",
+        "isbn": "9788572440684",
+        "publisher": "Editora Contexto",
+        "year": "2014",
+        "genre": "Linguística"
+    },
+    {
+        "title": "Unidades de Leitura - Coleção Linguagens e Sociedade",
+        "author": "Ezequiel Theodoro da Silva",
+        "isbn": "9788574960661",
+        "publisher": "Autores Associados",
+        "year": "2003",
+        "genre": "Educação"
+    },
+    {
+        "title": "A Língua de Eulália",
+        "author": "Marcos Bagno",
+        "isbn": "9788572443975",
+        "publisher": "Contexto",
+        "year": "2008",
+        "genre": "Linguística"
+    },
+    {
+        "title": "Oficina de Leitura: Teoria e Prática",
+        "author": "Angela B. Kleiman",
+        "isbn": "9788571130777",
+        "publisher": "Pontes",
+        "year": "1993",
+        "genre": "Educação"
+    },
+    {
+        "title": "Da Arte de Persuadir",
+        "author": "Blaise Pascal",
+        "isbn": "9788576290438",
+        "publisher": "Landy",
+        "year": "2005",
+        "genre": "Filosofia"
+    },
+    {
+        "title": "Introdução à Teoria da Literatura",
+        "author": "António Soares Amora",
+        "isbn": "9788531602085",
+        "publisher": "Cultrix",
+        "year": "null",
+        "genre": "Teoria Literária"
+    },
+    {
+        "title": "1000 Erros de Português da Atualidade",
+        "author": "Luis Antonio Sacconi",
+        "isbn": "9788576664192",
+        "publisher": "null",
+        "year": "null",
+        "genre": "Gramática"
+    },
+    {
+        "title": "Não Erre Mais! - Português Agradável e Descomplicado",
+        "author": "Luiz Antonio Sacconi",
+        "isbn": "9788576664178",
+        "publisher": "null",
+        "year": "null",
+        "genre": "Gramática"
+    },
+    {
+        "title": "Não Erre Mais! - Testes e Exercícios",
+        "author": "Luiz Antonio Sacconi",
+        "isbn": "9788576664185",
+        "publisher": "Escala Educacional",
+        "year": "2006",
+        "genre": "Gramática"
+    },
+    {
+        "title": "Novo Guia Ortográfico",
+        "author": "Celso Pedro Luft",
+        "isbn": "9788525036360",
+        "publisher": "Globo",
+        "year": "2003",
+        "genre": "Gramática"
+    },
+    {
+        "title": "Do Mundo da Leitura para a Leitura do Mundo",
+        "author": "Marisa Lajolo",
+        "isbn": "9788508043835",
+        "publisher": "Ática",
+        "year": "1994",
+        "genre": "Educação"
+    },
+    {
+        "title": "A Coerência Textual",
+        "author": "Ingedore Villaça Koch, Luiz Carlos Travaglia",
+        "isbn": "9788585134600",
+        "publisher": "Contexto",
+        "year": "2009",
+        "genre": "Linguística"
+    },
+    {
+        "title": "O Jogo Discursivo na Aula de Leitura",
+        "author": "Maria José Rodrigues Faria Coracini",
+        "isbn": "9788571131057",
+        "publisher": "Pontes",
+        "year": "1995",
+        "genre": "Linguística"
+    },
+    {
+        "title": "Gêneros Textuais e Produção Escrita: Teoria e Prática nas Aulas de Espanhol Como Língua Estrangeira",
+        "author": "Gretel Eres Fernández",
+        "isbn": "9788534232104",
+        "publisher": "Companhia Editora Nacional",
+        "year": "2012",
+        "genre": "Linguística"
+    },
+    {
+        "title": "Formação de Palavras em Português - Coleção Princípios",
+        "author": "Valter Kehdi",
+        "isbn": "9788508107933",
+        "publisher": "Ática",
+        "year": "2007",
+        "genre": "Linguística"
+    },
+    {
+        "title": "Literatura e Sociedade",
+        "author": "Adriana Facina",
+        "isbn": "9788571108097",
+        "publisher": "Zahar",
+        "year": "2004",
+        "genre": "Teoria Literária"
+    },
+    {
+        "title": "Decifrando a Crase",
+        "author": "Celso Pedro Luft, Lya Luft",
+        "isbn": "9788525040862",
+        "publisher": "Globo",
+        "year": "null",
+        "genre": "Gramática"
+    },
+    {
+        "title": "Cidadania para Principiantes: A História dos Direitos do Homem",
+        "author": "Cesar Lobo",
+        "isbn": "9788508085491",
+        "publisher": "Ática",
+        "year": "2003",
+        "genre": "Sociologia"
+    },
+    {
+        "title": "Ensino de Português Língua",
+        "author": "Anna Maria Pessoa de Carvalho",
+        "isbn": "9788522116324",
+        "publisher": "null",
+        "year": "null",
+        "genre": "Linguística"
+    },
+    {
+        "title": "Desvendando os Segredos do Texto",
+        "author": "Ingedore Grunfeld Villaça Koch",
+        "isbn": "9788524908378",
+        "publisher": "Cortez",
+        "year": "2002",
+        "genre": "Linguística"
+    },
+    {
+        "title": "Interação na Internet",
+        "author": "Bernadete Biasi, Julio Cesar Araujo",
+        "isbn": "9788586930508",
+        "publisher": "Lucerna",
+        "year": "2005",
+        "genre": "Tecnologia"
+    },
+    {
+        "title": "Servicio Social y División del Trabajo",
+        "author": "IAMAMOTO",
+        "isbn": "9788524906565",
+        "publisher": "Cortez",
+        "year": "1992",
+        "genre": "Serviço Social"
+    },
+    {
+        "title": "Leitura. Identidade & Inserção Social",
+        "author": "J. Camelo Ponte",
+        "isbn": "9788534927611",
+        "publisher": "Paulus",
+        "year": "2007",
+        "genre": "Educação"
+    },
+    {
+        "title": "Democratizando a Leitura - Pesquisas e Práticas",
+        "author": "Aparecida Paiva",
+        "isbn": "9788575261453",
+        "publisher": "Autêntica",
+        "year": "2004",
+        "genre": "Educação"
+    },
+    {
+        "title": "O Aprendizado da Ortografia",
+        "author": "Artur Gomes de Morais",
+        "isbn": "9788586583513",
+        "publisher": "Autêntica",
+        "year": "1999",
+        "genre": "Gramática"
+    },
+    {
+        "title": "A Língua que Falamos",
+        "author": "Luiz Antônio da Silva",
+        "isbn": "9788525040602",
+        "publisher": "Editora Globo",
+        "year": "2004",
+        "genre": "Linguística"
+    },
+    {
+        "title": "Manual de Expressão Oral e Escrita",
+        "author": "Joaquim Mattoso Câmara Júnior",
+        "isbn": "9788532603234",
+        "publisher": "Vozes",
+        "year": "2003",
+        "genre": "Comunicação"
+    },
+    {
+        "title": "A Nova Lei da Educação: Trajetória, Limites e Perspectivas",
+        "author": "Dermeval Saviani",
+        "isbn": "9788585701451",
+        "publisher": "Editora Autores Associados",
+        "year": "1997",
+        "genre": "Educação"
+    },
+    {
+        "title": "Aprendizagem Contextualizada",
+        "author": "Maria Lucia Castanheira",
+        "isbn": "9788575261330",
+        "publisher": "Autêntica",
+        "year": "2004",
+        "genre": "Educação"
+    },
+    {
+        "title": "A Língua do Brasil Amanhã e Outros Mistérios",
+        "author": "Mario A. Perini",
+        "isbn": "9788588456181",
+        "publisher": "Parábola Editorial",
+        "year": "2004",
+        "genre": "Linguística"
+    },
+    {
+        "title": "A Dádiva da Sobriedade",
+        "author": "Leonardo de Araujo Mota",
+        "isbn": "9788534921862",
+        "publisher": "Paulus",
+        "year": "2004",
+        "genre": "Autoajuda"
+    },
+    {
+        "title": "Dicionário Crítico de Escritoras Brasileiras",
+        "author": "Vários Autores",
+        "isbn": "9788575310533",
+        "publisher": "Escrituras",
+        "year": "2002",
+        "genre": "Literatura"
+    },
+    {
+        "title": "Vocabulário Ortográfico da Língua Portuguesa",
+        "author": "Vários Autores",
+        "isbn": "9788526013636",
+        "publisher": "Global",
+        "year": "2009",
+        "genre": "Gramática"
+    },
+    {
+        "title": "Novíssimo Aulete - Dicionário Contemporâneo da Língua Portuguesa",
+        "author": "Paulo Geiger",
+        "isbn": "9788586368752",
+        "publisher": "Lexikon",
+        "year": "2011",
+        "genre": "Dicionário"
+    },
+    {
+        "title": "Análise Linguística nos Gêneros Textuais",
+        "author": "Teresa Cristina Wachowicz",
+        "isbn": "9788502161726",
+        "publisher": "null",
+        "year": "2012",
+        "genre": "Linguística"
+    },
+    {
+        "title": "Leitura Literária & Outras Leituras",
+        "author": "Vera Maria Tietzmann Silva",
+        "isbn": "9788571532335",
+        "publisher": "Rhj",
+        "year": "null",
+        "genre": "Literatura"
+    },
+    {
+        "title": "Leituras Literárias: Discursos Transitivos",
+        "author": "Aparecida Paiva, Aracy Alves Martins, Zelia Versiani, Graça Paulino",
+        "isbn": "9788575261750",
+        "publisher": "Autêntica",
+        "year": "2005",
+        "genre": "Literatura"
+    },
+    {
+        "title": "Dicionário de Dificuldades da Língua Portuguesa",
+        "author": "Domingos Paschoal Cegalla",
+        "isbn": "9788586368189",
+        "publisher": "null",
+        "year": "2007",
+        "genre": "Gramática"
+    },
+    {
+        "title": "Dicionário de Ciências da Linguagem",
+        "author": "Franck Neveu",
+        "isbn": "9788532635839",
+        "publisher": "Vozes",
+        "year": "2008",
+        "genre": "Linguística"
+    },
+    {
+        "title": "Uns Braços",
+        "author": "Machado de Assis, Francisco S. Vilachã",
+        "isbn": "9788576662006",
+        "publisher": "Escala Educacional",
+        "year": "2004",
+        "genre": "Conto"
+    },
+    {
+        "title": "Um Músico Extraordinário",
+        "author": "Lima Barreto, Francisco S. Vilachã",
+        "isbn": "9788576662044",
+        "publisher": "Escala Educacional",
+        "year": "2008",
+        "genre": "Conto"
+    },
+    {
+        "title": "Literatura Brasileira: A Arte da Palavra",
+        "author": "Francisco Mario Vicenconti Cos",
+        "isbn": "9788587931153",
+        "publisher": "Revic",
+        "year": "2002",
+        "genre": "Literatura"
+    },
+    {
+        "title": "Fuvest 2001 Literatura",
+        "author": "Celia A. N. Passoni",
+        "isbn": "9788572631891",
+        "publisher": "null",
+        "year": "null",
+        "genre": "Literatura"
+    },
+    {
+        "title": "História Concisa da Literatura Brasileira",
+        "author": "Alfredo Bosi",
+        "isbn": "9788531601897",
+        "publisher": "Editora Cultrix",
+        "year": "1994",
+        "genre": "Literatura"
+    },
+    {
+        "title": "A Literatura Portuguesa",
+        "author": "Massaud Moisés",
+        "isbn": "9788531602313",
+        "publisher": "Cultrix",
+        "year": "1999",
+        "genre": "Literatura"
+    },
+    {
+        "title": "Dicionário Etimológico da Língua Portuguesa",
+        "author": "Antônio Geraldo da Cunha, Cláudio Mello Sobrinho",
+        "isbn": "9788586368172",
+        "publisher": "Lexikon",
+        "year": "2007",
+        "genre": "Linguística"
+    },
+    {
+        "title": "Literatura Oral no Brasil",
+        "author": "Luís da Câmara Cascudo",
+        "isbn": "9788526010611",
+        "publisher": "Global",
+        "year": "2006",
+        "genre": "Folclore"
+    },
+    {
+        "title": "A Literatura no Brasil: Introdução Geral",
+        "author": "Afranio Coutinho",
+        "isbn": "9788526005556",
+        "publisher": "Global",
+        "year": "1999",
+        "genre": "Literatura"
+    },
+    {
+        "title": "A Literatura no Brasil: Era Barroca/Neoclássica",
+        "author": "Afrânio Coutinho",
+        "isbn": "9788526005563",
+        "publisher": "Global",
+        "year": "1997",
+        "genre": "Literatura"
+    },
+    {
+        "title": "A Literatura no Brasil: Era Romântica",
+        "author": "Afrânio Coutinho",
+        "isbn": "9788526005570",
+        "publisher": "Global",
+        "year": "1997",
+        "genre": "Literatura"
+    },
+    {
+        "title": "A Literatura no Brasil: Era Realista/Transição",
+        "author": "Afrânio Coutinho, Eduardo de Faria Coutinho",
+        "isbn": "9788526005587",
+        "publisher": "Global",
+        "year": "1997",
+        "genre": "Literatura"
+    },
+    {
+        "title": "A Literatura no Brasil: Era Modernista",
+        "author": "Afrânio Coutinho",
+        "isbn": "9788526005594",
+        "publisher": "Global",
+        "year": "1997",
+        "genre": "Literatura"
+    },
+    {
+        "title": "A Literatura no Brasil: Relações e Perspectivas/Conclusão",
+        "author": "Afrânio Coutinho",
+        "isbn": "9788526005600",
+        "publisher": "Global",
+        "year": "1997",
+        "genre": "Literatura"
+    },
+    {
+        "title": "Ser Protagonista Português 2º Ano Médio Professor",
+        "author": "Ricardo Gonçalves",
+        "isbn": "9788576754985",
+        "publisher": "null",
+        "year": "null",
+        "genre": "Educação"
+    },
+    {
+        "title": "Muito Além da Gramática",
+        "author": "Irande Antunes",
+        "isbn": "9788588456617",
+        "publisher": "Parábola",
+        "year": "2007",
+        "genre": "Gramática"
+    },
+    {
+        "title": "Leitura: Inferências e Contexto Sociocultural",
+        "author": "Unknown Author",
+        "isbn": "9788572083201",
+        "publisher": "Formato",
+        "year": "1991",
+        "genre": "Educação"
+    },
+    {
+        "title": "Não Tropece na Língua",
+        "author": "Maria Tereza de Queiroz Piacentini",
+        "isbn": "9788565017114",
+        "publisher": "Bonijuris",
+        "year": "2015",
+        "genre": "Gramática"
+    },
+    {
+        "title": "Nada na Língua é Por Acaso",
+        "author": "Marcos Bagno",
+        "isbn": "9788588456624",
+        "publisher": "Parábola",
+        "year": "2008",
+        "genre": "Linguística"
+    },
+    {
+        "title": "Língua Portuguesa 1 Ano Livro Professor Ser Protagonista",
+        "author": "Vários Autores",
+        "isbn": "9788515894413",
+        "publisher": "SM",
+        "year": "2016",
+        "genre": "Educação"
+    },
+    {
+        "title": "Gramática Reflexiva: Texto, Semântica e Interação",
+        "author": "William Roberto Cereja, Thereza Cochar Magalhães",
+        "isbn": "9788535706338",
+        "publisher": "Atual",
+        "year": "2005",
+        "genre": "Gramática"
+    },
+    {
+        "title": "Gramática da Língua Portuguesa",
+        "author": "Pasquale Cipro Neto, Ulisses Infante",
+        "isbn": "9788526270763",
+        "publisher": "Editora Scipione",
+        "year": "2016",
+        "genre": "Gramática"
+    },
+    {
+        "title": "Gramática: Texto, Reflexão e Uso - Volume Único",
+        "author": "William Roberto Cereja",
+        "isbn": "9788535715286",
+        "publisher": "Atual",
+        "year": "null",
+        "genre": "Gramática"
+    },
+    {
+        "title": "Gramática - Texto: Análise e Construção de Sentido - Vol. Único",
+        "author": "Maria Luiza Abaurre, Marcela Pontara",
+        "isbn": "9788516052133",
+        "publisher": "Moderna",
+        "year": "2007",
+        "genre": "Gramática"
+    },
+    {
+        "title": "Redação Gramática & Literatura",
+        "author": "DCL",
+        "isbn": "9788536803005",
+        "publisher": "DCL",
+        "year": "2007",
+        "genre": "Gramática"
+    },
+    {
+        "title": "Gramática Prática da Língua Inglesa - O Inglês Descomplicado",
+        "author": "Nelson Torres",
+        "isbn": "9788502063525",
+        "publisher": "Saraiva",
+        "year": "2007",
+        "genre": "Gramática"
+    },
+    {
+        "title": "Aprender e Praticar Gramática",
+        "author": "Mauro Ferreira",
+        "isbn": "9788532251589",
+        "publisher": "null",
+        "year": "null",
+        "genre": "Gramática"
+    },
+    {
+        "title": "Gramática - Teoria e Exercícios",
+        "author": "Maria Aparecida Paschoalin, Neuza Terezinha Spadoto",
+        "isbn": "9788532269072",
+        "publisher": "FTD",
+        "year": "2009",
+        "genre": "Gramática"
+    },
+    {
+        "title": "Redação Empresarial",
+        "author": "João Bosco Medeiros",
+        "isbn": "9788522458943",
+        "publisher": "Atlas",
+        "year": "2010",
+        "genre": "Redação"
+    },
+    {
+        "title": "Que Gramática Estudar na Escola? Norma e Uso na Língua Portuguesa",
+        "author": "Maria Helena de Moura Neves",
+        "isbn": "9788572442268",
+        "publisher": "Contexto",
+        "year": "2003",
+        "genre": "Gramática"
+    },
+    {
+        "title": "Português Língua e Cultura Volume 2 e 3",
+        "author": "Carlos Emílio Faraco",
+        "isbn": "9788579053627",
+        "publisher": "FisicalBook",
+        "year": "null",
+        "genre": "Linguística"
+    },
+    {
+        "title": "Novas Palavras 1",
+        "author": "Amaral Ferreira Leite Antonio",
+        "isbn": "9788596003674",
+        "publisher": "FTD",
+        "year": "2016",
+        "genre": "Educação"
+    },
+    {
+        "title": "Novas Palavras 1 Ensino Médio Manual do Professor",
+        "author": "Emilia Amara, Mauro Ferreira",
+        "isbn": "9788596003698",
+        "publisher": "FTD",
+        "year": "2016",
+        "genre": "Educação"
+    },
+    {
+        "title": "Novas Palavras 3 Ano do Ensino Médio",
+        "author": "Emilia Amaral",
+        "isbn": "9788596003711",
+        "publisher": "FTD",
+        "year": "2016",
+        "genre": "Educação"
+    },
+    {
+        "title": "Português: Trilhas e Tramas - Volume 1",
+        "author": "Graça Sette, Márcia Travalha, Ivone Ribeiro, Rozário Starling",
+        "isbn": "9788545103219",
+        "publisher": "Leya",
+        "year": "2016",
+        "genre": "Educação"
+    },
+    {
+        "title": "O Mulato",
+        "author": "Aluísio Azevedo",
+        "isbn": "9788589155199",
+        "publisher": "null",
+        "year": "2004",
+        "genre": "Romance"
+    },
+    {
+        "title": "Histórias de Humor",
+        "author": "Graciliano Ramos, Lima Barreto, Aluísio Azevedo, Antônio de Alcântara Machado, João do Rio, Luis Fernando Verissimo, Millôr Fernandes, Stanlaw Ponte Preta, Arthur Azevedo",
+        "isbn": "9788526249875",
+        "publisher": "Scipione",
+        "year": "2003",
+        "genre": "Humor"
+    },
+    {
+        "title": "Carta errante, avó atrapalhada, menina aniversariante",
+        "author": "Mirna Pinsky",
+        "isbn": "9788532248091",
+        "publisher": "FTD",
+        "year": "2001",
+        "genre": "Infantil"
+    },
+    {
+        "title": "Classicos Universais - 10 Volumes",
+        "author": "Unknown Author",
+        "isbn": "9788573984330",
+        "publisher": "Brasileitura",
+        "year": "Unknown",
+        "genre": "Clássicos"
+    },
+    {
+        "title": "Alexandre e Outros Heróis",
+        "author": "Graciliano Ramos",
+        "isbn": "9788501056764",
+        "publisher": "Record",
+        "year": "2003",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Klevisson Viana",
+        "author": "Klévisson Viana",
+        "isbn": "9788577150533",
+        "publisher": "HEDRA",
+        "year": "2007",
+        "genre": "Cordel"
+    },
+    {
+        "title": "Cante lá que eu canto cá: filosofia de um trovador nordestino",
+        "author": "Patativa do Assaré",
+        "isbn": "9788532607409",
+        "publisher": "Vozes",
+        "year": "2011",
+        "genre": "Poesia"
+    },
+    {
+        "title": "Zé Melancia",
+        "author": "Zé Melancia",
+        "isbn": "9788577150137",
+        "publisher": "Hedra",
+        "year": "2005",
+        "genre": "Cordel"
+    },
+    {
+        "title": "GANDHI por ele mesmo",
+        "author": "Martin Claret",
+        "isbn": "9788572320634",
+        "publisher": "Martin Claret",
+        "year": "Unknown",
+        "genre": "Biografia"
+    },
+    {
+        "title": "Quase Memoria",
+        "author": "Carlos Heitor Cony",
+        "isbn": "9788500504532",
+        "publisher": "edipar",
+        "year": "2021",
+        "genre": "Memórias"
+    },
+    {
+        "title": "O menino Alepo",
+        "author": "Sumia Sukkar",
+        "isbn": "9786555670318",
+        "publisher": "Editora Globo",
+        "year": "2021",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Zumbi dos Palmares",
+        "author": "Luiz Galdino",
+        "isbn": "9786589077039",
+        "publisher": "Editorial 25",
+        "year": "2021",
+        "genre": "História"
+    },
+    {
+        "title": "As mãos de Eurídice",
+        "author": "Unknown Author",
+        "isbn": "Unknown",
+        "publisher": "Martins Fontes Editora",
+        "year": "Unknown",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Sagarana",
+        "author": "João Guimarães Rosa",
+        "isbn": "9788520911501",
+        "publisher": "Nova Fronteira",
+        "year": "2001",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Bartleby, o Escriturário",
+        "author": "Herman Melville",
+        "isbn": "9788579800016",
+        "publisher": "Rocco",
+        "year": "2010",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Por Parte De Pai",
+        "author": "Bartolomeu Campos de Queirós",
+        "isbn": "9788571531093",
+        "publisher": "RHJ",
+        "year": "1970",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Batata Cozida, Mingau de Cara",
+        "author": "Eloí Elisabete Bocheco",
+        "isbn": "9788529600505",
+        "publisher": "Ministério da Educação",
+        "year": "2006",
+        "genre": "Literatura Popular"
+    },
+    {
+        "title": "Família composta",
+        "author": "Jr. Pellegrini",
+        "isbn": "9788529600499",
+        "publisher": "Ministério da Educação",
+        "year": "2006",
+        "genre": "Teatro"
+    },
+    {
+        "title": "O Silêncio dos Amantes",
+        "author": "Lya Fett Luft",
+        "isbn": "9788501071934",
+        "publisher": "Editora Record",
+        "year": "Unknown",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Melodia Mortal",
+        "author": "Pedro Bandeira",
+        "isbn": "9788579273209",
+        "publisher": "PRUMO",
+        "year": "2018",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Olhar de Descoberta",
+        "author": "Pedro Bandeira",
+        "isbn": "9788506041048",
+        "publisher": "Unknown",
+        "year": "Unknown",
+        "genre": "Ficção"
+    },
+    {
+        "title": "SOLO MÃE",
+        "author": "Vinicius Cellurale Novaes",
+        "isbn": "9788566428681",
+        "publisher": "SABER E LER",
+        "year": "2018",
+        "genre": "Ficção"
+    },
+    {
+        "title": "OS OFICIOS DA POESIA",
+        "author": "Klévisson Viana",
+        "isbn": "9788565332286",
+        "publisher": "HEDRA",
+        "year": "2018",
+        "genre": "Poesia"
+    },
+    {
+        "title": "A pátria de chuteiras",
+        "author": "Nelson Rodrigues",
+        "isbn": "9788520933121",
+        "publisher": "Nova Fronteira",
+        "year": "2013",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Zoo Imaginario",
+        "author": "Sergio de Castro Pinto",
+        "isbn": "9788575311592",
+        "publisher": "ESCRITURAS",
+        "year": "2005",
+        "genre": "Poesia"
+    },
+    {
+        "title": "N.D.A.",
+        "author": "Arnaldo Antunes",
+        "isbn": "9788573213195",
+        "publisher": "BOD GmbH DE",
+        "year": "2020",
+        "genre": "Poesia"
+    },
+    {
+        "title": "Cabelos Molhados",
+        "author": "Pimentel",
+        "isbn": "9788529600529",
+        "publisher": "Unknown",
+        "year": "2006",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Fábulas - La Fontaine",
+        "author": "La Fontaine",
+        "isbn": "9788575301708",
+        "publisher": "FisicalBook",
+        "year": "2008",
+        "genre": "Fábulas"
+    },
+    {
+        "title": "Lampião & Lancelote",
+        "author": "Fernando Vilela",
+        "isbn": "9788575036105",
+        "publisher": "Unknown",
+        "year": "2007",
+        "genre": "Ficção"
+    },
+    {
+        "title": "A Luneta Mágica",
+        "author": "Joaquim Manuel de Macedo",
+        "isbn": "9788508052653",
+        "publisher": "Ática",
+        "year": "1999",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Casa de Pensão",
+        "author": "Aluisio Azevedo",
+        "isbn": "9788500314896",
+        "publisher": "Ediouro",
+        "year": "1998",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Uma Aventura de Natal",
+        "author": "Charles Dickens",
+        "isbn": "9788589155885",
+        "publisher": "CEDIC",
+        "year": "1993",
+        "genre": "Ficção"
+    },
+    {
+        "title": "A barca dos amantes",
+        "author": "Antonio Barreto",
+        "isbn": "9786599367618",
+        "publisher": "Vigília",
+        "year": "2021",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Namida: as lágrimas de uma princesa",
+        "author": "Janaina Tokitaka",
+        "isbn": "9786589753001",
+        "publisher": "Oficina de ideias",
+        "year": "2021",
+        "genre": "Ficção"
+    },
+    {
+        "title": "O Rei Lear",
+        "author": "William Shakespeare",
+        "isbn": "9789722114851",
+        "publisher": "Editorial Caminho",
+        "year": "2002",
+        "genre": "Teatro"
+    },
+    {
+        "title": "Usina",
+        "author": "José Lins do Rego",
+        "isbn": "9788503010535",
+        "publisher": "José Olympio",
+        "year": "2010",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Terras do Sem Fim",
+        "author": "Jorge Amado",
+        "isbn": "9788561041991",
+        "publisher": "Companhia das Letras",
+        "year": "2008",
+        "genre": "Ficção"
+    },
+    {
+        "title": "O Profeta",
+        "author": "Kahlil Gibran",
+        "isbn": "9788562540288",
+        "publisher": "Sinergia",
+        "year": "1960",
+        "genre": "Filosofia"
+    },
+    {
+        "title": "Um outro Brooklin",
+        "author": "Jacqueline Woodson",
+        "isbn": "9786589652038",
+        "publisher": "Embira",
+        "year": "2021",
+        "genre": "Ficção"
+    },
+    {
+        "title": "A elegância do ouriço",
+        "author": "Muriel Barbery",
+        "isbn": "9788581430706",
+        "publisher": "Companhia das Letras",
+        "year": "2012",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Para Gostar de Ler - Volume 7 - Crônicas 6",
+        "author": "Carlos Eduardo Novaes, José Carlos Oliveira, Lourenço Diaféria, Luis Fernando Verissimo",
+        "isbn": "9788508083008",
+        "publisher": "Ática",
+        "year": "2005",
+        "genre": "Crônicas"
+    },
+    {
+        "title": "Cânticos",
+        "author": "Cecília Meireles",
+        "isbn": "9788516034832",
+        "publisher": "Moderna",
+        "year": "2003",
+        "genre": "Poesia"
+    },
+    {
+        "title": "A Morte E A Morte De Quincas Berro D'agua",
+        "author": "Jorge Amado",
+        "isbn": "9788501004840",
+        "publisher": "Editora Afiliada",
+        "year": "1999",
+        "genre": "Ficção"
+    },
+    {
+        "title": "O Coronel e o Lobisomem",
+        "author": "José Cândido de Carvalho",
+        "isbn": "9788503009805",
+        "publisher": "José Olympio",
+        "year": "1994",
+        "genre": "Ficção"
+    },
+    {
+        "title": "O Guarani",
+        "author": "José de Alencar",
+        "isbn": "9788575565292",
+        "publisher": "Escala",
+        "year": "2005",
+        "genre": "Ficção"
+    },
+    {
+        "title": "O gogó de Aquiles",
+        "author": "Aquiles Rique Reis",
+        "isbn": "9788589876285",
+        "publisher": "A Girafa",
+        "year": "2004",
+        "genre": "Música"
+    },
+    {
+        "title": "Poesia Sempre",
+        "author": "Gonçalves Dias, Machado de Assis, Olavo Bilac, Alphonsus de Guimaraens, Carlos Drummond de Andrade, Cecília Meireles, Mário Quintana, Adélia Prado, Manoel de Barros, Ferreira Gullar, Geraldo Carneiro, Cacaso, Carlito Azevedo, Chacal",
+        "isbn": "9788503007672",
+        "publisher": "José Olympio/FNDE",
+        "year": "2003",
+        "genre": "Poesia"
+    },
+    {
+        "title": "Gotas de Poesia",
+        "author": "Angela Leite de Souza",
+        "isbn": "9788516032616",
+        "publisher": "Unknown",
+        "year": "Unknown",
+        "genre": "Poesia"
+    },
+    {
+        "title": "O Noviço",
+        "author": "Martins Pena",
+        "isbn": "9788589155113",
+        "publisher": "GERMAPE",
+        "year": "1970",
+        "genre": "Teatro"
+    },
+    {
+        "title": "Para onde vamos é sempre ontem",
+        "author": "Ruy Espinheira Filho",
+        "isbn": "9788546721306",
+        "publisher": "Positivo",
+        "year": "2018",
+        "genre": "Poesia"
+    },
+    {
+        "title": "O Navio Negreiro e Outros Poemas",
+        "author": "Castro Alves",
+        "isbn": "9788502067172",
+        "publisher": "Saraiva",
+        "year": "2015",
+        "genre": "Poesia"
+    },
+    {
+        "title": "Para gostar de ler - Volume 40 - Mitos indígenas",
+        "author": "Betty Mindlin, Narradores indígenas",
+        "isbn": "9788508105496",
+        "publisher": "Ática",
+        "year": "2000",
+        "genre": "Mitologia"
+    },
+    {
+        "title": "Teatro Para Quem Nunca Fez Teatro",
+        "author": "Tenê de Casa Branca",
+        "isbn": "9788526011427",
+        "publisher": "Global",
+        "year": "1900",
+        "genre": "Teatro"
+    },
+    {
+        "title": "Teatro",
+        "author": "Maria Clara Machado",
+        "isbn": "9788522002191",
+        "publisher": "Libraria Agir Editora",
+        "year": "1986",
+        "genre": "Teatro"
+    },
+    {
+        "title": "Contos tradicionais do Brasil",
+        "author": "Luís da Câmara Cascudo",
+        "isbn": "9788589283298",
+        "publisher": "LDM",
+        "year": "2018",
+        "genre": "Contos"
+    },
+    {
+        "title": "Cantos de Outono: o Romance da Vida de Lautreamont",
+        "author": "Ruy Câmara",
+        "isbn": "9788501064882",
+        "publisher": "Record",
+        "year": "2003",
+        "genre": "Ficção"
+    },
+    {
+        "title": "CONTOS CONTIDOS",
+        "author": "Maria Lúcia Simões",
+        "isbn": "9786588968017",
+        "publisher": "Baobá",
+        "year": "2021",
+        "genre": "Contos"
+    },
+    {
+        "title": "Contos novos",
+        "author": "Mario de Andrade",
+        "isbn": "9788500027390",
+        "publisher": "Ediouro",
+        "year": "2012",
+        "genre": "Contos"
+    },
+    {
+        "title": "Vozes da Ficção. Narrativas do Mundo do Trabalho",
+        "author": "Walnice Nogueira Galvão",
+        "isbn": "9788577431830",
+        "publisher": "Expressão Popular",
+        "year": "2011",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Contos da infância e da adolescência",
+        "author": "Luiz Vilela",
+        "isbn": "9786589610021",
+        "publisher": "SGE",
+        "year": "2021",
+        "genre": "Contos"
+    },
+    {
+        "title": "Conterrâneos",
+        "author": "Jansen Viana",
+        "isbn": "9788587062888",
+        "publisher": "Banco do Nordeste",
+        "year": "2007",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Vozes do horror",
+        "author": "Edgar Allan Poe",
+        "isbn": "9786587269290",
+        "publisher": "Madrepérola",
+        "year": "2021",
+        "genre": "Terror"
+    },
+    {
+        "title": "Caravela Redescobrimentos",
+        "author": "Gabriel Bicalho",
+        "isbn": "9788529600468",
+        "publisher": "FisicalBook",
+        "year": "2006",
+        "genre": "Ficção"
+    },
+    {
+        "title": "De Conto em Conto",
+        "author": "Antônio de Alcântara Machado, Artur Azevedo, Carlos Drummond de Andrade, Fernando Sabino, Ivan Ângelo, Lima Barreto, Luiz Vilela, Lygia Fagundes Telles, Machado de Assis, Marcos Rey, Pedro Bandeira, Wander Piroli",
+        "isbn": "9788508082711",
+        "publisher": "Editora Ática",
+        "year": "2002",
+        "genre": "Contos"
+    },
+    {
+        "title": "Um Hospede na Sacada",
+        "author": "Liberato Vieira da Cunha",
+        "isbn": "9788520500910",
+        "publisher": "SULINA",
+        "year": "1997",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Contos",
+        "author": "Guy de Maupassant",
+        "isbn": "9788575301609",
+        "publisher": "CEDIC",
+        "year": "2009",
+        "genre": "Contos"
+    },
+    {
+        "title": "Várias Histórias",
+        "author": "Machado de Assis",
+        "isbn": "9788589155427",
+        "publisher": "GERMAPE",
+        "year": "2005",
+        "genre": "Contos"
+    },
+    {
+        "title": "Duas Tardes e Outros Encontros Silenciosos",
+        "author": "João Anzanello Carrascoza",
+        "isbn": "9786557170632",
+        "publisher": "Bom Tempo",
+        "year": "2021",
+        "genre": "Contos"
+    },
+    {
+        "title": "Os Melhores Poemas de Mário Quintana",
+        "author": "Mário Quintana",
+        "isbn": "9788526001725",
+        "publisher": "Global",
+        "year": "2000",
+        "genre": "Poesia"
+    },
+    {
+        "title": "A maldição da rainha do rock",
+        "author": "Mathilda Kòvak",
+        "isbn": "9786599402432",
+        "publisher": "Criativamente",
+        "year": "2021",
+        "genre": "Terror"
+    },
+    {
+        "title": "Risk: Doing the Ridiculous to See the Miraculous",
+        "author": "Roger Archer",
+        "isbn": "9781234567897",
+        "publisher": "Foursquare Church",
+        "year": "2018",
+        "genre": "Religião"
+    },
+    {
+        "title": "MEU PLANETA MINHA CASA",
+        "author": "Shirley Souza",
+        "isbn": "9788576667933",
+        "publisher": "ESCALA EDUCACIONAL",
+        "year": "2000",
+        "genre": "Não Ficção"
+    },
+    {
+        "title": "Eles não usam black-tie",
+        "author": "Gianfrancesco Guarnieri",
+        "isbn": "9786558020172",
+        "publisher": "Civilização Brasileira",
+        "year": "2021",
+        "genre": "Teatro"
+    },
+    {
+        "title": "Olhos de Ver",
+        "author": "Tatiana Belinky",
+        "isbn": "9788516041953",
+        "publisher": "Editora Moderna",
+        "year": "2004",
+        "genre": "Crônicas"
+    },
+    {
+        "title": "Paragens",
+        "author": "Roniwalter Jatobá",
+        "isbn": "9786557170618",
+        "publisher": "Boitempo",
+        "year": "2021",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Nossa casa está em chamas: ninguém é pequeno demais para fazer a diferença",
+        "author": "Greta Thunberg & et al",
+        "isbn": "9786557121122",
+        "publisher": "BestSeller",
+        "year": "2021",
+        "genre": "Não Ficção"
+    },
+    {
+        "title": "Poemas Escolhidos",
+        "author": "Mia Couto",
+        "isbn": "9788535926842",
+        "publisher": "Companhia das Letras",
+        "year": "2016",
+        "genre": "Poesia"
+    },
+    {
+        "title": "A Madona de Cedro",
+        "author": "Antonio Callado",
+        "isbn": "9788578600846",
+        "publisher": "Vida Melhor",
+        "year": "2012",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Contos de Mirábile",
+        "author": "Pereira",
+        "isbn": "9788571604001",
+        "publisher": "MAZZA",
+        "year": "2007",
+        "genre": "Contos"
+    },
+    {
+        "title": "O albatroz azul",
+        "author": "Joao Ubaldo Ribeiro",
+        "isbn": "9788520923863",
+        "publisher": "Nova Fronteira",
+        "year": "2009",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Antologia Poética",
+        "author": "Olavo Bilac",
+        "isbn": "9788589155519",
+        "publisher": "Germape",
+        "year": "2004",
+        "genre": "Poesia"
+    },
+    {
+        "title": "TEMPO DE HISTÓRIAS",
+        "author": "Daniel Munduruku",
+        "isbn": "9786557950104",
+        "publisher": "Richmond",
+        "year": "2021",
+        "genre": "Contos"
+    },
+    {
+        "title": "Antologia de folhetos de cordel: amor, história e luta",
+        "author": "Márcia Abreu",
+        "isbn": "9788516047610",
+        "publisher": "Moderna",
+        "year": "2005",
+        "genre": "Cordel"
+    },
+    {
+        "title": "Veronika Decide Morrer",
+        "author": "Paulo Coelho",
+        "isbn": "9788573022018",
+        "publisher": "Objetiva",
+        "year": "1998",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Poesia marginal",
+        "author": "Ana Cristina Cesar, Cacaso, Chacal, Francisco Alvim, Paulo Leminski",
+        "isbn": "9788508107568",
+        "publisher": "Unknown",
+        "year": "2016",
+        "genre": "Poesia"
+    },
+    {
+        "title": "Kuriquiã, o romance das águas lendárias",
+        "author": "Almir Gomes de Castro",
+        "isbn": "9788575646359",
+        "publisher": "Unknown",
+        "year": "2013",
+        "genre": "Ficção"
+    },
+    {
+        "title": "O Pagador de Promessas",
+        "author": "Dias Gomes",
+        "isbn": "9788500913914",
+        "publisher": "Ediouro",
+        "year": "1996",
+        "genre": "Teatro"
+    },
+    {
+        "title": "Os bruzundangas",
+        "author": "Lima Barreto",
+        "isbn": "9788589155410",
+        "publisher": "Germape",
+        "year": "2004",
+        "genre": "Ficção"
+    },
+    {
+        "title": "As Pupilas do Senhor Reitor",
+        "author": "Júlio Dinis",
+        "isbn": "9788589155441",
+        "publisher": "Editora Germape",
+        "year": "2005",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Memórias de um Sargento de Milícias",
+        "author": "Almeida",
+        "isbn": "9788574800073",
+        "publisher": "Atelie Editorial",
+        "year": "2003",
+        "genre": "Ficção"
+    },
+    {
+        "title": "O Mulato",
+        "author": "Azevedo",
+        "isbn": "9788589155199",
+        "publisher": "Unknown",
+        "year": "2004",
+        "genre": "Ficção"
+    },
+    {
+        "title": "A sombra",
+        "author": "Edith Nesbit",
+        "isbn": "9786599047817",
+        "publisher": "Amare Editora",
+        "year": "2021",
+        "genre": "Terror"
+    },
+    {
+        "title": "João Cabral: poemas para ler na escola",
+        "author": "Joao Cabral de Melo Neto",
+        "isbn": "9788573029628",
+        "publisher": "Objetiva",
+        "year": "2010",
+        "genre": "Poesia"
+    },
+    {
+        "title": "A Cidade e as Serras",
+        "author": "Eça de Queirós",
+        "isbn": "9788536808253",
+        "publisher": "DCL",
+        "year": "2010",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Um jardim chamado Noia",
+        "author": "Deribaldo Santos",
+        "isbn": "9788575635698",
+        "publisher": "Unknown",
+        "year": "2010",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Gota D'Água: Uma Tragédia Carioca",
+        "author": "Chico Buarque, Paulo Pontes",
+        "isbn": "9788520003909",
+        "publisher": "Civilização Brasileira",
+        "year": "1980",
+        "genre": "Teatro"
+    },
+    {
+        "title": "Viagens De Gulliver",
+        "author": "James Riordan, Jonathan Swift",
+        "isbn": "9788508089826",
+        "publisher": "Ática",
+        "year": "2003",
+        "genre": "Ficção"
+    },
+    {
+        "title": "historias de humor",
+        "author": "Luis Fernando Verissimo",
+        "isbn": "9788526260382",
+        "publisher": "FisicalBook",
+        "year": "2007",
+        "genre": "Humor"
+    },
+    {
+        "title": "Por Uma Educação Romântica",
+        "author": "Rubem Alves",
+        "isbn": "9788530806712",
+        "publisher": "Papirus Editora",
+        "year": "2002",
+        "genre": "Educação"
+    },
+    {
+        "title": "Fogo Morto: Romance",
+        "author": "José Lins Do Rego",
+        "isbn": "9788503003391",
+        "publisher": "J Olympio",
+        "year": "1991",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Um Sinal de Esperança",
+        "author": "Giselda Laporta Nicolelis",
+        "isbn": "9788516035280",
+        "publisher": "Moderna",
+        "year": "2003",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Os grandes experimentos científicos",
+        "author": "Michel Rival, Lucy Magalhães",
+        "isbn": "9788571104075",
+        "publisher": "Jorge Zahar",
+        "year": "1997",
+        "genre": "Ciência"
+    },
+    {
+        "title": "Sonata em Auschwitz",
+        "author": "Luize Valente",
+        "isbn": "9786555871982",
+        "publisher": "Record",
+        "year": "2021",
+        "genre": "Ficção Histórica"
+    },
+    {
+        "title": "Sísifo desce a montanha",
+        "author": "Affonso Romano de Sant'Anna",
+        "isbn": "9788588771260",
+        "publisher": "Sociedade Literária",
+        "year": "2012",
+        "genre": "Poesia"
+    },
+    {
+        "title": "Ópera dos mortos",
+        "author": "Autran Dourado",
+        "isbn": "9788526502031",
+        "publisher": "Unknown",
+        "year": "1990",
+        "genre": "Ficção"
+    },
+    {
+        "title": "A carta de Pero Vaz de Caminha: o descobrimento do Brasil",
+        "author": "Pero Vaz de Caminha, Sílvio Castro",
+        "isbn": "9788525412676",
+        "publisher": "L&PM POCKET",
+        "year": "2009",
+        "genre": "História"
+    },
+    {
+        "title": "Caminhos diversos - Sob os signos do Cordel",
+        "author": "Costa Senna",
+        "isbn": "9788526012608",
+        "publisher": "Global",
+        "year": "2008",
+        "genre": "Cordel"
+    },
+    {
+        "title": "A estranha máquina extraviada",
+        "author": "Jose J Veiga",
+        "isbn": "9788528603125",
+        "publisher": "Bertrand Brasil",
+        "year": "2010",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Cantares Amazônicos",
+        "author": "João de Jesus Paes Loureiro",
+        "isbn": "9788575646359",
+        "publisher": "Cultural Brasil",
+        "year": "2015",
+        "genre": "Poesia"
+    },
+    {
+        "title": "A cinza das horas, Carnaval e O ritmo dissoluto",
+        "author": "Manuel Bandeira",
+        "isbn": "9788586166662",
+        "publisher": "Nova Fronteira",
+        "year": "2008",
+        "genre": "Poesia"
+    },
+    {
+        "title": "Estrela da vida inteira",
+        "author": "Manuel Bandeira",
+        "isbn": "9788520904657",
+        "publisher": "Editora Nova Fronteira",
+        "year": "1993",
+        "genre": "Poesia"
+    },
+    {
+        "title": "NA VIRADA DO SECULO",
+        "author": "Claudio Daniel",
+        "isbn": "9788587731630",
+        "publisher": "LANDY",
+        "year": "2002",
+        "genre": "Poesia"
+    },
+    {
+        "title": "Folhas molhadas",
+        "author": "Beto Furquim",
+        "isbn": "9786589809029",
+        "publisher": "JC Editora",
+        "year": "2021",
+        "genre": "Poesia"
+    },
+    {
+        "title": "O livro dos sonetos",
+        "author": "Luís de Camões, Olavo Bilac, Fernando Pessoa",
+        "isbn": "9788589155533",
+        "publisher": "Germap",
+        "year": "2004",
+        "genre": "Poesia"
+    },
+    {
+        "title": "Bagagem",
+        "author": "Adélia Prado",
+        "isbn": "9786589390008",
+        "publisher": "Cameron",
+        "year": "2021",
+        "genre": "Poesia"
+    },
+    {
+        "title": "A duração do dia",
+        "author": "Adelia Prado",
+        "isbn": "9788501091109",
+        "publisher": "Record",
+        "year": "2010",
+        "genre": "Poesia"
+    },
+    {
+        "title": "O Melhor Da Poesia Brasileira",
+        "author": "Carlos Drummond de Andrade, João Cabral de Melo Neto, Manuel Bandeira, Vinicius de Moraes",
+        "isbn": "9788503006224",
+        "publisher": "José Olympio",
+        "year": "2005",
+        "genre": "Poesia"
+    },
+    {
+        "title": "Pauliceia desvairada",
+        "author": "Mário de Andrade",
+        "isbn": "9786599421013",
+        "publisher": "Arlecchino",
+        "year": "2021",
+        "genre": "Poesia"
+    },
+    {
+        "title": "entre as junturas dos ossos",
+        "author": "Oliveira",
+        "isbn": "9788529600475",
+        "publisher": "Vera Luc",
+        "year": "2006",
+        "genre": "Poesia"
+    },
+    {
+        "title": "Histórias com Poesia Alguns Bichos & Cia.",
+        "author": "Duda Machado",
+        "isbn": "9788573260618",
+        "publisher": "Editora 34",
+        "year": "1997",
+        "genre": "Poesia"
+    },
+    {
+        "title": "livro delta um comando para o tempo",
+        "author": "Ana Cristina Melo",
+        "isbn": "9788569470069",
+        "publisher": "BAMBOLE EDITORA",
+        "year": "2016",
+        "genre": "Poesia"
+    },
+    {
+        "title": "A mulher e o teatro brasileiro do século XX",
+        "author": "Unknown Author",
+        "isbn": "9788560438723",
+        "publisher": "Hucitec",
+        "year": "2008",
+        "genre": "Teatro"
+    },
+    {
+        "title": "Amor e guerra em Canudos",
+        "author": "Lourenço Cazarré",
+        "isbn": "9786588437148",
+        "publisher": "Yellowfante",
+        "year": "2021",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Vocação de cantador",
+        "author": "Oliveira de Panelas",
+        "isbn": "9786599045493",
+        "publisher": "Fênix",
+        "year": "2021",
+        "genre": "Poesia"
+    },
+    {
+        "title": "Olhar de espanto",
+        "author": "Márcia Carrano",
+        "isbn": "9786557490167",
+        "publisher": "Maza Edições",
+        "year": "2021",
+        "genre": "Ficção"
+    },
+    {
+        "title": "A armadilha",
+        "author": "Emmanuel Bove",
+        "isbn": "9786587955032",
+        "publisher": "Mundaréu",
+        "year": "2021",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Antes do Baile Verde",
+        "author": "Lygia Fagundes Telles",
+        "isbn": "9786588894033",
+        "publisher": "Editora Bonifácio",
+        "year": "2021",
+        "genre": "Ficção"
+    },
+    {
+        "title": "A rua do terror",
+        "author": "Júlio Emílio Braz",
+        "isbn": "9786599403934",
+        "publisher": "Godoy´s",
+        "year": "2021",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Melhor Teatro de Maria Adelaide Amaral",
+        "author": "Unknown Author",
+        "isbn": "9788526010642",
+        "publisher": "Global",
+        "year": "2006",
+        "genre": "Teatro"
+    },
+    {
+        "title": "Teatro Da Ruptura: Oswald de Andrade",
+        "author": "Sábato Magaldi",
+        "isbn": "9788526009189",
+        "publisher": "Global",
+        "year": "2004",
+        "genre": "Teatro"
+    },
+    {
+        "title": "As cidades invisíveis",
+        "author": "Italo Calvino",
+        "isbn": "9788571641495",
+        "publisher": "Companhia das Letras",
+        "year": "1990",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Cidadania no Brasil: o longo caminho",
+        "author": "José Murilo de Carvalho",
+        "isbn": "9788520005651",
+        "publisher": "Editora Record",
+        "year": "2001",
+        "genre": "Não Ficção"
+    },
+    {
+        "title": "O pior dia de todos",
+        "author": "Daniela Kopsch",
+        "isbn": "9788584190928",
+        "publisher": "Tordesilhas",
+        "year": "2019",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Guerreiros Da Vida",
+        "author": "Marcia Autor Kupstas",
+        "isbn": "9788506048948",
+        "publisher": "Melhoramentos",
+        "year": "2006",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Você Viu Meu Pai Por Ai?",
+        "author": "Charles Kiefer",
+        "isbn": "9788501078933",
+        "publisher": "Record",
+        "year": "2007",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Whatever",
+        "author": "Leonardo Brasiliense",
+        "isbn": "9788574211244",
+        "publisher": "Artes e Ofícios",
+        "year": "2009",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Breve História do Mundo",
+        "author": "Carlos Nejar",
+        "isbn": "9788500013256",
+        "publisher": "EDIOURO PUBLICACOES",
+        "year": "2003",
+        "genre": "Não Ficção"
+    },
+    {
+        "title": "Contos e Cronicas Para Ler Na Escola - Moacyr Scliar",
+        "author": "Moacyr Scliar",
+        "isbn": "9788539002733",
+        "publisher": "Objetiva",
+        "year": "2011",
+        "genre": "Contos"
+    },
+    {
+        "title": "MITOLOGIA NÓRDICA",
+        "author": "Neil Gaiman",
+        "isbn": "9788551003558",
+        "publisher": "Intrínseca",
+        "year": "2018",
+        "genre": "Mitologia"
+    },
+    {
+        "title": "Morte e vida severina e outros poemas",
+        "author": "João Cabral de Melo Neto",
+        "isbn": "9788563277978",
+        "publisher": "Fontanar",
+        "year": "2021",
+        "genre": "Poesia"
+    },
+    {
+        "title": "Maurícia",
+        "author": "Adriano Messias",
+        "isbn": "9786588968024",
+        "publisher": "Baobá",
+        "year": "2021",
+        "genre": "Ficção"
+    },
+    {
+        "title": "A mãe da mãe de sua mãe e suas filhas",
+        "author": "Maria José Silveira",
+        "isbn": "9786588018071",
+        "publisher": "Globo Kids",
+        "year": "2021",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Memórias Póstumas de Brás Cubas",
+        "author": "Machado de Assis",
+        "isbn": "9788589155151",
+        "publisher": "Germape",
+        "year": "2004",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Tudos",
+        "author": "Arnaldo Antunes, Loretta Emiri",
+        "isbn": "9788585219208",
+        "publisher": "Iluminuras",
+        "year": "1990",
+        "genre": "Poesia"
+    },
+    {
+        "title": "Papel-manteiga para embrulhar segredos: cartas culinárias",
+        "author": "Cris Lisbôa, Tatu Damberg",
+        "isbn": "9786586367126",
+        "publisher": "Memória Visual",
+        "year": "2021",
+        "genre": "Culinária"
+    },
+    {
+        "title": "O LIVRO SECRETO: UMA AVENTURA NO CLUBE JÚLIO VERNE",
+        "author": "Unknown Author",
+        "isbn": "9786587345055",
+        "publisher": "Passarinho",
+        "year": "2021",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Pais, filhos e outros bichos",
+        "author": "Raul Drewnick",
+        "isbn": "9788578651442",
+        "publisher": "Editora Lazuli LTDA",
+        "year": "2017",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Por Um Novo Reformismo",
+        "author": "Giuseppe Vacca, Luiz Sergio Henriques",
+        "isbn": "9788589216173",
+        "publisher": "Henriques, Luiz Sergio, Brazil",
+        "year": "2009",
+        "genre": "Não Ficção"
+    },
+    {
+        "title": "De Gutenberg à Internet: direitos autorais na era digital",
+        "author": "Henrique Gandelman",
+        "isbn": "9788501078919",
+        "publisher": "Record",
+        "year": "2007",
+        "genre": "Não Ficção"
+    },
+    {
+        "title": "Peças de um dominó",
+        "author": "Pedro Tavares",
+        "isbn": "9786557440278",
+        "publisher": "Edições SM",
+        "year": "2020",
+        "genre": "Ficção"
+    },
+    {
+        "title": "vito grandam uma historia de vos",
+        "author": "Ziraldo / Pedro Bandeira",
+        "isbn": "9788506041055",
+        "publisher": "Unknown",
+        "year": "Unknown",
+        "genre": "Ficção"
+    },
+    {
+        "title": "A Morte da Terra",
+        "author": "J. H. Rosny Aîné",
+        "isbn": "9788551003558",
+        "publisher": "Piu",
+        "year": "2021",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Mensagem",
+        "author": "Fernando Pessoa",
+        "isbn": "9788532260727",
+        "publisher": "FTD",
+        "year": "2007",
+        "genre": "Poesia"
+    },
+    {
+        "title": "Cinco histórias do Bruxo do Cosme Velho",
+        "author": "Joaquím Maria de Assis, Machado de Assis",
+        "isbn": "9788585500078",
+        "publisher": "",
+        "year": "1995",
+        "genre": "Contos"
+    },
+    {
+        "title": "Vagalovnis",
+        "author": "Antonio Barreto",
+        "isbn": "9788589239813",
+        "publisher": "Gutenberg",
+        "year": "2010",
+        "genre": "Poesia"
+    },
+    {
+        "title": "Pretinha, eu? - Colecao Dialogo",
+        "author": "Júlio Emílio Braz",
+        "isbn": "9788526271289",
+        "publisher": "SCIPIONE (PARADIDATICOS)",
+        "year": "1970",
+        "genre": "Ficção"
+    },
+    {
+        "title": "E sobre amor. Reflexoes para o coracao e a alma",
+        "author": "Jenna Ortega",
+        "isbn": "9786555323672",
+        "publisher": "Rocco",
+        "year": "2023",
+        "genre": "Biografia"
+    },
+    {
+        "title": "O Peso da Luz: Einstein no Ceará",
+        "author": "Ana Miranda",
+        "isbn": "9788563171726",
+        "publisher": "Armazém da Cultura",
+        "year": "2013",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Poesia Francesa",
+        "author": "Jose Jeronymo Rivera",
+        "isbn": "9788570624291",
+        "publisher": "Thesaurus Editora",
+        "year": "",
+        "genre": "Poesia"
+    },
+    {
+        "title": "Culturas jovens",
+        "author": "Maria Isabel Mendes de Almeida",
+        "isbn": "9788571109445",
+        "publisher": "Zahar",
+        "year": "2006",
+        "genre": "Sociologia"
+    },
+    {
+        "title": "livro poder saga encantadas livro pinborough sara Ed. 2014",
+        "author": "PINBOROUGH",
+        "isbn": "9788567028255",
+        "publisher": "",
+        "year": "2014",
+        "genre": ""
+    },
+    {
+        "title": "Os Escravos",
+        "author": "Alves",
+        "isbn": "9788589155144",
+        "publisher": "GERMAPE",
+        "year": "1970",
+        "genre": "Poesia"
+    },
+    {
+        "title": "Reverência pela Vida",
+        "author": "Rubem Alves",
+        "isbn": "9788530808259",
+        "publisher": "Papirus",
+        "year": "2006",
+        "genre": "Filosofia"
+    },
+    {
+        "title": "Uma noite em cinco atos",
+        "author": "Alberto Martins",
+        "isbn": "9788573264289",
+        "publisher": "Editora 34",
+        "year": "2009",
+        "genre": "Teatro"
+    },
+    {
+        "title": "A árvore de cantos",
+        "author": "Anne Ballester Soares",
+        "isbn": "9788553086139",
+        "publisher": "JC Distribuidora de Livro Ltda",
+        "year": "2018",
+        "genre": "Mitologia"
+    },
+    {
+        "title": "Nos Bastidores do Cotidiano",
+        "author": "TiÃ£o Simpatia",
+        "isbn": "9788587588050",
+        "publisher": "Ecoarte",
+        "year": "2000",
+        "genre": ""
+    },
+    {
+        "title": "MELHORES CRÔNICAS FERREIRA GULLAR",
+        "author": "Ferreira Gullar",
+        "isbn": "9788526009486",
+        "publisher": "GLOBAL",
+        "year": "2010",
+        "genre": "Crônicas"
+    },
+    {
+        "title": "AUTO-RETRATO E OUTRAS CRONICAS",
+        "author": "Carlos Drummond de Andrade",
+        "isbn": "9788501035264",
+        "publisher": "RECORD",
+        "year": "",
+        "genre": "Crônicas"
+    },
+    {
+        "title": "Para os Filhos dos Filhos dos Nossos Filhos",
+        "author": "José Pacheco",
+        "isbn": "9788530807986",
+        "publisher": "Papirus Editora",
+        "year": "2008",
+        "genre": "Educação"
+    },
+    {
+        "title": "O Melhor da Crônica Brasileira",
+        "author": "Ferreira Gullar, José Lins do Rego, Rachel de Queiróz, Luís Fernando Veríssimo",
+        "isbn": "9788503009683",
+        "publisher": "JOSE OLYMPIO (RECORD)",
+        "year": "2013",
+        "genre": "Crônicas"
+    },
+    {
+        "title": "Histórias de cego",
+        "author": "Marcos Lima",
+        "isbn": "9786586280654",
+        "publisher": "Oficina Raquel",
+        "year": "2021",
+        "genre": "Crônicas"
+    },
+    {
+        "title": "Companhia Três Marias",
+        "author": "Maria Amália Camargo",
+        "isbn": "9788599520864",
+        "publisher": "Girafinha",
+        "year": "2010",
+        "genre": ""
+    },
+    {
+        "title": "livro abrao e as frutas poesias luciana v p de m Ed. 2006",
+        "author": "Luciana V. P. de Mendonça",
+        "isbn": "9788529600512",
+        "publisher": "",
+        "year": "2006",
+        "genre": ""
+    },
+    {
+        "title": "PARA GOSTAR DE LER 3 - CRONICAS III",
+        "author": "Rubem Braga, Paulo Mendes Campos, Fernando Tavares Sabino, Carlos Drummond de Andrade",
+        "isbn": "9788508086542",
+        "publisher": "Atica",
+        "year": "2010",
+        "genre": "Crônicas"
+    },
+    {
+        "title": "Tubarão Com a Faca nas Costas",
+        "author": "Cezar Dias",
+        "isbn": "9788529600451",
+        "publisher": "Ministério da Educação",
+        "year": "2006",
+        "genre": "Crônicas"
+    },
+    {
+        "title": "Luiz Gonzaga: a Música Como Expressão do Nordeste",
+        "author": "Jose Faria dos Santos",
+        "isbn": "9788534802314",
+        "publisher": "IBRASA",
+        "year": "2004",
+        "genre": "Biografia"
+    },
+    {
+        "title": "A Ilha do Tesouro",
+        "author": "Robert Louis Stevenson",
+        "isbn": "9788572329330",
+        "publisher": "MARTIN CLARET",
+        "year": "2013",
+        "genre": "Aventura"
+    },
+    {
+        "title": "O Diário de um Mago",
+        "author": "Paulo Coelho",
+        "isbn": "9788598559452",
+        "publisher": "Editora Gold",
+        "year": "2006",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Orgulho e preconceito",
+        "author": "Ibi Zobi",
+        "isbn": "9786589582007",
+        "publisher": "CL editora",
+        "year": "2021",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Vocabulário popular cearense",
+        "author": "Raimundo Girão",
+        "isbn": "9788586375446",
+        "publisher": "Fundação Demócrito Rocha, Fortaleza",
+        "year": "2000",
+        "genre": "Linguística"
+    },
+    {
+        "title": "São Bernardo",
+        "author": "Graciliano Ramos",
+        "isbn": "9788501066657",
+        "publisher": "Record",
+        "year": "2003",
+        "genre": "Ficção"
+    },
+    {
+        "title": "ENIGMA DAS AMAZONAS COLECAO HORA DE AVENTURA",
+        "author": "Unknown Author",
+        "isbn": "9788537702789",
+        "publisher": "ESCALA EDUCACIONAL",
+        "year": "2008",
+        "genre": ""
+    },
+    {
+        "title": "O herói invisível",
+        "author": "Luca Cognolato, Silvia DelFrancia",
+        "isbn": "9788539711086",
+        "publisher": "EdiPUCRS",
+        "year": "2018",
+        "genre": "Ficção"
+    },
+    {
+        "title": "roque santeiro ou berco do heroi de dias gomes pela ediou Ed. 2001",
+        "author": "Dias Gomes",
+        "isbn": "9788500622755",
+        "publisher": "",
+        "year": "2001",
+        "genre": ""
+    },
+    {
+        "title": "Mar de histórias : o Realismo",
+        "author": "Aurélio Buarque de Holanda, Paulo Rónai",
+        "isbn": "9788520929896",
+        "publisher": "Nova Fronteira",
+        "year": "2012",
+        "genre": "Contos"
+    },
+    {
+        "title": "Mare nostrum",
+        "author": "Fabio Atui",
+        "isbn": "9788599733080",
+        "publisher": "Confiança",
+        "year": "2018",
+        "genre": "Ficção"
+    },
+    {
+        "title": "O Reflexo Perdido e Outros Contos Insensatos",
+        "author": "E.T.A. Hoffmann",
+        "isbn": "9788574482644",
+        "publisher": "Estação Liberdade",
+        "year": "2017",
+        "genre": "Contos"
+    },
+    {
+        "title": "OTronco do ipê",
+        "author": "José de Alencar",
+        "isbn": "9788508045075",
+        "publisher": "ATICA",
+        "year": "1998",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Cândido ou o Otimismo",
+        "author": "Voltaire",
+        "isbn": "9788572329330",
+        "publisher": "Martin Claret",
+        "year": "2001",
+        "genre": "Ficção"
+    },
+    {
+        "title": "As Energias Curativas da Música",
+        "author": "Hal A. Ligerman",
+        "isbn": "9788531601484",
+        "publisher": "Cultrix",
+        "year": "1991",
+        "genre": "Música"
+    },
+    {
+        "title": "Vila 16",
+        "author": "Tâmara Bezerra",
+        "isbn": "9788575297087",
+        "publisher": "Demócrito Rochas",
+        "year": "2016",
+        "genre": "Ficção"
+    },
+    {
+        "title": "O Bem Amado",
+        "author": "Dias Gomes",
+        "isbn": "9788500027680",
+        "publisher": "Ediouro",
+        "year": "2012",
+        "genre": "Teatro"
+    },
+    {
+        "title": "Caramuru",
+        "author": "José de Santa Rita Durão",
+        "isbn": "9788533622258",
+        "publisher": "Martins Fontes",
+        "year": "2005",
+        "genre": "Poesia"
+    },
+    {
+        "title": "livro o ovo 2 edico",
+        "author": "Ivan e Marcello",
+        "isbn": "9788500027147",
+        "publisher": "Meus livros",
+        "year": "",
+        "genre": ""
+    },
+    {
+        "title": "Não Se Apega, Não",
+        "author": "Isabela Freitas",
+        "isbn": "9788580575330",
+        "publisher": "Intrínseca",
+        "year": "2014",
+        "genre": "Romance"
+    },
+    {
+        "title": "Patativa do Assaré: Antologia Poética",
+        "author": "Patativa do Assaré",
+        "isbn": "9788575292068",
+        "publisher": "Edições Demócrito Rocha",
+        "year": "2007",
+        "genre": "Poesia"
+    },
+    {
+        "title": "Pais Brilhantes, Professores Fascinantes",
+        "author": "Augusto Cury",
+        "isbn": "9788575420850",
+        "publisher": "Sextante",
+        "year": "2003",
+        "genre": "Educação"
+    },
+    {
+        "title": "Música ao longe",
+        "author": "Érico Veríssimo",
+        "isbn": "9788525002488",
+        "publisher": "Editora Globo",
+        "year": "1989",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Navios Negreiros",
+        "author": "Castro Alves",
+        "isbn": "9788560820337",
+        "publisher": "EDICOES SM",
+        "year": "2009",
+        "genre": "Poesia"
+    },
+    {
+        "title": "Menino de asas",
+        "author": "Homero Homem",
+        "isbn": "9788508181964",
+        "publisher": "Ática",
+        "year": "2016",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Pelos olhos de Sandra",
+        "author": "Rosana Rios",
+        "isbn": "9786589752011",
+        "publisher": "Rio Trade",
+        "year": "2021",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Oliver Twist",
+        "author": "Charles Dickens",
+        "isbn": "9788551100660",
+        "publisher": "MACMILLAN",
+        "year": "2018",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Inocência",
+        "author": "Unknown Author",
+        "isbn": "9788589155359",
+        "publisher": "Germape",
+        "year": "2004",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Luzia homem",
+        "author": "Domingos Olímpio",
+        "isbn": "9788500707278",
+        "publisher": "Ediouro",
+        "year": "1986",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Ubirajara",
+        "author": "José de Alencar",
+        "isbn": "9788533618008",
+        "publisher": "Martins Fontes Editora",
+        "year": "2003",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Manifesto Verde",
+        "author": "Ignácio de Loyola Brandão",
+        "isbn": "9788526002265",
+        "publisher": "Global",
+        "year": "1900",
+        "genre": "Ecologia"
+    },
+    {
+        "title": "Órfãos do Eldorado",
+        "author": "Milton Hatoum",
+        "isbn": "9788562518584",
+        "publisher": "Companhia das Letras",
+        "year": "2008",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Planalto e A Estepe",
+        "author": "Pepetela",
+        "isbn": "9788562936098",
+        "publisher": "LEYA BRASIL",
+        "year": "2009",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Incidente em Antares",
+        "author": "Erico Verissimo",
+        "isbn": "9788535907674",
+        "publisher": "Companhia de Bolso",
+        "year": "2006",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Zé Vicente, poeta popular paraense",
+        "author": "Zé Vicente",
+        "isbn": "9788587328113",
+        "publisher": "Hedra",
+        "year": "2000",
+        "genre": "Poesia"
+    },
+    {
+        "title": "O que é estatística - Coleção Primeiros Passos 195",
+        "author": "Sonia Vieira, Ronaldo Wada",
+        "isbn": "9788511011951",
+        "publisher": "Brasiliense",
+        "year": "1991",
+        "genre": "Estatística"
+    },
+    {
+        "title": "A Sociedade Da Insegurança",
+        "author": "Unknown Author",
+        "isbn": "9788516043858",
+        "publisher": "Moderna",
+        "year": "2004",
+        "genre": "Sociologia"
+    },
+    {
+        "title": "Ciclos Seriação E Avaliação",
+        "author": "Luiz Carlos de Freitas",
+        "isbn": "9788516039011",
+        "publisher": "MODERNA",
+        "year": "2003",
+        "genre": "Educação"
+    },
+    {
+        "title": "Arquimedes e a Alavanca em 90 Minutos",
+        "author": "Paul Strathern",
+        "isbn": "9788571104754",
+        "publisher": "Jorge Zahar",
+        "year": "1999",
+        "genre": "Ciência"
+    },
+    {
+        "title": "A Princesa da Babilônia",
+        "author": "Voltaire",
+        "isbn": "9788576290735",
+        "publisher": "Landy",
+        "year": "2006",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Poesia Fora da Estante - Vol. 2",
+        "author": "Vera Aguiar",
+        "isbn": "9788585500504",
+        "publisher": "Projeto",
+        "year": "2002",
+        "genre": "Poesia"
+    },
+    {
+        "title": "Doze: Um Novo Comeco",
+        "author": "William Gladstone",
+        "isbn": "9788576657842",
+        "publisher": "Planeta do Brasil",
+        "year": "1970",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Os Piratas da Malásia",
+        "author": "Emilio Salgari",
+        "isbn": "9788573213041",
+        "publisher": "Iluminuras",
+        "year": "2009",
+        "genre": "Aventura"
+    },
+    {
+        "title": "Ana Pedro",
+        "author": "Miguel Jorge",
+        "isbn": "9788572721462",
+        "publisher": "MERCURYO JOVEM",
+        "year": "2001",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Uolace E João Victor",
+        "author": "Rosa Amanda Strausz",
+        "isbn": "9788573025699",
+        "publisher": "Editora Objetiva",
+        "year": "2003",
+        "genre": "Ficção"
+    },
+    {
+        "title": "O Colombo De Chelem E Outras Histórias Judaicas",
+        "author": "Ben Zimet, Sophie Dutertre",
+        "isbn": "9788560820221",
+        "publisher": "Comboio de corda",
+        "year": "2007",
+        "genre": "Contos"
+    },
+    {
+        "title": "Foi na primavera",
+        "author": "Maurício Santana Dias",
+        "isbn": "9788562403835",
+        "publisher": "UDP",
+        "year": "2012",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Mapa Do Mundo",
+        "author": "Marta Morais da Costa",
+        "isbn": "9788573587012",
+        "publisher": "Leitura",
+        "year": "2006",
+        "genre": "Crônicas"
+    },
+    {
+        "title": "Bisa Bia, Bisa Bel",
+        "author": "Ana Maria Machado",
+        "isbn": "9788528100686",
+        "publisher": "Salamandra",
+        "year": "1990",
+        "genre": "Infantil"
+    },
+    {
+        "title": "UMA VOZ DO OUTRO MUNDO",
+        "author": "Margarida Patriota, Angelo Abu",
+        "isbn": "9788573195514",
+        "publisher": "Dimensao",
+        "year": "",
+        "genre": "Ficção"
+    },
+    {
+        "title": "A Terra e o Homem no Nordeste",
+        "author": "Unknown Author",
+        "isbn": "9788524911156",
+        "publisher": "Cortez",
+        "year": "2004",
+        "genre": "Sociologia"
+    },
+    {
+        "title": "A Anatomia de John Gray",
+        "author": "John N. Gray",
+        "isbn": "9788501087836",
+        "publisher": "Record",
+        "year": "2011",
+        "genre": "Filosofia"
+    },
+    {
+        "title": "A pátria de chuteiras",
+        "author": "Nelson Rodrigues",
+        "isbn": "9788520938188",
+        "publisher": "Nova Fronteira",
+        "year": "2014",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Do rock ao clássico: cem crônicas afetivas sobre música",
+        "author": "Arthur Dapieve",
+        "isbn": "9786581008048",
+        "publisher": "Bom de Ler",
+        "year": "2021",
+        "genre": "Crônicas"
+    },
+    {
+        "title": "Crônicas em Movimento",
+        "author": "Diversos",
+        "isbn": "",
+        "publisher": "Meus livros",
+        "year": "",
+        "genre": "Crônicas"
+    },
+    {
+        "title": "Nos Estilhaços de Espelho",
+        "author": "Florence Hinckel",
+        "isbn": "9786589152019",
+        "publisher": "Rodopio",
+        "year": "2021",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Quissama",
+        "author": "Maicon Tenfen",
+        "isbn": "9786556510187",
+        "publisher": "Biruta",
+        "year": "2021",
+        "genre": "Ficção"
+    },
+    {
+        "title": "A Morte da Porta-estandarte, Tati, a Garota e Outras Histórias",
+        "author": "Aníbal Machado",
+        "isbn": "9788503010740",
+        "publisher": "José Olympio",
+        "year": "2002",
+        "genre": "Contos"
+    },
+    {
+        "title": "Fernão Capelo Gaivota",
+        "author": "Richard Bach",
+        "isbn": "9788501060495",
+        "publisher": "Record",
+        "year": "2010",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Jorge, Um Brasileiro",
+        "author": "Oswaldo França Júnior",
+        "isbn": "",
+        "publisher": "NOVA FRONTEIRA - GRUPO EDIOURO",
+        "year": "2000",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Estas estorias",
+        "author": "João Guimarães Rosa",
+        "isbn": "9788500026140",
+        "publisher": "Ediouro",
+        "year": "2009",
+        "genre": "Contos"
+    },
+    {
+        "title": "A Mulher de Pés Descalços",
+        "author": "Scholastique Mukasonga",
+        "isbn": "9786586135213",
+        "publisher": "Nós",
+        "year": "2021",
+        "genre": "Romance"
+    },
+    {
+        "title": "Primeiras leituras : crônicas escolhidas",
+        "author": "Paulo Mendes Campos",
+        "isbn": "9788535920352",
+        "publisher": "Companhia das Letra",
+        "year": "2012",
+        "genre": "Crônicas"
+    },
+    {
+        "title": "Antologia: Meus Contos Preferidos",
+        "author": "LYGIA FAGUNDES TELLES",
+        "isbn": "9788532516480",
+        "publisher": "Rocco",
+        "year": "2004",
+        "genre": "Contos"
+    },
+    {
+        "title": "A Vencedora",
+        "author": "David Baldacci",
+        "isbn": "9788532509956",
+        "publisher": "FisicalBook",
+        "year": "1999",
+        "genre": "Ficção"
+    },
+    {
+        "title": "A Interpretação dos Contos de Fada",
+        "author": "Marie-Luise von Franz",
+        "isbn": "9788534914642",
+        "publisher": "Paulus",
+        "year": "1990",
+        "genre": "Psicologia"
+    },
+    {
+        "title": "De notícias e não-notícias faz-se a crônica",
+        "author": "Carlos Drummond de Andrade",
+        "isbn": "9788501026149",
+        "publisher": "Record",
+        "year": "1993",
+        "genre": "Crônicas"
+    },
+    {
+        "title": "Os Melhores Poemas de Augusto dos Anjos",
+        "author": "Augusto dos Anjos",
+        "isbn": "9788526004740",
+        "publisher": "Global",
+        "year": "2022",
+        "genre": "Poesia"
+    },
+    {
+        "title": "As Minas do Rei Salomão",
+        "author": "Henry Rider Haggard, Werner Zotz",
+        "isbn": "9788526214521",
+        "publisher": "Scipione",
+        "year": "1995",
+        "genre": "Aventura"
+    },
+    {
+        "title": "A ilustre casa de Ramires",
+        "author": "Eça de Queirós",
+        "isbn": "9788508064113",
+        "publisher": "Atica",
+        "year": "1997",
+        "genre": "Romance"
+    },
+    {
+        "title": "MACHADO DE ASSIS PARA PRINCIPIANTES",
+        "author": "Varios Autores",
+        "isbn": "9788508071913",
+        "publisher": "ATICA - PARADIDATICO (SARAIVA)",
+        "year": "1998",
+        "genre": "Antologia"
+    },
+    {
+        "title": "O melhor time do mundo",
+        "author": "Jorge Viveiros de Castro",
+        "isbn": "9788575032473",
+        "publisher": "COSAC NAIFY",
+        "year": "2008",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Vozes Anoitecidas",
+        "author": "Mia Couto",
+        "isbn": "9788535923384",
+        "publisher": "Companhia das Letras",
+        "year": "2013",
+        "genre": "Contos"
+    },
+    {
+        "title": "Ciência, Ética e Sustentabilidade. Desafios ao Novo Século",
+        "author": "MARCEL BURSZTYN e OUTROS",
+        "isbn": "9788524907838",
+        "publisher": "Cortez",
+        "year": "2001",
+        "genre": "Ciência"
+    },
+    {
+        "title": "Os Piratas Fantasmas",
+        "author": "William Hope Hodgson",
+        "isbn": "9786556960630",
+        "publisher": "IBEP",
+        "year": "2021",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Crônicas do Crack",
+        "author": "Luis Marra",
+        "isbn": "9786589810094",
+        "publisher": "Papagaio",
+        "year": "2021",
+        "genre": "Crônicas"
+    },
+    {
+        "title": "Civilização e Outros Contos",
+        "author": "Leila da Costa Ferreira",
+        "isbn": "9788516039820",
+        "publisher": "Moderna",
+        "year": "2004",
+        "genre": "Contos"
+    },
+    {
+        "title": "oficio de poeta diversos",
+        "author": "DIVERSOS",
+        "isbn": "9788526249868",
+        "publisher": "FisicalBook",
+        "year": "1900",
+        "genre": "Poesia"
+    },
+    {
+        "title": "O médico e o monstro: O estranho caso do Dr. Jekyll e Mr. Hyde",
+        "author": "Robert Louis Stevenson",
+        "isbn": "9788526210776",
+        "publisher": "Scipione",
+        "year": "2002",
+        "genre": "Ficção"
+    },
+    {
+        "title": "As Melhores Crônicas de Cecília Meireles",
+        "author": "Cecília Meireles",
+        "isbn": "9788526008571",
+        "publisher": "Global Editora",
+        "year": "2003",
+        "genre": "Crônicas"
+    },
+    {
+        "title": "Homens e Caranguejos",
+        "author": "Josué de Castro",
+        "isbn": "9788528610338",
+        "publisher": "Bertrand Brasil",
+        "year": "2003",
+        "genre": "Sociologia"
+    },
+    {
+        "title": "O pêndulo do relógio e outras histórias de Pau-d'Arco",
+        "author": "Charles Kiefer",
+        "isbn": "9788520429594",
+        "publisher": "Manole",
+        "year": "2009",
+        "genre": "Contos"
+    },
+    {
+        "title": "O Surgimento da Noite",
+        "author": "Mitologias Yanomami",
+        "isbn": "9786586941357",
+        "publisher": "N-1 Edições",
+        "year": "2021",
+        "genre": "Mitologia"
+    },
+    {
+        "title": "livro a aurora da minha vida naum alves de souza 2003",
+        "author": "Naum Alves de Souza",
+        "isbn": "9788575680100",
+        "publisher": "Salamandra",
+        "year": "2003",
+        "genre": "Teatro"
+    },
+    {
+        "title": "Cordel : leitores e ouvintes",
+        "author": "Ana Maria de Oliveira - Galvão",
+        "isbn": "9788575260333",
+        "publisher": "Autêntica",
+        "year": "2001",
+        "genre": "Literatura"
+    },
+    {
+        "title": "Há Prendisajens com o Xão",
+        "author": "Ondjaki",
+        "isbn": "9788534704649",
+        "publisher": "Pallas",
+        "year": "2011",
+        "genre": "Poesia"
+    },
+    {
+        "title": "Viagens na Minha Terra",
+        "author": "Joao Baptista Da Silva Leitao De Almeida Garrett",
+        "isbn": "9788572325950",
+        "publisher": "Martin Claret",
+        "year": "2003",
+        "genre": "Viagem"
+    },
+    {
+        "title": "Cinco Minutos / A Viuvinha",
+        "author": "José Martiniano de Alencar",
+        "isbn": "",
+        "publisher": "Ciranda Cultural",
+        "year": "2007",
+        "genre": "Romance"
+    },
+    {
+        "title": "A Peste Escarlate",
+        "author": "Jack London",
+        "isbn": "9788533909397",
+        "publisher": "Rideel",
+        "year": "2000",
+        "genre": "Ficção"
+    },
+    {
+        "title": "O Jogo",
+        "author": "Unknown Author",
+        "isbn": "9788533913776",
+        "publisher": "Meus livros",
+        "year": "1969",
+        "genre": "Ficção"
+    },
+    {
+        "title": "O Corcunda De Notre-Dame",
+        "author": "Victor Hugo",
+        "isbn": "9788533915404",
+        "publisher": "Rideel",
+        "year": "2014",
+        "genre": "Ficção"
+    },
+    {
+        "title": "A dama das Camélias",
+        "author": "Alexandre Dumas, Ana Carolina Vieira Rodriguez",
+        "isbn": "9788533908246",
+        "publisher": "Rideel",
+        "year": "2006",
+        "genre": "Romance"
+    },
+    {
+        "title": "Aventura",
+        "author": "Various",
+        "isbn": "9788533915480",
+        "publisher": "RIDEEL",
+        "year": "",
+        "genre": "Aventura"
+    },
+    {
+        "title": "Moby Dick",
+        "author": "Herman Melville",
+        "isbn": "9788533915978",
+        "publisher": "Rideel",
+        "year": "2010",
+        "genre": "Ficção"
+    },
+    {
+        "title": "O Diário de Eva (Em Portuguese do Brasil)",
+        "author": "Unknown Author",
+        "isbn": "9788533913691",
+        "publisher": "Meus livros",
+        "year": "",
+        "genre": "Romance"
+    },
+    {
+        "title": "Viagens de Gulliver",
+        "author": "Jonathan Swift",
+        "isbn": "9788533915985",
+        "publisher": "Rideel",
+        "year": "2012",
+        "genre": "Ficção"
+    },
+    {
+        "title": "O Cabeleira",
+        "author": "Franklin Távora, Celso Leopoldo",
+        "isbn": "9788533918030",
+        "publisher": "Rideel",
+        "year": "2011",
+        "genre": "Ficção"
+    },
+    {
+        "title": "As Aventuras de Robinson Crusoé",
+        "author": "Daniel Defoe, Rodrigo E. Cabral",
+        "isbn": "9788533915954",
+        "publisher": "Bicho Esperto",
+        "year": "2012",
+        "genre": "Aventura"
+    },
+    {
+        "title": "Um Ianque na Corte do Rei Arthur",
+        "author": "Mark Twain, Rodrigo Espinosa Cabral",
+        "isbn": "9788533908253",
+        "publisher": "Meus livros",
+        "year": "2006",
+        "genre": "Ficção"
+    },
+    {
+        "title": "David Copperfield",
+        "author": "Charles Dickens, Ana Carolina Vieira Rodriguez",
+        "isbn": "9788533906228",
+        "publisher": "Rideel",
+        "year": "2004",
+        "genre": "Ficção"
+    },
+    {
+        "title": "O Mexicano",
+        "author": "Jack London, Rodrigo Espinosa Cabral",
+        "isbn": "9788533907522",
+        "publisher": "Rideel",
+        "year": "2005",
+        "genre": "Ficção"
+    },
+    {
+        "title": "WEB 2.0 - REDES SOCIAIS",
+        "author": "Antonio Spadaro",
+        "isbn": "9788535634747",
+        "publisher": "PAULINAS",
+        "year": "2013",
+        "genre": "Computação"
+    },
+    {
+        "title": "Caminhando sobre fronteiras",
+        "author": "Fernando Frochtengarten",
+        "isbn": "9788532305275",
+        "publisher": "SUMMUS - GRUPO SUMMUS",
+        "year": "2009",
+        "genre": "Educação"
+    },
+    {
+        "title": "Cidadania, Um Projeto em Construção - Minorias, justiça e direitos",
+        "author": "_",
+        "isbn": "9788581660202",
+        "publisher": "Claro Enigma",
+        "year": "2013",
+        "genre": "Sociologia"
+    },
+    {
+        "title": "Do Cancioneiro de D. Dinis",
+        "author": "D Dinis",
+        "isbn": "9788532260710",
+        "publisher": "FTD",
+        "year": "2000",
+        "genre": "Poesia"
+    },
+    {
+        "title": "Ortografia: Ensinar e Aprender",
+        "author": "Unknown Author",
+        "isbn": "9788508071890",
+        "publisher": "Ática",
+        "year": "1998",
+        "genre": "Educação"
+    },
+    {
+        "title": "Refugiados de Idomeni: o retrato de um mundo em conflito",
+        "author": "Gabriel Bonis",
+        "isbn": "9788599733073",
+        "publisher": "Confiança",
+        "year": "2018",
+        "genre": "Sociologia"
+    },
+    {
+        "title": "uisque por favor de gladston mamede pela longarina 2017",
+        "author": "Gladston Mamede",
+        "isbn": "9788566262124",
+        "publisher": "longarina",
+        "year": "2017",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Arte E Ciencia De Roubar Galinha",
+        "author": "Unknown Author",
+        "isbn": "9788599120545",
+        "publisher": "NOVA FRONTEIRA",
+        "year": "1969",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Geografia e População",
+        "author": "Amélia Luisa Damiani",
+        "isbn": "9788585134976",
+        "publisher": "Contexto",
+        "year": "1991",
+        "genre": "Geografia"
+    },
+    {
+        "title": "Vinte Poemas de Amor e uma canção desesperada",
+        "author": "Pablo Neruda",
+        "isbn": "9788503008075",
+        "publisher": "José Olympio",
+        "year": "2008",
+        "genre": "Poesia"
+    },
+    {
+        "title": "Eu, Safiya: a História da Nigeriana que Sensibilizou o Mundo",
+        "author": "Safiya Hussaini Tungar Tudu, Raffaele Masto",
+        "isbn": "9788587795519",
+        "publisher": "Versus Editora",
+        "year": "2004",
+        "genre": "Biografia"
+    },
+    {
+        "title": "Contos plausíveis",
+        "author": "Carlos Drummond de Andrade",
+        "isbn": "9788576844471",
+        "publisher": "Best Seller",
+        "year": "2009",
+        "genre": "Contos"
+    },
+    {
+        "title": "Tratado da Terra e Gente do Brasil",
+        "author": "Fernão Cardim",
+        "isbn": "9786599423338",
+        "publisher": "Prosper",
+        "year": "2021",
+        "genre": "História"
+    },
+    {
+        "title": "Ciranda de Nós",
+        "author": "Maria Carolina Maia",
+        "isbn": "9788561578091",
+        "publisher": "Grua Livros",
+        "year": "2009",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Mulheres que mudaram o mundo",
+        "author": "Gabriel Chalita",
+        "isbn": "9788504008395",
+        "publisher": "COMPANHIA EDITORA NACIONAL",
+        "year": "2005",
+        "genre": "Biografia"
+    },
+    {
+        "title": "Missão secreta na Transamazônica",
+        "author": "Assis Brasil, Ferruccio Verdolin Filho",
+        "isbn": "9788571530362",
+        "publisher": "Editora",
+        "year": "1991",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Não Verás País Nenhum",
+        "author": "Ignácio de Loyola Brandão",
+        "isbn": "9788526001992",
+        "publisher": "",
+        "year": "2001",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Jogo da memória",
+        "author": "Laura Bergallo",
+        "isbn": "9786599402012",
+        "publisher": "Bellatrix",
+        "year": "2021",
+        "genre": "Ficção"
+    },
+    {
+        "title": "150 poemas selecionados Adélia Prado Reunião de Poesia",
+        "author": "Adélia Prado",
+        "isbn": "9788546501021",
+        "publisher": "BestSeller",
+        "year": "2018",
+        "genre": "Poesia"
+    },
+    {
+        "title": "Dois poetas do espaco mioritico",
+        "author": "Mihai Eminescu",
+        "isbn": "9788572820561",
+        "publisher": "UFC Edições",
+        "year": "1998",
+        "genre": "Poesia"
+    },
+    {
+        "title": "livro o outro apaixonado por marilia jair vitoria",
+        "author": "Jair Vitória",
+        "isbn": "9788578379483",
+        "publisher": "Maxiprint",
+        "year": "2018",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Helena",
+        "author": "Machado de Assis",
+        "isbn": "9788585030001",
+        "publisher": "Brink Brasil",
+        "year": "2018",
+        "genre": "Romance"
+    },
+    {
+        "title": "livro pra que serve ruth rocha",
+        "author": "Ruth Rocha",
+        "isbn": "9788575680117",
+        "publisher": "",
+        "year": "",
+        "genre": ""
+    },
+    {
+        "title": "O Harém das Bananeiras",
+        "author": "Carlos Heitor Cony",
+        "isbn": "",
+        "publisher": "Objetiva",
+        "year": "1999",
+        "genre": "Ficção"
+    },
+    {
+        "title": "As minas do Rei Salomão",
+        "author": "Isabel Vieira, Henry Rider Haggard",
+        "isbn": "9788533915916",
+        "publisher": "Meus livros",
+        "year": "1971",
+        "genre": "Aventura"
+    },
+    {
+        "title": "O morro dos ventos uivantes",
+        "author": "Emily Brontë",
+        "isbn": "9788533908178",
+        "publisher": "Rideel",
+        "year": "2006",
+        "genre": "Romance"
+    },
+    {
+        "title": "A festa ao ar livre",
+        "author": "Katherine Mansfield",
+        "isbn": "9786588526132",
+        "publisher": "Tag Experiências Literárias",
+        "year": "2022",
+        "genre": "Contos"
+    },
+    {
+        "title": "As Viagens De Marco Polo",
+        "author": "Desconhecido",
+        "isbn": "9788533908550",
+        "publisher": "Rideel",
+        "year": "2004",
+        "genre": "Aventura"
+    },
+    {
+        "title": "Os Irmãos De Mowgli",
+        "author": "Desconhecido",
+        "isbn": "9788533913769",
+        "publisher": "Rideel",
+        "year": "2009",
+        "genre": "Aventura"
+    },
+    {
+        "title": "O Coração Das Trevas",
+        "author": "Joseph Conrad",
+        "isbn": "9788533915503",
+        "publisher": "Rideel",
+        "year": "2011",
+        "genre": "Ficção"
+    },
+    {
+        "title": "As Filhas do Falecido Coronel",
+        "author": "Katherine Mansfield",
+        "isbn": "9788533908628",
+        "publisher": "Rideel",
+        "year": "2009",
+        "genre": "Contos"
+    },
+    {
+        "title": "O Príncipe e o Mendigo",
+        "author": "Mark Twain",
+        "isbn": "9788533915435",
+        "publisher": "Rideel",
+        "year": "2010",
+        "genre": "Aventura"
+    },
+    {
+        "title": "O vestido luminoso da princesa",
+        "author": "Ivan Angelo",
+        "isbn": "9788560806003",
+        "publisher": "Richmond",
+        "year": "2007",
+        "genre": "Infantil"
+    },
+    {
+        "title": "A fortuna de Gaspar",
+        "author": "Sophie Comtesse de Ségur, Isabel Vieira",
+        "isbn": "9788533908642",
+        "publisher": "Rideel",
+        "year": "2006",
+        "genre": "Juvenil"
+    },
+    {
+        "title": "Alice No País Das Maravilhas",
+        "author": "Lewis Carroll",
+        "isbn": "9788533908185",
+        "publisher": "Rideel",
+        "year": "2006",
+        "genre": "Infantil"
+    },
+    {
+        "title": "Um bom diabrete",
+        "author": "Sophie Comtesse de Ségur",
+        "isbn": "9788533910348",
+        "publisher": "Meus livros",
+        "year": "2004",
+        "genre": "Juvenil"
+    },
+    {
+        "title": "O Homem da máscara de ferro",
+        "author": "Alexandre Dumas",
+        "isbn": "9788573981179",
+        "publisher": "Todolivro",
+        "year": "1999",
+        "genre": "Aventura"
+    },
+    {
+        "title": "Os Irmãos Corsos",
+        "author": "Alexandre Dumas",
+        "isbn": "9788533906143",
+        "publisher": "Rideel",
+        "year": "2003",
+        "genre": "Aventura"
+    },
+    {
+        "title": "Conto de Natal",
+        "author": "Charles Dickens",
+        "isbn": "9788533915282",
+        "publisher": "Rideel",
+        "year": "2010",
+        "genre": "Clássico"
+    },
+    {
+        "title": "As Aventuras de Huckleberry Finn",
+        "author": "Mark Twain",
+        "isbn": "9788533915275",
+        "publisher": "RIDEEL",
+        "year": "2010",
+        "genre": "Aventura"
+    },
+    {
+        "title": "O chamado da Selva",
+        "author": "Jack London",
+        "isbn": "9788533907515",
+        "publisher": "Editora Rideel",
+        "year": "2005",
+        "genre": "Aventura"
+    },
+    {
+        "title": "A nota de um milhão de libras",
+        "author": "Mark Twain",
+        "isbn": "9788533910379",
+        "publisher": "Meus livros",
+        "year": "2006",
+        "genre": "Conto"
+    },
+    {
+        "title": "A foca branca",
+        "author": "Rudyard Kipling",
+        "isbn": "9788533910355",
+        "publisher": "Editora Rideel",
+        "year": "2004",
+        "genre": "Infantil"
+    },
+    {
+        "title": "O poço e o pêndulo",
+        "author": "Edgar Allan Poe",
+        "isbn": "9788533909403",
+        "publisher": "Editora Rideel",
+        "year": "2007",
+        "genre": "Terror"
+    },
+    {
+        "title": "O Enfermeiro",
+        "author": "Machado de Assis",
+        "isbn": "9788576661948",
+        "publisher": "Escala Educacional",
+        "year": "2004",
+        "genre": "Conto"
+    },
+    {
+        "title": "O Seminarista",
+        "author": "Bernardo Guimarães",
+        "isbn": "9788533912625",
+        "publisher": "Rideel",
+        "year": "2009",
+        "genre": "Romance"
+    },
+    {
+        "title": "Raptado",
+        "author": "Robert Louis Stevenson",
+        "isbn": "9788533908215",
+        "publisher": "Rideel",
+        "year": "2006",
+        "genre": "Aventura"
+    },
+    {
+        "title": "Manuscrito encontrado em uma garrafa e os crimes da rua Morgue",
+        "author": "Edgar Allan Poe",
+        "isbn": "9788533907539",
+        "publisher": "Meus livros",
+        "year": "2006",
+        "genre": "Terror"
+    },
+    {
+        "title": "William Wilson",
+        "author": "Edgar Allan Poe",
+        "isbn": "9788533910393",
+        "publisher": "Meus livros",
+        "year": "2006",
+        "genre": "Terror"
+    },
+    {
+        "title": "Uma história de cachorro",
+        "author": "Mark Twain",
+        "isbn": "9788533910362",
+        "publisher": "Rideel",
+        "year": "2006",
+        "genre": "Conto"
+    },
+    {
+        "title": "O fantasma de Canterville",
+        "author": "Oscar Wilde",
+        "isbn": "9788533907416",
+        "publisher": "Rideel",
+        "year": "2005",
+        "genre": "Terror"
+    },
+    {
+        "title": "O Retrato de Dorian Gray",
+        "author": "Oscar Wilde",
+        "isbn": "9788533912052",
+        "publisher": "Rideel",
+        "year": "2009",
+        "genre": "Ficção"
+    },
+    {
+        "title": "As Aventuras de Robin Hood",
+        "author": "Alexandre Dumas",
+        "isbn": "9788533915923",
+        "publisher": "RIDEEL",
+        "year": "2010",
+        "genre": "Aventura"
+    },
+    {
+        "title": "Felicidade e o Estranho",
+        "author": "Johanna Spyri",
+        "isbn": "9788533913738",
+        "publisher": "Rideel",
+        "year": "2011",
+        "genre": "Infantil"
+    },
+    {
+        "title": "O Homem Que Corrompeu Hadleyburg",
+        "author": "Edith Wharton",
+        "isbn": "9788533908222",
+        "publisher": "Rideel",
+        "year": "2006",
+        "genre": "Conto"
+    },
+    {
+        "title": "A Aposta e o Bilhete de Loteria",
+        "author": "Anton Chekhov",
+        "isbn": "9788533908635",
+        "publisher": "Rideel",
+        "year": "2009",
+        "genre": "Conto"
+    },
+    {
+        "title": "Aventura",
+        "author": "Joseph Conrad",
+        "isbn": "9788533909465",
+        "publisher": "Rideel",
+        "year": "2007",
+        "genre": "Aventura"
+    },
+    {
+        "title": "O Noivo Fantasma",
+        "author": "Washington Irving",
+        "isbn": "9788533910324",
+        "publisher": "Rideel",
+        "year": "2003",
+        "genre": "Terror"
+    },
+    {
+        "title": "O diabo na garrafa",
+        "author": "Robert Louis Stevenson",
+        "isbn": "9788533910409",
+        "publisher": "Meus livros",
+        "year": "2006",
+        "genre": "Terror"
+    },
+    {
+        "title": "O Conde de Monte Cristo",
+        "author": "Alexandre Dumas",
+        "isbn": "9788533915336",
+        "publisher": "Edições de Ouro / Tecnoprint",
+        "year": "1968",
+        "genre": "Aventura"
+    },
+    {
+        "title": "O coração das trevas",
+        "author": "Joseph Conrad",
+        "isbn": "9788533909489",
+        "publisher": "Rideel",
+        "year": "2007",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Lobo Marrom",
+        "author": "Desconhecido",
+        "isbn": "9788533913622",
+        "publisher": "RIDEEL",
+        "year": "2009",
+        "genre": "Aventura"
+    },
+    {
+        "title": "Estrela de rabo e outras histórias doidas",
+        "author": "Nilma Lacerda",
+        "isbn": "9788520939734",
+        "publisher": "Nova Fronteira",
+        "year": "2014",
+        "genre": "Juvenil"
+    },
+    {
+        "title": "O Horror de Dunwich",
+        "author": "H. P. Lovecraft",
+        "isbn": "9788566594287",
+        "publisher": "Raposa Vermelha",
+        "year": "2014",
+        "genre": "Terror"
+    },
+    {
+        "title": "Inferno verde",
+        "author": "Gladston Mamede",
+        "isbn": "9788566262162",
+        "publisher": "Longarina",
+        "year": "2019",
+        "genre": "Thriller"
+    },
+    {
+        "title": "O Vestido - Edição Especial",
+        "author": "Carlos Herculano Lopes",
+        "isbn": "9786588439036",
+        "publisher": "Geração Editorial",
+        "year": "2023",
+        "genre": "Romance"
+    },
+    {
+        "title": "52 Balas de Estalo",
+        "author": "Machado de Assis",
+        "isbn": "9786599451836",
+        "publisher": "Caligrama",
+        "year": "2021",
+        "genre": "Crônicas"
+    },
+    {
+        "title": "As Viagens de Tom Sawyer",
+        "author": "Mark Twain",
+        "isbn": "9788573894561",
+        "publisher": "Todolivro",
+        "year": "2012",
+        "genre": "Juvenil"
+    },
+    {
+        "title": "Ben Hur",
+        "author": "Lew Wallace",
+        "isbn": "9780451016812",
+        "publisher": "Berkley",
+        "year": "1969",
+        "genre": "Ficção Histórica"
+    },
+    {
+        "title": "Huckleberry Finn",
+        "author": "Mark Twain",
+        "isbn": "9781409564409",
+        "publisher": "Usborne Books",
+        "year": "2015",
+        "genre": "Clássico"
+    },
+    {
+        "title": "Heidi",
+        "author": "Johanna Spyri",
+        "isbn": "9783811873735",
+        "publisher": "Meus livros",
+        "year": "1996",
+        "genre": "Infantil"
+    },
+    {
+        "title": "O Homem da Máscara de Ferro",
+        "author": "Alexandre Dumas",
+        "isbn": "9788537610466",
+        "publisher": "Todolivro",
+        "year": "2011",
+        "genre": "Aventura"
+    },
+    {
+        "title": "Beleza Negra",
+        "author": "Anna Sewell",
+        "isbn": "9788573894578",
+        "publisher": "TODOLIVRO",
+        "year": "2012",
+        "genre": "Juvenil"
+    },
+    {
+        "title": "Fita verde no cabelo",
+        "author": "João Guimarães Rosa",
+        "isbn": "9788520903896",
+        "publisher": "Editora Nova Fronteira",
+        "year": "1992",
+        "genre": "Conto"
+    },
+    {
+        "title": "Caninos Brancos",
+        "author": "Jack London",
+        "isbn": "9788533912083",
+        "publisher": "Rideel",
+        "year": "2009",
+        "genre": "Aventura"
+    },
+    {
+        "title": "A Casa de Mapuhi",
+        "author": "Jack London",
+        "isbn": "9788533915497",
+        "publisher": "Rideel",
+        "year": "2011",
+        "genre": "Aventura"
+    },
+    {
+        "title": "O Ladrão de Cadáveres",
+        "author": "Robert Louis Stevenson",
+        "isbn": "9788533908567",
+        "publisher": "Rideel",
+        "year": "2008",
+        "genre": "Terror"
+    },
+    {
+        "title": "O retrato oval e Berenice",
+        "author": "Edgar Allan Poe",
+        "isbn": "9788533910331",
+        "publisher": "Meus livros",
+        "year": "2006",
+        "genre": "Terror"
+    },
+    {
+        "title": "Rip Van Winkle. O Dorminhoco",
+        "author": "Washington Irving",
+        "isbn": "9788533913790",
+        "publisher": "Meus livros",
+        "year": "2010",
+        "genre": "Conto"
+    },
+    {
+        "title": "O Último dos Moicanos",
+        "author": "James Fenimore Cooper",
+        "isbn": "9788533915350",
+        "publisher": "Rideel",
+        "year": "2010",
+        "genre": "Aventura"
+    },
+    {
+        "title": "A importância de ser prudente",
+        "author": "Oscar Wilde",
+        "isbn": "9788533908574",
+        "publisher": "Rideel",
+        "year": "2006",
+        "genre": "Teatro"
+    },
+    {
+        "title": "Caninos brancos",
+        "author": "Jack London",
+        "isbn": "9788533907546",
+        "publisher": "Meus livros",
+        "year": "2005",
+        "genre": "Aventura"
+    },
+    {
+        "title": "Os Robinsons Suíços",
+        "author": "Johann Wyss",
+        "isbn": "9788533913790",
+        "publisher": "Rideel",
+        "year": "2004",
+        "genre": "Aventura"
+    },
+    {
+        "title": "O mundo que habita em nós: reflexões filosóficas e literárias para tempos (in)tensos",
+        "author": "Liliane Prata",
+        "isbn": "9786589560012",
+        "publisher": "Miragem",
+        "year": "2021",
+        "genre": "Filosofia"
+    },
+    {
+        "title": "Ilíada",
+        "author": "Homero",
+        "isbn": "9788432048647",
+        "publisher": "Planeta Pub Corp",
+        "year": "1980",
+        "genre": "Clássico"
+    },
+    {
+        "title": "Triste Fim De Policarpo Quaresma",
+        "author": "Lima Barreto",
+        "isbn": "9788589155281",
+        "publisher": "Germape",
+        "year": "2004",
+        "genre": "Romance"
+    },
+    {
+        "title": "Triste fim de Policarpo Quaresma",
+        "author": "Lima Barreto",
+        "isbn": "9788504011333",
+        "publisher": "Meus livros",
+        "year": "2008",
+        "genre": "Graphic Novel"
+    },
+    {
+        "title": "Guarani - Serie Neoleitores (Col. É Só O Começo)",
+        "author": "José de Alencar",
+        "isbn": "9788525416117",
+        "publisher": "L&PM",
+        "year": "2010",
+        "genre": "Clássico"
+    },
+    {
+        "title": "Memórias de um sargento de milícias",
+        "author": "Manuel Antônio de Almeida",
+        "isbn": "9788576331889",
+        "publisher": "Educarte",
+        "year": "2009",
+        "genre": "Romance"
+    },
+    {
+        "title": "Garibaldi e Manoela: uma história de amor",
+        "author": "Josué Guimarães",
+        "isbn": "9788525412706",
+        "publisher": "L&PM",
+        "year": "2005",
+        "genre": "Romance"
+    },
+    {
+        "title": "Se eu pudesse, Danila, te levava pra tomar banho de mar em Guarajuba",
+        "author": "Breno Fernandes",
+        "isbn": "9786599425509",
+        "publisher": "EPP Publicações e Publicidade",
+        "year": "2021",
+        "genre": "Romance"
+    },
+    {
+        "title": "As minas do Rei Salomão",
+        "author": "Isabel Vieira, Henry Rider Haggard",
+        "isbn": "9788533915916",
+        "publisher": "Meus livros",
+        "year": "1971",
+        "genre": "Aventura"
+    },
+    {
+        "title": "Cinco minutos",
+        "author": "José de Alencar",
+        "isbn": "9788581681610",
+        "publisher": "Prazer de ler",
+        "year": "2010",
+        "genre": "Romance"
+    },
+    {
+        "title": "Três peças escolhidas",
+        "author": "Eduardo Campos",
+        "isbn": "9788572822541",
+        "publisher": "LEITURA",
+        "year": "2010",
+        "genre": "Teatro"
+    },
+    {
+        "title": "Dias e dias: romance",
+        "author": "Ana Miranda",
+        "isbn": "9788563255099",
+        "publisher": "A Página",
+        "year": "2010",
+        "genre": "Romance"
+    },
+    {
+        "title": "Eles Não Usam Black-tie",
+        "author": "Gianfrancesco Guarnieri",
+        "isbn": "9788520001820",
+        "publisher": "Civilização Brasileira",
+        "year": "1997",
+        "genre": "Drama"
+    },
+    {
+        "title": "Robinson Crusoé",
+        "author": "Daniel Defoe",
+        "isbn": "9788525417817",
+        "publisher": "L&PM",
+        "year": "2012",
+        "genre": "Aventura"
+    },
+    {
+        "title": "Os Lusíadas",
+        "author": "Luís de Camões",
+        "isbn": "9788508127078",
+        "publisher": "Ática",
+        "year": "2009",
+        "genre": "Poesia"
+    },
+    {
+        "title": "Acredite Se Quiser!",
+        "author": "Vários Autores",
+        "isbn": "9788587588135",
+        "publisher": "Eco Arte",
+        "year": "2000",
+        "genre": "Curiosidades"
+    },
+    {
+        "title": "Nove Lendas Urbanas Aterrorizantes",
+        "author": "Ricardo Dalai, Susana Ventura",
+        "isbn": "9786599402821",
+        "publisher": "Confraria",
+        "year": "2021",
+        "genre": "Terror"
+    },
+    {
+        "title": "A ilha do tesouro",
+        "author": "Robert Louis Stevenson",
+        "isbn": "9786559490653",
+        "publisher": "Carochinha",
+        "year": "2021",
+        "genre": "Aventura"
+    },
+    {
+        "title": "Fala sério, mãe",
+        "author": "Thalita Rebouças",
+        "isbn": "9788588771925",
+        "publisher": "Sociedade Literária",
+        "year": "2021",
+        "genre": "Humor"
+    },
+    {
+        "title": "1984",
+        "author": "George Orwell",
+        "isbn": "9786588871072",
+        "publisher": "Lexikon",
+        "year": "2021",
+        "genre": "Ficção Distópica"
+    },
+    {
+        "title": "Macbeth",
+        "author": "William Shakespeare",
+        "isbn": "9780521618747",
+        "publisher": "Cambridge School Shakespeare",
+        "year": "2005",
+        "genre": "Teatro"
+    },
+    {
+        "title": "Otelo, o Mouro de Veneza",
+        "author": "William Shakespeare",
+        "isbn": "9788572325615",
+        "publisher": "Martin Claret",
+        "year": "2003",
+        "genre": "Teatro"
+    },
+    {
+        "title": "Dom Casmurro",
+        "author": "Machado de Assis",
+        "isbn": "9788538003656",
+        "publisher": "Ciranda Cultural",
+        "year": "2006",
+        "genre": "Romance"
+    },
+    {
+        "title": "A megera domada",
+        "author": "Walcyr Carrasco",
+        "isbn": "9786557611500",
+        "publisher": "SIEDUC",
+        "year": "2021",
+        "genre": "Comédia"
+    },
+    {
+        "title": "Dom Quixote - Série Neoleitores. Coleção É Só O Começo",
+        "author": "Miguel de Cervantes Saavedra",
+        "isbn": "9788525417800",
+        "publisher": "L&PM",
+        "year": "2010",
+        "genre": "Clássico"
+    },
+    {
+        "title": "Triste Fim de Policarpo Quaresma",
+        "author": "Lima Barreto",
+        "isbn": "9788525412782",
+        "publisher": "L&PM",
+        "year": "2006",
+        "genre": "Romance"
+    },
+    {
+        "title": "Aves de Arribação",
+        "author": "Robert Louis Stevenson",
+        "isbn": "9788508080724",
+        "publisher": "Meus livros",
+        "year": "2003",
+        "genre": "Aventura"
+    },
+    {
+        "title": "O Santo e a Porca",
+        "author": "Ariano Suassuna",
+        "isbn": "9788503007702",
+        "publisher": "José Olympio",
+        "year": "2003",
+        "genre": "Comédia"
+    },
+    {
+        "title": "Ninguém sabe o que é um poema",
+        "author": "Ricardo Azevedo",
+        "isbn": "9788536405469",
+        "publisher": "Abril Educação",
+        "year": "2009",
+        "genre": "Poesia"
+    },
+    {
+        "title": "Pipocas",
+        "author": "Moacyr Scliar, Rubem Fonseca, Ana Miranda",
+        "isbn": "9788535903843",
+        "publisher": "Companhia das Letras",
+        "year": "2003",
+        "genre": "Contos"
+    },
+    {
+        "title": "O Novo Manifesto: Antologia de Contos e Crônicas",
+        "author": "Erico Verissimo",
+        "isbn": "9788533617995",
+        "publisher": "Martins Fontes",
+        "year": "2003",
+        "genre": "Contos e Crônicas"
+    },
+    {
+        "title": "O Judas em Sábado de Aleluia",
+        "author": "Martins Pena",
+        "isbn": "9791043109072",
+        "publisher": "BoD - Books on Demand",
+        "year": "2024",
+        "genre": "Teatro"
+    },
+    {
+        "title": "Histórias Daqui e Dali",
+        "author": "Roger Mello, Rogério Andrade Barbosa, Terezinha Éboli",
+        "isbn": "9788522006144",
+        "publisher": "Agir",
+        "year": "2003",
+        "genre": "Contos"
+    },
+    {
+        "title": "As Eternas Coincidências",
+        "author": "Paulo M. Campos",
+        "isbn": "9788528610321",
+        "publisher": "Meus livros",
+        "year": "2003",
+        "genre": "Literatura Brasileira"
+    },
+    {
+        "title": "Demônio Familiar, O",
+        "author": "José de Alencar",
+        "isbn": "9788589155434",
+        "publisher": "Germape",
+        "year": "2000",
+        "genre": "Teatro"
+    },
+    {
+        "title": "O Alienista",
+        "author": "Machado de Assis",
+        "isbn": "9788525416131",
+        "publisher": "L&PM",
+        "year": "2007",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Dom Quixote",
+        "author": "Miguel de Cervantes",
+        "isbn": "9788589155595",
+        "publisher": "Germape",
+        "year": "2005",
+        "genre": "Clássico"
+    },
+    {
+        "title": "O Santo e a Porca",
+        "author": "Ariano Suassuna",
+        "isbn": "9788503007160",
+        "publisher": "José Olympio",
+        "year": "2002",
+        "genre": "Comédia"
+    },
+    {
+        "title": "O Casamento Suspeitoso",
+        "author": "Ariano Suassuna",
+        "isbn": "9788503007177",
+        "publisher": "José Olympio",
+        "year": "2002",
+        "genre": "Comédia"
+    },
+    {
+        "title": "Farsa da Boa Preguiça",
+        "author": "Ariano Suassuna",
+        "isbn": "9788503007306",
+        "publisher": "José Olympio",
+        "year": "2002",
+        "genre": "Teatro"
+    },
+    {
+        "title": "Na Onda dos Versos",
+        "author": "Vários Autores",
+        "isbn": "9788508088720",
+        "publisher": "Ática",
+        "year": "2003",
+        "genre": "Poesia"
+    },
+    {
+        "title": "A Linguagem da Mata",
+        "author": "Ciça Fittipaldi",
+        "isbn": "9788506040768",
+        "publisher": "Melhoramentos",
+        "year": "2003",
+        "genre": "Infantil"
+    },
+    {
+        "title": "O Pagador de Promessas",
+        "author": "Dias Gomes",
+        "isbn": "9788528610345",
+        "publisher": "Meus livros",
+        "year": "2003",
+        "genre": "Teatro"
+    },
+    {
+        "title": "Fausto Wolff - Coleção Melhores Contos",
+        "author": "Fausto Wolff",
+        "isbn": "9788526011885",
+        "publisher": "Global",
+        "year": "2010",
+        "genre": "Contos"
+    },
+    {
+        "title": "João Alphonsus - Coleção Melhores Contos",
+        "author": "João Alphonsus",
+        "isbn": "9788526006942",
+        "publisher": "Global",
+        "year": "2001",
+        "genre": "Contos"
+    },
+    {
+        "title": "Marcos Rey - Coleção Melhores Contos",
+        "author": "Edla Van Steen",
+        "isbn": "9788526005938",
+        "publisher": "Global",
+        "year": "1970",
+        "genre": "Contos"
+    },
+    {
+        "title": "Lima Barreto - Coleção Melhores Contos",
+        "author": "Lima Barreto",
+        "isbn": "9788526000810",
+        "publisher": "Global",
+        "year": "2009",
+        "genre": "Contos"
+    },
+    {
+        "title": "Mario de Andrade - Coleção Melhores Poemas",
+        "author": "Mario de Andrade",
+        "isbn": "9788526001954",
+        "publisher": "Global",
+        "year": "1900",
+        "genre": "Poesia"
+    },
+    {
+        "title": "Os Melhores Contos de J. J. Veiga",
+        "author": "J. J. Veiga",
+        "isbn": "9788526002289",
+        "publisher": "Global",
+        "year": "1989",
+        "genre": "Contos"
+    },
+    {
+        "title": "Domingos Pelegrini - Coleção Melhores Contos",
+        "author": "Domingos Pellegrini",
+        "isbn": "9788526009912",
+        "publisher": "Global",
+        "year": "2009",
+        "genre": "Contos"
+    },
+    {
+        "title": "Os Melhores Contos de Lêdo Ivo",
+        "author": "Lêdo Ivo",
+        "isbn": "9788526003941",
+        "publisher": "Global",
+        "year": "1994",
+        "genre": "Contos"
+    },
+    {
+        "title": "Melhores Contos de Orígenes Lessa",
+        "author": "Orígenes Lessa",
+        "isbn": "9788526008557",
+        "publisher": "Global",
+        "year": "2003",
+        "genre": "Contos"
+    },
+    {
+        "title": "Melhores Contos de Rubem Braga",
+        "author": "Rubem Braga",
+        "isbn": "9788526001336",
+        "publisher": "Global",
+        "year": "2010",
+        "genre": "Contos"
+    },
+    {
+        "title": "João do Rio",
+        "author": "João do Rio",
+        "isbn": "9788526002487",
+        "publisher": "Global",
+        "year": "1990",
+        "genre": "Crônicas"
+    },
+    {
+        "title": "Melhores Contos de Osman Lins",
+        "author": "Osman Lins",
+        "isbn": "9788526008144",
+        "publisher": "Global",
+        "year": "2003",
+        "genre": "Contos"
+    },
+    {
+        "title": "Ignácio de Loyola Brandão - Os Melhores Contos",
+        "author": "Ignácio de Loyola Brandão",
+        "isbn": "9788526002869",
+        "publisher": "Global",
+        "year": "1993",
+        "genre": "Contos"
+    },
+    {
+        "title": "Os Melhores Contos de Lygia Fagundes Telles",
+        "author": "Lygia Fagundes Telles",
+        "isbn": "9788526003361",
+        "publisher": "Global",
+        "year": "2001",
+        "genre": "Contos"
+    },
+    {
+        "title": "Otelo, o Mouro de Veneza",
+        "author": "William Shakespeare",
+        "isbn": "9788572325615",
+        "publisher": "Martin Claret",
+        "year": "2003",
+        "genre": "Teatro"
+    },
+    {
+        "title": "O Ateneu",
+        "author": "Raul Pompeia",
+        "isbn": "9788576331896",
+        "publisher": "Meus livros",
+        "year": "2005",
+        "genre": "Crônica de saudades"
+    },
+    {
+        "title": "O Monge que vendeu sua Ferrari",
+        "author": "Robin Sharma",
+        "isbn": "9788589155311",
+        "publisher": "Meus livros",
+        "year": "2011",
+        "genre": "Autoajuda"
+    },
+    {
+        "title": "No Palco Todo Mundo Vira Bicho",
+        "author": "José Carlos Aragão",
+        "isbn": "9788539002085",
+        "publisher": "Planeta",
+        "year": "2007",
+        "genre": "Teatro"
+    },
+    {
+        "title": "De Bichos e Pessoas",
+        "author": "Clarice Lispector",
+        "isbn": "9788576652953",
+        "publisher": "JPA",
+        "year": "2021",
+        "genre": "Crônicas"
+    },
+    {
+        "title": "JANELA MAGICA ED2",
+        "author": "Cecília Meireles",
+        "isbn": "9788583270089",
+        "publisher": "MODERNA - PARADIDATICO",
+        "year": "",
+        "genre": ""
+    },
+    {
+        "title": "O Naufrágio do Titanic",
+        "author": "Hans Magnus Enzensberger",
+        "isbn": "9788516034900",
+        "publisher": "Companhia das Letras",
+        "year": "2000",
+        "genre": "Comédia"
+    },
+    {
+        "title": "O grande desafio",
+        "author": "Pedro Bandeira",
+        "isbn": "9788571649736",
+        "publisher": "Ática",
+        "year": "1996",
+        "genre": "Infantojuvenil"
+    },
+    {
+        "title": "Cordéis: Uma Coletânea Popular Cidadã",
+        "author": "Ari Bandeira",
+        "isbn": "9788508061181",
+        "publisher": "Editora",
+        "year": "2010",
+        "genre": "Cordel"
+    },
+    {
+        "title": "A Pesquisa na Formação e no Trabalho Docente",
+        "author": "Julio Emilio Diniz-Pereira",
+        "isbn": "9788579150456",
+        "publisher": "Autêntica",
+        "year": "2012",
+        "genre": "Educação"
+    },
+    {
+        "title": "Biblioteca Escolar. Temas Para Uma Prática Pedagógica",
+        "author": "Bernadete Campello",
+        "isbn": "9788575260791",
+        "publisher": "Autêntica",
+        "year": "2003",
+        "genre": "Pedagogia"
+    },
+    {
+        "title": "Didática e Avaliação da Aprendizagem no Ensino de Geografia",
+        "author": "Ana Clarissa Stefanello",
+        "isbn": "9788575260494",
+        "publisher": "Saraiva",
+        "year": "2009",
+        "genre": "Educação"
+    },
+    {
+        "title": "Mediação pedagógica na Educação de Jovens e Adultos: Ciências da Natureza e Matemática",
+        "author": "Ana Maria Soek",
+        "isbn": "9788502090705",
+        "publisher": "Positivo",
+        "year": "2009",
+        "genre": "Educação"
+    },
+    {
+        "title": "O Cabeleira",
+        "author": "Franklin Távora",
+        "isbn": "9788538536901",
+        "publisher": "Meus livros",
+        "year": "2018",
+        "genre": "Romance"
+    },
+    {
+        "title": "A Moreninha",
+        "author": "Joaquim Manuel de Macedo",
+        "isbn": "9781791342968",
+        "publisher": "NBL Editora",
+        "year": "1872",
+        "genre": "Romance"
+    },
+    {
+        "title": "Inocência",
+        "author": "Visconde de Taunay",
+        "isbn": "9788521314783",
+        "publisher": "Editora Lafonte",
+        "year": "2020",
+        "genre": "Romance"
+    },
+    {
+        "title": "Amor de Perdição: Memórias duma Família / Amor de Salvação",
+        "author": "Camilo Castelo Branco",
+        "isbn": "9788581864143",
+        "publisher": "Editora Scipione",
+        "year": "1994",
+        "genre": "Romance"
+    },
+    {
+        "title": "A Pata da Gazela",
+        "author": "José de Alencar",
+        "isbn": "9788526222885",
+        "publisher": "Simplíssimo",
+        "year": "2015",
+        "genre": "Romance"
+    },
+    {
+        "title": "Pata da Gazela; a Viuvinha, A",
+        "author": "Unknown Author",
+        "isbn": "9788562069550",
+        "publisher": "Rideel",
+        "year": "2016",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Melhores poemas de Cecília Meireles",
+        "author": "Cecília Meireles",
+        "isbn": "9788533902398",
+        "publisher": "Global",
+        "year": "2018",
+        "genre": "Poesia"
+    },
+    {
+        "title": "Entre a boca da noite e a madrugada",
+        "author": "Milton Dias",
+        "isbn": "9788526024281",
+        "publisher": "Universidade Federal do Ceará. UFC",
+        "year": "2008",
+        "genre": "Crônica"
+    },
+    {
+        "title": "Discurso de um sonho e outros poemas",
+        "author": "Luis Lorenzo Rivera",
+        "isbn": "9788572822558",
+        "publisher": "Martins Fontes",
+        "year": "2003",
+        "genre": "Poesia"
+    },
+    {
+        "title": "O Monge que vendeu sua Ferrari",
+        "author": "Robin Sharma",
+        "isbn": "9788539002085",
+        "publisher": "Meus livros",
+        "year": "2011",
+        "genre": "Desenvolvimento pessoal"
+    },
+    {
+        "title": "No Palco Todo Mundo Vira Bicho",
+        "author": "José Carlos Aragão",
+        "isbn": "9788576652953",
+        "publisher": "Meus livros",
+        "year": "2007",
+        "genre": "Teatro"
+    },
+    {
+        "title": "De Bichos e Pessoas",
+        "author": "Clarice Lispector",
+        "isbn": "9788583270089",
+        "publisher": "Meus livros",
+        "year": "2021",
+        "genre": "Crônicas"
+    },
+    {
+        "title": "JANELA MAGICA ED2",
+        "author": "Cecília Meireles",
+        "isbn": "9788516034900",
+        "publisher": "MODERNA",
+        "year": "N/A",
+        "genre": "Antologias (não-poesia)"
+    },
+    {
+        "title": "O Naufrágio do Titanic",
+        "author": "Hans Magnus Enzensberger",
+        "isbn": "9788571649736",
+        "publisher": "Meus livros",
+        "year": "2000",
+        "genre": "Antologias (não-poesia)"
+    },
+    {
+        "title": "O grande desafio",
+        "author": "Pedro Bandeira",
+        "isbn": "9788508061181",
+        "publisher": "ática",
+        "year": "1996",
+        "genre": "Infantil/Juvenil"
+    },
+    {
+        "title": "Cordéis: Uma Coletânea Popular Cidadã",
+        "author": "Ari Bandeira",
+        "isbn": "9788579150456",
+        "publisher": "Publisher",
+        "year": "2010",
+        "genre": "Cordel"
+    },
+    {
+        "title": "A Pesquisa na Formação e no Trabalho Docente",
+        "author": "Julio Emilio Diniz-Pereira",
+        "isbn": "9788575260791",
+        "publisher": "Autêntica",
+        "year": "2012",
+        "genre": "Educação"
+    },
+    {
+        "title": "Biblioteca Escolar. Temas Para Uma Prática Pedagógica",
+        "author": "Bernadete Campello",
+        "isbn": "9788575260494",
+        "publisher": "Autêntica",
+        "year": "2003",
+        "genre": "Educação"
+    },
+    {
+        "title": "Didática e Avaliação da Aprendizagem no Ensino de Geografia",
+        "author": "Ana Clarissa Stefanello",
+        "isbn": "9788502090705",
+        "publisher": "Saraiva",
+        "year": "2009",
+        "genre": "Geografia"
+    },
+    {
+        "title": "Mediação pedagógica na Educação de Jovens e Adultos: Ciências da Natureza e Matemática",
+        "author": "Ana Maria Soek",
+        "isbn": "9788538536901",
+        "publisher": "Positivo",
+        "year": "2009",
+        "genre": "Educação"
+    },
+    {
+        "title": "O Cabeleira",
+        "author": "Franklin Távora",
+        "isbn": "9781791342968",
+        "publisher": "Meus livros",
+        "year": "2018",
+        "genre": "Romance regionalista"
+    },
+    {
+        "title": "A Moreninha",
+        "author": "Joaquim Manuel de Macedo",
+        "isbn": "9788521314783",
+        "publisher": "NBL Editora",
+        "year": "1872",
+        "genre": "Romance"
+    },
+    {
+        "title": "Inocência",
+        "author": "Visconde de Taunay",
+        "isbn": "9788581864143",
+        "publisher": "Editora Lafonte",
+        "year": "2020",
+        "genre": "Romance"
+    },
+    {
+        "title": "Amor de Perdição: Memórias duma Família / Amor de Salvação",
+        "author": "Camilo Castelo Branco",
+        "isbn": "9788526222885",
+        "publisher": "Editora Scipione",
+        "year": "1994",
+        "genre": "Romance"
+    },
+    {
+        "title": "A Pata da Gazela",
+        "author": "José de Alencar",
+        "isbn": "9788562069550",
+        "publisher": "Simplíssimo",
+        "year": "2015",
+        "genre": "Romance"
+    },
+    {
+        "title": "Melhores poemas de Cecília Meireles",
+        "author": "Cecília Meireles",
+        "isbn": "9788526024281",
+        "publisher": "Global",
+        "year": "2018",
+        "genre": "Poesia"
+    },
+    {
+        "title": "Entre a boca da noite e a madrugada",
+        "author": "Milton Dias",
+        "isbn": "9788572822558",
+        "publisher": "Universidade Federal do Ceará. UFC",
+        "year": "2008",
+        "genre": "Crônicas"
+    },
+    {
+        "title": "Discurso de um sonho e outros poemas",
+        "author": "Luis Lorenzo Rivera",
+        "isbn": "9788533617988",
+        "publisher": "Martins Fontes",
+        "year": "2003",
+        "genre": "Poesia"
+    },
+    {
+        "title": "Já não somos mais crianças",
+        "author": "Alphonse Daudet",
+        "isbn": "9788508097159",
+        "publisher": "Editora Ática",
+        "year": "2005",
+        "genre": "Infantil"
+    },
+    {
+        "title": "O Diamante do Gro Mogol",
+        "author": "Maria Clara Machado",
+        "isbn": "9788535903881",
+        "publisher": "Meus livros",
+        "year": "2001",
+        "genre": "Infantojuvenil"
+    },
+    {
+        "title": "Minha vida com Boris: a comovente história do cão que mudou a vida de sua dona e do Brasil",
+        "author": "Thays Martinez",
+        "isbn": "9788562559334",
+        "publisher": "Globo",
+        "year": "2012",
+        "genre": "Biografia"
+    },
+    {
+        "title": "A Ilha do Tesouro",
+        "author": "Robert Louis Stevenson",
+        "isbn": "9788508080724",
+        "publisher": "Ática",
+        "year": "2001",
+        "genre": "Aventura"
+    },
+    {
+        "title": "O Santo e a Porca",
+        "author": "Ariano Suassuna",
+        "isbn": "9788503007702",
+        "publisher": "José Olympio",
+        "year": "2003",
+        "genre": "Teatro"
+    },
+    {
+        "title": "Ninguém sabe o que é um poema",
+        "author": "Ricardo Azevedo",
+        "isbn": "9788536405469",
+        "publisher": "Abril educação",
+        "year": "2009",
+        "genre": "Poesia"
+    },
+    {
+        "title": "Pipocas",
+        "author": "Moacyr Scliar, Rubem Fonseca, Ana Miranda",
+        "isbn": "9788535903843",
+        "publisher": "São Paulo: Companhia de letras",
+        "year": "2003",
+        "genre": "Contos"
+    },
+    {
+        "title": "O novo manifesto antologia de contos e crônicas",
+        "author": "Erico Verissimo",
+        "isbn": "9788533617995",
+        "publisher": "Martins Fontes",
+        "year": "2003",
+        "genre": "Contos e crônicas"
+    },
+    {
+        "title": "O Judas em Sábado de Aleluia",
+        "author": "Martins Pena",
+        "isbn": "9791043109072",
+        "publisher": "BoD - Books on Demand",
+        "year": "2024",
+        "genre": "Teatro"
+    },
+    {
+        "title": "Histórias Daqui e Dali",
+        "author": "Roger Mello, Rogério Andrade Barbosa, Terezinha Éboli",
+        "isbn": "9788522006144",
+        "publisher": "Agir",
+        "year": "2003",
+        "genre": "Contos"
+    },
+    {
+        "title": "As Eternas Coincidências",
+        "author": "Paulo M. Campos",
+        "isbn": "9788528610321",
+        "publisher": "Meus livros",
+        "year": "N/A",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Demônio Familiar, O",
+        "author": "José de Alencar",
+        "isbn": "9791043109072",
+        "publisher": "Germape",
+        "year": "2000",
+        "genre": "Ficção"
+    },
+    {
+        "title": "E eu não sou uma mulher?",
+        "author": "Sojourner Truth",
+        "isbn": "9786586419085",
+        "publisher": "Ímã Editorial",
+        "year": "2021",
+        "genre": "Biografia"
+    },
+    {
+        "title": "O Diamante do Gro Mogol",
+        "author": "Maria Clara Machado",
+        "isbn": "9788535903881",
+        "publisher": "Meus livros",
+        "year": "2001",
+        "genre": "Infantojuvenil"
+    },
+    {
+        "title": "Romeu e Julieta",
+        "author": "William Shakespeare",
+        "isbn": "9788560778027",
+        "publisher": "PUC Minas",
+        "year": "2006",
+        "genre": "Drama"
+    },
+    {
+        "title": "O Imitador de Gato. Para Gostar de Ler",
+        "author": "Lourenço Diaferia",
+        "isbn": "9788508085873",
+        "publisher": "Ática",
+        "year": "undefined",
+        "genre": "Infantojuvenil"
+    },
+    {
+        "title": "Neoleitores - Romeu e Julieta",
+        "author": "William Shakespeare",
+        "isbn": "9788508085873",
+        "publisher": "L&PM",
+        "year": "2022",
+        "genre": "Teatro"
+    },
+    {
+        "title": "Maias Volume 1 Série Bom Livro, Os",
+        "author": "Eça de Queirós",
+        "isbn": "9788525417794",
+        "publisher": "Ática",
+        "year": "2006",
+        "genre": "Romance"
+    },
+    {
+        "title": "O Gaúcho, O",
+        "author": "Unknown Author",
+        "isbn": "9788508068555",
+        "publisher": "Meus livros",
+        "year": "undefined",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Trapiá",
+        "author": "Caio Portifírio Carneiro",
+        "isbn": "9788508068319",
+        "publisher": "Leitura Médica",
+        "year": "2008",
+        "genre": "Romance Regionalista"
+    },
+    {
+        "title": "Aves de Arribação",
+        "author": "Antônio Sales",
+        "isbn": "9788572822763",
+        "publisher": "Companhia Editora Nacional",
+        "year": "1929",
+        "genre": "Romance Realista"
+    },
+    {
+        "title": "O Ateneu: Crônica de Saudades",
+        "author": "Raul Pompéia",
+        "isbn": "9788572821643",
+        "publisher": "Educarte",
+        "year": "2009",
+        "genre": "Romance"
+    },
+    {
+        "title": "A tragédia de Romeu e Julieta: recontada",
+        "author": "Christine Röhrig",
+        "isbn": "9786589370017",
+        "publisher": "Van Blad",
+        "year": "2021",
+        "genre": "Romance"
+    },
+    {
+        "title": "Matemática. Contexto e Aplicações - Volume Único",
+        "author": "Luiz Roberto Dante",
+        "isbn": "9788508119332",
+        "publisher": "Ática",
+        "year": "2008",
+        "genre": "Didático"
+    },
+    {
+        "title": "Confissões de uma garota excluída, mal-amada e (um pouco) dramática",
+        "author": "Thalita Rebouças",
+        "isbn": "9788580415797",
+        "publisher": "Arqueiro",
+        "year": "2016",
+        "genre": "Romance Infanto-Juvenil"
+    },
+    {
+        "title": "Elite: No fundo da classe",
+        "author": "Abril Zamora",
+        "isbn": "9788542218794",
+        "publisher": "Outro Planeta",
+        "year": "2020",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Quase Uma Rockstar",
+        "author": "Matthew Quick",
+        "isbn": "9788580576764",
+        "publisher": "Intrínseca",
+        "year": "2015",
+        "genre": "Romance"
+    },
+    {
+        "title": "CINETICA QUIMICA",
+        "author": "Souza",
+        "isbn": "9788576700951",
+        "publisher": "ALINEA",
+        "year": "2008",
+        "genre": "Didático"
+    },
+    {
+        "title": "Brasília e João Dimas e a Santa do Caldeirão",
+        "author": "Silveira",
+        "isbn": "9788572084161",
+        "publisher": "Formato",
+        "year": "2013",
+        "genre": "Literatura Brasileira"
+    },
+    {
+        "title": "NEOLEITORES - O CORTIÇO",
+        "author": "Aluísio Azevedo",
+        "isbn": "9788525416124",
+        "publisher": "L&PM",
+        "year": "2012",
+        "genre": "Literatura Brasileira"
+    },
+    {
+        "title": "O gato malhado e a andorinha Sinhá",
+        "author": "Jorge Amado",
+        "isbn": "9788528609721",
+        "publisher": "Bertrand Brasil",
+        "year": "2002",
+        "genre": "Literatura Infantil"
+    },
+    {
+        "title": "O que contam os sentidos",
+        "author": "Autores Diversos",
+        "isbn": "9788561947415",
+        "publisher": "Arte Visual",
+        "year": "2016",
+        "genre": "Arte e Cultura"
+    },
+    {
+        "title": "Os Miseráveis",
+        "author": "Victor Hugo",
+        "isbn": "9788532248107",
+        "publisher": "FTD",
+        "year": "2001",
+        "genre": "Clássico"
+    },
+    {
+        "title": "Iracema (Clássicos da Literatura)",
+        "author": "José de Alencar",
+        "isbn": "9788598559070",
+        "publisher": "Sol",
+        "year": "2004",
+        "genre": "Literatura Brasileira"
+    },
+    {
+        "title": "A Bruxa Não Vai para a Fogueira neste Livro",
+        "author": "Amanda Lovelace",
+        "isbn": "9788544107010",
+        "publisher": "Leya",
+        "year": "2018",
+        "genre": "Poesia"
+    },
+    {
+        "title": "Gol de Padre (Para Gostar de Ler, #23)",
+        "author": "Stanislaw Ponte Preta, Sérgio Porto",
+        "isbn": "9788508085712",
+        "publisher": "Ática",
+        "year": "N/A",
+        "genre": "Crônicas"
+    },
+    {
+        "title": "O comprador de aventuras",
+        "author": "Ivan Ângelo",
+        "isbn": "9788508085811",
+        "publisher": "Ática",
+        "year": "2019",
+        "genre": "Crônicas"
+    },
+    {
+        "title": "O Melhor do Conto Brasileiro",
+        "author": "Aníbal Machado, Josué Montello, Rachel de Queiroz, Orígenes Lessa",
+        "isbn": "9788503000505",
+        "publisher": "José Olympio Editora",
+        "year": "1970",
+        "genre": "Contos"
+    },
+    {
+        "title": "O Cabeleira",
+        "author": "Franklin Távora",
+        "isbn": "9788572326056",
+        "publisher": "N/A",
+        "year": "N/A",
+        "genre": "Literatura Brasileira"
+    },
+    {
+        "title": "A descoberta do amor em prosa",
+        "author": "Elias José, Machado de Assis, Mario Prata",
+        "isbn": "9788504006193",
+        "publisher": "Companhia Editora Nacional",
+        "year": "2003",
+        "genre": "Crônicas"
+    },
+    {
+        "title": "Cecília Meireles - Coleção Melhores Poemas",
+        "author": "Cecília Meireles",
+        "isbn": "9788526002944",
+        "publisher": "Global Editora",
+        "year": "2011",
+        "genre": "Poesia"
+    },
+    {
+        "title": "Nossos Poetas Clássicos",
+        "author": "Casimiro de Abreu, Fagundes Varela, Castro Alves, Raimundo Correia, Olavo Bilac, Vicente de Carvalho, Machado de Assis",
+        "isbn": "9788522006106",
+        "publisher": "Editora Agir",
+        "year": "2003",
+        "genre": "Poesia"
+    },
+    {
+        "title": "A Escrava Isaura",
+        "author": "Bernardo Guimarães",
+        "isbn": "9788525412867",
+        "publisher": "L&PM Editores",
+        "year": "2003",
+        "genre": "Literatura Brasileira"
+    },
+    {
+        "title": "O Seminarista",
+        "author": "Bernardo Guimarães",
+        "isbn": "9788516039646",
+        "publisher": "Moderna",
+        "year": "2005",
+        "genre": "Literatura Brasileira"
+    },
+    {
+        "title": "Poemas de Gregório de Matos",
+        "author": "Gregório de Matos",
+        "isbn": "9788586583117",
+        "publisher": "Autêntica",
+        "year": "1998",
+        "genre": "Poesia"
+    },
+    {
+        "title": "Sonho de Uma Noite de Verão",
+        "author": "William Shakespeare",
+        "isbn": "9788589155731",
+        "publisher": "Germape",
+        "year": "2005",
+        "genre": "Teatro"
+    },
+    {
+        "title": "Sherlock Holmes: Um Estudo em Vermelho",
+        "author": "Arthur Conan Doyle",
+        "isbn": "9788504020595",
+        "publisher": "N/A",
+        "year": "2018",
+        "genre": "Ficção Policial"
+    },
+    {
+        "title": "1984",
+        "author": "George Orwell",
+        "isbn": "9786555522266",
+        "publisher": "Principis",
+        "year": "2021",
+        "genre": "Ficção Distópica"
+    },
+    {
+        "title": "O Monge que Vendeu sua Ferrari",
+        "author": "Robin S. Sharma",
+        "isbn": "9788587795243",
+        "publisher": "Verus",
+        "year": "2002",
+        "genre": "Autoajuda"
+    },
+    {
+        "title": "Melhores Poemas Ferreira Gullar",
+        "author": "Ferreira Gullar",
+        "isbn": "9788526002937",
+        "publisher": "Global",
+        "year": "2012",
+        "genre": "Poesia"
+    },
+    {
+        "title": "Não Pararei de Gritar",
+        "author": "Carlos de Assumpção",
+        "isbn": "9788563277985",
+        "publisher": "Fontanar",
+        "year": "2021",
+        "genre": "Poesia"
+    },
+    {
+        "title": "Memórias Póstumas de Brás Cubas",
+        "author": "Machado de Assis",
+        "isbn": "9788579710049",
+        "publisher": "Editora Abril",
+        "year": "2010",
+        "genre": "Literatura Brasileira"
+    },
+    {
+        "title": "Alberto Caeiro",
+        "author": "Fernando Pessoa",
+        "isbn": "9788589155502",
+        "publisher": "Germape",
+        "year": "2004",
+        "genre": "Poesia"
+    },
+    {
+        "title": "O Garimpeiro",
+        "author": "Bernardo Guimarães",
+        "isbn": "9788589155458",
+        "publisher": "Germape",
+        "year": "2000",
+        "genre": "Literatura Brasileira"
+    },
+    {
+        "title": "A Descoberta do Amor em Versos",
+        "author": "Casimiro de Abreu, Gonçalves Dias, Castro Alves, Cruz e Sousa, Alphonsus de Guimaraens, Olavo Bilac, Vicente de Carvalho, Álvares de Azevedo, Fagundes Varela, Machado de Assis",
+        "isbn": "9788504006186",
+        "publisher": "Companhia Editora Nacional",
+        "year": "2003",
+        "genre": "Poesia"
+    },
+    {
+        "title": "O Fantástico Mistério de Feiurinha",
+        "author": "Pedro Bandeira",
+        "isbn": "9788532248114",
+        "publisher": "FTD",
+        "year": "2001",
+        "genre": "Literatura Infantil"
+    },
+    {
+        "title": "Cinco Minutos",
+        "author": "José de Alencar",
+        "isbn": "9788589155250",
+        "publisher": "Germape",
+        "year": "N/A",
+        "genre": "Literatura Brasileira"
+    },
+    {
+        "title": "Drummond - Poesia e Experiência",
+        "author": "Autores Diversos",
+        "isbn": "9788575260623",
+        "publisher": "Autêntica",
+        "year": "2002",
+        "genre": "Crítica Literária"
+    },
+    {
+        "title": "Memórias Póstumas de Brás Cubas",
+        "author": "Machado de Assis",
+        "isbn": "9788575206737",
+        "publisher": "Ciranda Cultural",
+        "year": "2007",
+        "genre": "Literatura Brasileira"
+    },
+    {
+        "title": "Os Melhores Poemas de Machado de Assis",
+        "author": "Machado de Assis",
+        "isbn": "9788526006089",
+        "publisher": "Global",
+        "year": "1970",
+        "genre": "Poesia"
+    },
+    {
+        "title": "Poemas, Sonetos e Baladas e Pátria Minha",
+        "author": "Vinicius de Moraes",
+        "isbn": "9788580868432",
+        "publisher": "Editora Companhia das Letras",
+        "year": "2013",
+        "genre": "Poesia"
+    },
+    {
+        "title": "O Futuro da Humanidade",
+        "author": "Augusto Cury",
+        "isbn": "9788599296998",
+        "publisher": "Arqueiro",
+        "year": "N/A",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Alves & Cia",
+        "author": "Eça de Queirós",
+        "isbn": "9788589155472",
+        "publisher": "Cedic",
+        "year": "2000",
+        "genre": "Literatura Portuguesa"
+    },
+    {
+        "title": "Comédias para se Ler na Escola",
+        "author": "Luis Fernando Verissimo",
+        "isbn": "9788573023426",
+        "publisher": "Objetiva",
+        "year": "2001",
+        "genre": "Crônicas"
+    }
+]

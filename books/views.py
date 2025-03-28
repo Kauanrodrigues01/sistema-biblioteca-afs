@@ -45,7 +45,7 @@ def create_loan(request):
                 return redirect('create_loan')
                 
             # Atualiza status do livro
-            livro.disponivel = False
+            livro.available = False
             livro.save()
             
             # Cria empréstimo
@@ -75,7 +75,7 @@ def create_loan(request):
 
 @login_required
 def list_loan(request):
-    emprestimos = Loan.objects.all().order_by('-data_emprestimo')
+    emprestimos = Loan.objects.all().order_by('-data_emprestimo').select_related('livro')
 
     context = {
         'emprestimos': emprestimos,

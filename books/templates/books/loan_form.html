@@ -2,80 +2,132 @@
 {% load static %}
 
 {% block content %}
-    <div class="mainContent">
-        <div class="header">
-            <img src="{% static "images/logo_biblioteca.png" %}" alt="Logo Biblioteca">
-            <h1>Cadastro de Emprestimos</h1>
-            <img src="{% static "images/logo_escola.png" %}" alt="Logo Escola">
-            <a href="{% url "logout" %}" class="logout-btn">Sair</a>
-        </div>
-        <div class="container">
-            <form method="POST">
-                {% csrf_token %}
-                
+<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+
+<div class="mainContent">
+    <div class="header">
+        <img src="{% static "images/logo_biblioteca.png" %}" alt="Logo Biblioteca">
+        <h1>Cadastro de Emprestimos</h1>
+        <img src="{% static "images/logo_escola.png" %}" alt="Logo Escola">
+        <a href="{% url "logout" %}" class="logout-btn">Sair</a>
+    </div>
+    <div class="container">
+        <form method="POST">
+            {% csrf_token %}
+            
+            <div class="form-group">
                 <label class="form-label">Aluno(a):</label>
                 {{ form.aluno }}
                 {{ form.aluno.errors }}
+            </div>
 
+            <div class="form-group">
                 <label class="form-label">Turma:</label>
                 {{ form.turma }}
                 {{ form.turma.errors }}
+            </div>
 
+            <div class="form-group">
                 <label class="form-label">Livro:</label>
                 {{ form.livro }}
                 {{ form.livro.errors }}
+            </div>
 
-                <!-- Removi editora pois não está no form da view -->
-
+            <div class="form-group">
                 <label class="form-label">Data de Emprestimo:</label>
                 {{ form.data_emprestimo }}
                 {{ form.data_emprestimo.errors }}
+            </div>
 
+            <div class="form-group">
                 <label class="form-label">Data de Devolução:</label>
                 {{ form.data_devolucao }}
                 {{ form.data_devolucao.errors }}
+            </div>
 
-                <div class="button-group">
-                    <button type="submit" name="save">Cadastrar Empréstimo</button>
-                    <button type="button" onclick="window.print()">Imprimir Cartão</button>
-                </div>
-            </form>
-        </div>
+            <div class="button-group">
+                <button type="submit" name="save">Cadastrar Empréstimo</button>
+                <button type="button" onclick="window.print()">Imprimir Cartão</button>
+            </div>
+        </form>
     </div>
+</div>
 
-    <div class="list-container">
-        <h2>Lista de Empréstimos</h2>
-        {% include "books/partials/loan_list.html" %}
-    </div>
+<div class="list-container">
+    <h2>Lista de Empréstimos</h2>
+    {% include "books/partials/loan_list.html" %}
+</div>
 
-    <style>
-        .messages {
-            margin: 15px 0;
+<style>
+    .messages {
+        margin: 15px 0;
+    }
+    .alert {
+        padding: 10px;
+        border-radius: 4px;
+    }
+    .alert-success {
+        background-color: #d4edda;
+        color: #155724;
+    }
+    .alert-warning {
+        background-color: #fff3cd;
+        color: #856404;
+    }
+    .button-group {
+        display: flex;
+        gap: 10px;
+    }
+    .logout-btn {
+        padding: 5px 15px;
+        background: #dc3545;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        text-decoration: none;
+    }
+    .form-group {
+        margin-top: 15px;
+    }
+    .select2-container {
+        width: 100% !important;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .select2-selection {
+        height: 38px !important;
+        padding: 5px 10px !important;
+    }
+    .select2-selection__arrow {
+        height: 36px !important;
+    }
+</style>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+<script>
+$(document).ready(function() {
+    // Configuração para o campo Livro
+    $('#id_livro').select2({
+        placeholder: "Pesquise pelo nome do livro",
+        allowClear: true,
+        language: {
+            noResults: function() {
+                return "Nenhum livro encontrado";
+            }
         }
-        .alert {
-            padding: 10px;
-            border-radius: 4px;
+    });
+
+    // Configuração para o campo Turma
+    $('#id_turma').select2({
+        placeholder: "Selecione a turma",
+        allowClear: true,
+        language: {
+            noResults: function() {
+                return "Nenhuma turma encontrada";
+            }
         }
-        .alert-success {
-            background-color: #d4edda;
-            color: #155724;
-        }
-        .alert-warning {
-            background-color: #fff3cd;
-            color: #856404;
-        }
-        .button-group {
-            display: flex;
-            gap: 10px;
-            margin-top: 15px;
-        }
-        .logout-btn {
-            padding: 5px 15px;
-            background: #dc3545;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            text-decoration: none;
-        }
-    </style>
+    });
+});
+</script>
 {% endblock %}

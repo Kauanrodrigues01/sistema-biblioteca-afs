@@ -7,7 +7,7 @@
         <p><strong>Aluno:</strong> {{ emprestimo.aluno }}</p>
         <p><strong>Turma:</strong> {{ emprestimo.get_turma_display }}</p>
         <p><strong>Livro:</strong> {{ emprestimo.livro.title }}</p>
-        <p><strong>Editora:</strong> {{ emprestimo.editora }}</p>
+        <p><strong>Editora:</strong> {{ emprestimo.livro.publisher }}</p>
         <p><strong>Empréstimo:</strong> {{ emprestimo.data_emprestimo|date:"d/m/Y" }}</p>
         <p><strong>Devolução:</strong> {{ emprestimo.data_devolucao|date:"d/m/Y"|default:"-" }}</p>
         

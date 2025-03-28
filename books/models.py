@@ -16,18 +16,30 @@ class Book(models.Model):
 
 class Loan(models.Model):
     TURMAS_CHOICES = [
-        ('1A', '1º ADMNISTRAÇÃO'),
-        ('1E', '1º ENFERMAGEM'),
-        ('1I', '1º INFORMÁTICA'),
-        ('1L', '1º LOGISCA'),
-        ('2A', '2º ADMNISTRÇÃO'),
-        ('2E', '2º ENFERMAGEM'),
-        ('2DS','2º DESENVOLVIMENTO'),
-        ('2L', '2º LOGISCA'),
-        ('3A', '3º ADMNISTRAÇÃO'),
-        ('3E', '3º ENFERMAGEM'),
-        ('3DS', '3º DESENVOLVIMENTO'),
-        ('3I', '3º INFORMATICA'),
+        # Desenvolvimento de Sistemas
+        ('1DS', '1º Desenvolvimento de Sistemas'),
+        ('2DS', '2º Desenvolvimento de Sistemas'),
+        ('3DS', '3º Desenvolvimento de Sistemas'),
+
+        # Administração
+        ('1A', '1º Administração'),
+        ('2A', '2º Administração'),
+        ('3A', '3º Administração'),
+        
+        # Enfermagem
+        ('1E', '1º Enfermagem'),
+        ('2E', '2º Enfermagem'),
+        ('3E', '3º Enfermagem'),
+        
+        # Informática
+        ('1I', '1º Informática'),
+        ('2I', '2º Informática'),
+        ('3I', '3º Informática'),
+        
+        # Logística
+        ('1L', '1º Logística'),
+        ('2L', '2º Logística'),
+        ('3L', '3º Logística'),
     ]
     aluno = models.CharField(max_length=100, verbose_name='Aluno(a)')
     turma =models.CharField(max_length=100, choices=TURMAS_CHOICES, verbose_name='Turma')
