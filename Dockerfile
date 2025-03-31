@@ -54,9 +54,12 @@ RUN find /usr/local \
     apk add --virtual .rundeps $runDeps
 
 
-RUN mkdir -p /app/static && \
-    chmod -R 777 /app/static
+RUN chown userapp:userapp /app && \
+    mkdir -p /app/static && \
+    chmod -R 777 /app/static && \
+    mkdir -p /app/uwsgi && \
+    chmod -R 777 /app/uwsgi
 
-EXPOSE 8000
+EXPOSE 80
 
 USER userapp

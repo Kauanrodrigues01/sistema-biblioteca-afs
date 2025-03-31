@@ -3,13 +3,50 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: biblioteca
+    container_name: sistema-biblioteca
+    restart: always
     env_file:
       - .env
-    ports:
-      - "8000:8000"
+    volumes:
+      - static-data:/app/static/
+      - shared_sockets:/app/uwsgi/
     command: >
       sh -c "python3 manage.py collectstatic --no-input &&
              python3 manage.py migrate &&
              python3 manage.py create_admin_user &&
-             python3 manage.py runserver 0.0.0.0:8000"
+             uwsgi --ini uwsgi.ini"
+    networks:
+      - sistema-biblioteca-network
+  
+  nginx:
+    image: nginx:alpine
+    container_name: nginx
+    restart: always
+    ports:
+      - "80:80"
+    volumes:
+      - static-data:/app/static/
+      - shared_sockets:/run/uwsgi/
+      - ./uwsgi_params:/etc/nginx/uwsgi_params
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - app
+    networks:
+      - sistema-biblioteca-network
+    healthcheck:
+      test: ["CMD", "sh", "-c", "curl -sf localhost/login/ || exit 1"]
+      interval: 15s
+      timeout: 15s
+      retries: 5
+      start_period: 5s
+
+
+volumes:
+  static-data:
+    driver: local	
+  shared_sockets:
+    driver: local
+
+networks:
+  sistema-biblioteca-network:
+    driver: bridge
