@@ -12,5 +12,4 @@ services:
       sh -c "python3 manage.py collectstatic --no-input &&
              python3 manage.py migrate &&
              python3 manage.py create_admin_user &&
-             python3 manage.py populate_books &&
              python3 manage.py runserver 0.0.0.0:8000"
