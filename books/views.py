@@ -10,6 +10,9 @@ from django.utils import timezone
 
 
 def login_view(request):
+    if request.user.is_authenticated:
+        return redirect('create_loan')   
+
     if request.method == 'POST':
         username = request.POST.get('username')
         password = request.POST.get('password')
@@ -32,6 +35,7 @@ def logout(request):
 
 @login_required
 def create_loan(request):
+    messages.success(request, 'Testando a mensagem')
     hoje = timezone.now().date()
     
     if request.method == 'POST':
@@ -49,17 +53,9 @@ def create_loan(request):
             livro.save()
             
             # Cria empréstimo
-            emprestimo = form.save()
+            form.save()
             
-            # Verifica status
-            dias_restantes = (emprestimo.data_devolucao - hoje).days
-            if dias_restantes < 0:
-                messages.warning(request, 'Empréstimo criado com status de ATRASADO!')
-            elif dias_restantes <= 3:
-                messages.warning(request, f'Devolução em {dias_restantes} dias!')
-            else:
-                messages.success(request, 'Empréstimo registrado com sucesso!')
-            
+            messages.success(request, "Empréstimo criado com sucesso")
             return redirect('create_loan')
     else:
         form = LoanForm(initial={'data_emprestimo': hoje})

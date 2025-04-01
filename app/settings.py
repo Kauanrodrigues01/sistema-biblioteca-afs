@@ -133,10 +133,6 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-LOGIN_REDIRECT_URL = 'emprestimos/criar/'
-
-# Redirecionamento após logout
-LOGOUT_REDIRECT_URL = 'login/'
-
-# URL de login
-LOGIN_URL = '/'
+LOGIN_REDIRECT_URL = 'create_loan'  # Use o nome da URL, não o path
+LOGOUT_REDIRECT_URL = 'login'  # Nome da URL de login
+LOGIN_URL = 'login'  # Nome da URL de login

@@ -1,0 +1,11 @@
+{% load static %}
+
+<div class="messages-container">
+    {% for message in messages %}
+    <div class="message alert alert-{{ message.tags|default:'info' }}" role="alert">
+        <div class="message-content">
+            <span class="message-text">{{ message }}</span>
+        </div>
+    </div>
+    {% endfor %}
+</div>

@@ -34,4 +34,4 @@ class LoanForm(forms.ModelForm):
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        self.fields['livro'].queryset = Book.objects.all()
+        self.fields['livro'].queryset = Book.objects.all().filter(available=True)
