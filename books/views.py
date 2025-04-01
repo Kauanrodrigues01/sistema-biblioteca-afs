@@ -8,6 +8,13 @@ from books.forms import LoanForm
 from django.contrib import messages
 from django.utils import timezone
 
+from django.shortcuts import render
+from .models import Book
+
+def home(request):
+    livros = Book.objects.filter(available=True).order_by('title')
+    return render(request, 'books/home.html', {'books': livros})
+
 
 def login_view(request):
     if request.user.is_authenticated:
