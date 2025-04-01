@@ -19,7 +19,7 @@ class Book(models.Model):
         return self.title
 
 class Loan(models.Model):
-    TURMAS_CHOICES = [
+    TIERS = [
         # Desenvolvimento de Sistemas
         ('1DS', '1º Desenvolvimento de Sistemas'),
         ('2DS', '2º Desenvolvimento de Sistemas'),
@@ -45,26 +45,24 @@ class Loan(models.Model):
         ('2L', '2º Logística'),
         ('3L', '3º Logística'),
     ]
-    aluno = models.CharField(max_length=100, verbose_name='Aluno(a)')
-    turma =models.CharField(max_length=100, choices=TURMAS_CHOICES, verbose_name='Turma')
-    livro = models.ForeignKey(Book, on_delete=models.CASCADE, verbose_name='Livro')
-    data_emprestimo = models.DateField(default=timezone.now, verbose_name='Data de Empréstimo')
-    data_devolucao = models.DateField(verbose_name='Data de Devolução')
-    devolvido = models.BooleanField(default=False, verbose_name='Devolvivo?')
-    editora = models.CharField(max_length=100, null=True, blank=True)
-
+    student = models.CharField(max_length=100, verbose_name='Aluno(a)')
+    tier =models.CharField(max_length=100, choices=TIERS, verbose_name='Turma')
+    book = models.ForeignKey(Book, on_delete=models.CASCADE, verbose_name='Livro')
+    loan_date = models.DateField(default=timezone.now, verbose_name='Data de Empréstimo')
+    return_date = models.DateField(verbose_name='Data de Devolução')
+    returned = models.BooleanField(default=False, verbose_name='Devolvivo?')
     class Meta:
-        ordering = ['data_emprestimo']
+        ordering = ['loan_date']
         verbose_name = 'Empréstimo'
         verbose_name_plural = 'Empréstimos'
 
     @property
     def esta_atrasado(self):
-        if self.devolvido:
+        if self.returned:
             return False
-        elif timezone.now().date() > self.data_devolucao:
+        elif timezone.now().date() > self.return_date:
             return True
         return False
             
     def __str__(self):
-        return f"{self.aluno} - {self.livro.title}"
+        return f"{self.student} - {self.book.title}"

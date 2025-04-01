@@ -12,7 +12,7 @@ from django.shortcuts import render
 from .models import Book
 
 def home(request):
-    livros = Book.objects.filter(available=True).order_by('title')
+    livros = Book.objects.order_by('title')
     return render(request, 'books/home.html', {'books': livros})
 
 
@@ -41,22 +41,21 @@ def logout(request):
 
 @login_required
 def create_loan(request):
-    messages.success(request, "Testando mensagem de sucesso")
     hoje = timezone.now().date()
     
     if request.method == 'POST':
         form = LoanForm(request.POST)
         if form.is_valid():
-            livro = form.cleaned_data['livro']
+            book = form.cleaned_data['book']
             
             # Verifica se livro já está emprestado
-            if not livro.available:
+            if not book.available:
                 messages.error(request, 'Este livro já está emprestado!')
                 return redirect('create_loan')
                 
             # Atualiza status do livro
-            livro.available = False
-            livro.save()
+            book.available = False
+            book.save()
             
             # Cria empréstimo
             form.save()
@@ -64,10 +63,10 @@ def create_loan(request):
             messages.success(request, "Empréstimo criado com sucesso")
             return redirect('create_loan')
     else:
-        form = LoanForm(initial={'data_emprestimo': hoje})
+        form = LoanForm(initial={'loan_date': hoje})
 
     # Recupera empréstimos para a lista
-    emprestimos = Loan.objects.all().order_by('-data_emprestimo')
+    emprestimos = Loan.objects.all().order_by('-loan_date')
     
     return render(request, 'books/loan_form.html', {
         'form': form,
@@ -77,11 +76,11 @@ def create_loan(request):
 
 @login_required
 def list_loan(request):
-    emprestimos = Loan.objects.all().order_by('-data_emprestimo').select_related('livro')
+    emprestimos = Loan.objects.all().order_by('-loan_date').select_related('livro')
 
     context = {
         'emprestimos': emprestimos,
-        'turmas_choices': Loan.TURMAS_CHOICES,
+        'turmas_choices': Loan.TIERS,
         'livros': Book.objects.all(),
         'timezone': timezone
     }
@@ -92,9 +91,9 @@ def delete_loan(request, emprestimo_id):
     emprestimo = get_object_or_404(Loan, id=emprestimo_id)
     
     # Libera o livro antes de deletar
-    livro = emprestimo.livro
-    livro.disponivel = True
-    livro.save()
+    book = emprestimo.book
+    book.disponivel = True
+    book.save()
     
     # Deleta o empréstimo
     emprestimo.delete()

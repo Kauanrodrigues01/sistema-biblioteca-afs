@@ -18,32 +18,32 @@
             
             <div class="form-group">
                 <label class="form-label">Aluno(a):</label>
-                {{ form.aluno }}
-                {{ form.aluno.errors }}
+                {{ form.student }}
+                {{ form.student.errors }}
             </div>
 
             <div class="form-group">
                 <label class="form-label">Turma:</label>
-                {{ form.turma }}
-                {{ form.turma.errors }}
+                {{ form.tier }}
+                {{ form.tier.errors }}
             </div>
 
             <div class="form-group">
                 <label class="form-label">Livro:</label>
-                {{ form.livro }}
-                {{ form.livro.errors }}
+                {{ form.book }}
+                {{ form.book.errors }}
             </div>
 
             <div class="form-group">
                 <label class="form-label">Data de Emprestimo:</label>
-                {{ form.data_emprestimo }}
-                {{ form.data_emprestimo.errors }}
+                {{ form.loan_date }}
+                {{ form.loan_date.errors }}
             </div>
 
             <div class="form-group">
                 <label class="form-label">Data de Devolução:</label>
-                {{ form.data_devolucao }}
-                {{ form.data_devolucao.errors }}
+                {{ form.return_date }}
+                {{ form.return_date.errors }}
             </div>
 
             <div class="button-group">
@@ -109,7 +109,7 @@
 <script>
 $(document).ready(function() {
     // Configuração para o campo Livro
-    $('#id_livro').select2({
+    $('#id_book').select2({
         placeholder: "Pesquise pelo nome do livro",
         allowClear: true,
         language: {
@@ -120,7 +120,7 @@ $(document).ready(function() {
     });
 
     // Configuração para o campo Turma
-    $('#id_turma').select2({
+    $('#id_tier').select2({
         placeholder: "Selecione a turma",
         allowClear: true,
         language: {

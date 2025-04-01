@@ -2,22 +2,22 @@
 
 {% block content %}
 <div class="list-container">
-    {% for emprestimo in emprestimos %}
+    {% for loan in emprestimos %}
     <div class="emprestimo-item">
-        <p><strong>Aluno:</strong> {{ emprestimo.aluno }}</p>
-        <p><strong>Turma:</strong> {{ emprestimo.get_turma_display }}</p>
-        <p><strong>Livro:</strong> {{ emprestimo.livro.title }}</p>
+        <p><strong>Aluno:</strong> {{ loan.student }}</p>
+        <p><strong>Turma:</strong> {{ loan.get_tier_display }}</p>
+        <p><strong>Livro:</strong> {{ loan.book.title }}</p>
         <p><strong>Editora:</strong> 
-            {% if emprestimo.livro.publisher == None %}
+            {% if loan.book.publisher == None %}
                 Não informado
             {% else %}
-                {{ emprestimo.livro.publisher }}
+                {{ loan.book.publisher }}
             {% endif %}
         </p>
-        <p><strong>Empréstimo:</strong> {{ emprestimo.data_emprestimo|date:"d/m/Y" }}</p>
-        <p><strong>Devolução:</strong> {{ emprestimo.data_devolucao|date:"d/m/Y"|default:"-" }}</p>
+        <p><strong>Empréstimo:</strong> {{ loan.loan_date|date:"d/m/Y" }}</p>
+        <p><strong>Devolução:</strong> {{ loan.return_date|date:"d/m/Y"|default:"-" }}</p>
         
-        <form method="post" action="{% url 'delete_loan' emprestimo.id %}" class="delete-form">
+        <form method="post" action="{% url 'delete_loan' loan.id %}" class="delete-form">
             {% csrf_token %}
             <button type="submit" class="remove-btn" onclick="return confirm('Tem certeza que deseja remover este empréstimo?')">
                 Remover

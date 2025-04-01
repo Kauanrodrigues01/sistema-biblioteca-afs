@@ -7,31 +7,30 @@ from django.utils import timezone
 class LoanForm(forms.ModelForm):
     class Meta:
         model = Loan
-        fields = ['aluno', 'turma', 'livro', 'editora', 'data_emprestimo', 'data_devolucao']
+        fields = ['student', 'tier', 'book', 'loan_date', 'return_date']
         widgets = {
-            'data_emprestimo': forms.DateInput(attrs={
+            'loan_date': forms.DateInput(attrs={
                 'type': 'date',
                 'class': 'form-control',
                 'min': timezone.now().date().strftime('%Y-%m-%d')
             }),
-            'data_devolucao': forms.DateInput(attrs={
+            'return_date': forms.DateInput(attrs={
                 'type': 'date',
                 'class': 'form-control',
                 'min': timezone.now().date().strftime('%Y-%m-%d')
             }),
-            'aluno': forms.TextInput(attrs={'class': 'form-control'}),
-            'turma': forms.Select(attrs={'class': 'form-control'}),
-            'livro': forms.Select(attrs={'class': 'form-control'})
+            'student': forms.TextInput(attrs={'class': 'form-control'}),
+            'tier': forms.Select(attrs={'class': 'form-control'}),
+            'book': forms.Select(attrs={'class': 'form-control'})
         }
         labels = {
-            'aluno': 'Aluno(a)',
-            'turma': 'Turma',
-            'livro': 'Livro',
-            'editora': 'Editora',
-            'data_emprestimo': 'Data de Emprestimo',
-            'data_devolucao': 'Data de Devolução'
+            'student': 'Aluno(a)',
+            'tier': 'Turma',
+            'book': 'Livro',
+            'loan_date': 'Data de Emprestimo',
+            'return_date': 'Data de Devolução'
         }
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        self.fields['livro'].queryset = Book.objects.all().filter(available=True)
+        self.fields['book'].queryset = Book.objects.all().filter(available=True)

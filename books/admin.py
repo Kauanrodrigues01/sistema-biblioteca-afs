@@ -4,8 +4,8 @@ from .models import Book, Loan
 # books/admin.py
 @admin.register(Loan)
 class LoanAdmin(admin.ModelAdmin):
-    list_display = ('id', 'aluno', 'get_turma_display', 'livro', 'data_emprestimo', 'data_devolucao')
-    list_filter = ('turma', 'data_emprestimo')
+    list_display = ('id', 'student', 'get_tier_display', 'book', 'loan_date', 'return_date')
+    list_filter = ('tier', 'loan_date')
 
 
 @admin.register(Book)
