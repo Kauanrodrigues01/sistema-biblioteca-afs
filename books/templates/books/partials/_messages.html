@@ -9,3 +9,29 @@
     </div>
     {% endfor %}
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const messages = document.querySelectorAll('.message');
+    
+    messages.forEach(message => {
+        // Configura o temporizador para cada mensagem
+        setTimeout(() => {
+            // Adiciona animação de fade out antes de remover
+            message.style.transition = 'opacity 0.5s ease';
+            message.style.opacity = '0';
+            
+            // Remove a mensagem após a animação terminar
+            setTimeout(() => {
+                message.remove();
+                
+                // Se não houver mais mensagens, remove o container
+                if (document.querySelectorAll('.message').length === 0) {
+                    const container = document.querySelector('.messages-container');
+                    if (container) container.remove();
+                }
+            }, 500); // Tempo da animação
+        }, 8000); // 8 segundos antes de começar a remoção
+    });
+});
+</script>

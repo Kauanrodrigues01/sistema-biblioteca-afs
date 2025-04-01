@@ -26,12 +26,11 @@ def login_view(request):
         user = authenticate(request, username=username, password=password)
         if user is not None:
             login(request, user)
-            if request.headers.get('X-Requested-With') == 'XMLHttpRequest':
-                return JsonResponse({'success': True})
+            messages.success(request, 'Login efetuado com sucesso.')
             return redirect('create_loan')
+
         error = 'Credenciais inválidas'
-        if request.headers.get('X-Requested-With') == 'XMLHttpRequest':
-            return JsonResponse({'success': False, 'error': error})
+        messages.error(request, error)
         return render(request, 'books/login.html', {'error': error})
     return render(request, 'books/login.html')
 
@@ -42,7 +41,7 @@ def logout(request):
 
 @login_required
 def create_loan(request):
-    messages.success(request, 'Testando a mensagem')
+    messages.success(request, "Testando mensagem de sucesso")
     hoje = timezone.now().date()
     
     if request.method == 'POST':

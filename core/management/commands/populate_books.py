@@ -14,6 +14,14 @@ class Command(BaseCommand):
             for book in data:
                 if not book['year'].isnumeric():
                     book['year'] = None
+                
+                book_author_lower = book['author'].lower()
+                if book_author_lower == 'autor desconhecido' or book_author_lower == 'author unknown' or book_author_lower == 'author unknown' or book_author_lower == 'null':
+                    book['author'] == None
+
+                book_publisher_lower = book['publisher'].lower()
+                if book_publisher_lower == 'null' or book_publisher_lower == 'editora não especificada':
+                    book['publisher'] == None
 
                 try:
                     Book.objects.create(

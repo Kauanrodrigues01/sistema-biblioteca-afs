@@ -10,6 +10,10 @@ class Book(models.Model):
     year = models.IntegerField(null=True)
     genre = models.CharField(max_length=100, null=True)
     available = models.BooleanField(default=True)
+    
+    class Meta:
+        verbose_name = 'Livro'
+        verbose_name_plural = 'Livros'
 
     def __str__(self):
         return self.title
@@ -50,16 +54,17 @@ class Loan(models.Model):
     editora = models.CharField(max_length=100, null=True, blank=True)
 
     class Meta:
-        ordering = ['data_devolucao']
+        ordering = ['data_emprestimo']
         verbose_name = 'Empréstimo'
         verbose_name_plural = 'Empréstimos'
 
-    def status(self):
+    @property
+    def esta_atrasado(self):
         if self.devolvido:
-            return "Devolvido"
+            return False
         elif timezone.now().date() > self.data_devolucao:
-            return "Atrasado"
-        return "Em dia"
+            return True
+        return False
             
     def __str__(self):
         return f"{self.aluno} - {self.livro.title}"

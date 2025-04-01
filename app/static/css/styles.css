@@ -181,6 +181,18 @@
     .remove-btn:hover {
         background-color: #c82333;
     }
+
+    .book-card p.book-available span.available {
+        font-weight: bold;
+        color: green;
+    }
+
+    .book-card p.book-available span.unavailable {
+        font-weight: bold;
+        color: red;
+    }
+
+
 /* Messages Container */
 .messages-container {
     position: absolute;
