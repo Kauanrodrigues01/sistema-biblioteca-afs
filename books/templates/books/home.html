@@ -1,0 +1,31 @@
+{% extends "books/base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="header">
+    <img src="{% static 'images/logo_biblioteca.png' %}" alt="Logo Biblioteca">
+    <h1>SISTEMA DE CONSULTA AO ACERVO</h1>
+    <img src="{% static 'images/logo_escola.png' %}" alt="Logo Escola">
+</div>
+
+<div class="search-bar">
+    <input type="text" placeholder="Pesquisar por título, autor ou gênero...">
+</div>
+
+<div class="books-grid">
+    {% for book in books %}
+    <div class="book-card">
+        <h2>{{ book.title }}</h2>
+        <p><strong>Autor:</strong> {{ book.author|default:"Não informado" }}</p>
+        <p><strong>ISBN:</strong> {{ book.isbn }}</p>
+        <p><strong>Editora:</strong> {{ book.publisher|default:"Não informada" }}</p>
+        <p><strong>Ano:</strong> {{ book.year|default:"Não informado" }}</p>
+        <p><strong>Gênero:</strong> {{ book.genre|default:"Não informado" }}</p>
+    </div>
+    {% empty %}
+    <div class="no-books">
+        Nenhum livro disponível no momento.
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

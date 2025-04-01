@@ -1,0 +1,40 @@
+# Arquivos Python
+*.pyc
+*.pyo
+*.mo
+__pycache__/
+
+# Ambientes Virtuais
+venv/
+env/
+
+# Configurações e Credenciais
+*.db
+*.sql.gz
+.env
+.env.example
+
+# Arquivos de Logs
+logs/
+*.log
+
+# Configurações de IDEs e Ferramentas Locais
+.project
+.idea/
+.pydevproject
+.idea/workspace.xml
+.DS_Store
+.sass-cache/
+.vagrant/
+
+# Node.js e Frontend
+node_modules/
+dist/
+web/static/CACHE/
+
+# Arquivos de Controle de Versão
+.git/
+.gitignore
+
+# Outros
+db.sqlite3
