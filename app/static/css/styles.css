@@ -1,196 +1,190 @@
-    /* Estilos globais */
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #d4f8d4; /* Verde claro */
-    }
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d4f8d4; /* Verde claro */
+}
 
-    /* Tela de login */
-    #loginScreen {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        background-color: #d4f8d4; /* Verde claro */
-    }
+/* Tela de login */
+#loginScreen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d4f8d4; /* Verde claro */
+}
 
-    #loginForm {
-        background-color: #155724; /* Verde escuro */
-        padding: 30px;
-        border-radius: 10px;
-        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
-        text-align: center;
-        width: 300px;
-    }
+#loginForm {
+    background-color: #155724; /* Verde escuro */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
 
-    #loginForm img {
-        width: 250px; /* Logotipo maior (250px) */
-        margin-bottom: 20px;
-    }
+#loginForm img {
+    width: 250px; /* Logotipo maior (250px) */
+    margin-bottom: 20px;
+}
 
-    #loginForm input {
-        width: 100%;
-        padding: 10px;
-        margin: 10px 0;
-        border: none;
-        border-radius: 5px;
-        font-size: 14px;
-    }
+#loginForm input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
 
-    #loginForm button {
-        width: 100%;
-        padding: 10px;
-        margin-top: 10px;
-        background-color: #28a745; /* Verde */
-        color: white;
-        border: none;
-        border-radius: 5px;
-        font-size: 16px;
-        cursor: pointer;
-    }
+#loginForm button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #28a745; /* Verde */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
 
-    #loginForm button:hover {
-        background-color: #218838; /* Verde mais escuro */
-    }
+#loginForm button:hover {
+    background-color: #218838; /* Verde mais escuro */
+}
 
-    #loginError {
-        color: #ff6b6b; /* Vermelho claro */
-        font-size: 14px;
-        margin-top: 10px;
-        display: none;
-    }
+#loginError {
+    color: #ff6b6b; /* Vermelho claro */
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
 
-    /* Esconde o conteúdo principal inicialmente */
-    #mainContent {
-        display: none; /* Inicialmente escondido */
-    }
+/* Esconde o conteúdo principal inicialmente */
+#mainContent {
+    display: none; /* Inicialmente escondido */
+}
 
-    /* Cabeçalho original */
-    .header {
-        background-color: #155724; /* Verde escuro */
-        color: white;
-        padding: 20px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+/* Cabeçalho original */
+.header {
+    background-color: #155724; /* Verde escuro */
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-    .header img {
-        height: 30px;
-    }
+.header img {
+    height: 30px;
+}
 
-    .header h1 {
-        margin: 0;
-        flex-grow: 1;
-        text-align: center;
-    }
+.header h1 {
+    margin: 0;
+    flex-grow: 1;
+    text-align: center;
+}
 
-    .header button {
-        background-color: #dc3545; /* Vermelho */
-        color: white;
-        border: none;
-        padding: 10px 20px;
-        border-radius: 5px;
-        cursor: pointer;
-        font-size: 14px;
-    }
+.header button {
+    background-color: #dc3545; /* Vermelho */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
 
-    .header button:hover {
-        background-color: #c82333; /* Vermelho mais escuro */
-    }
+.header button:hover {
+    background-color: #c82333; /* Vermelho mais escuro */
+}
 
-    /* Estilos do sistema de empréstimos (seu código original) */
-    .container {
-        width: 50%;
-        margin: 20px auto;
-        background: white;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0px 0px 10px 0px #aaa;
-    }
+/* Estilos do sistema de empréstimos (seu código original) */
+.container {
+    width: 50%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #aaa;
+}
 
-    input, select {
-        width: 100%;
-        padding: 10px;
-        margin: 10px 0;
-        border-radius: 5px;
-        border: 1px solid #ccc;
-        font-size: 14px;
-    }
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
 
-    /* Ajuste para campos de data lado a lado */
-    .data-container {
-        display: flex;
-        gap: 10px; /* Espaço entre os campos */
-    }
+/* Ajuste para campos de data lado a lado */
+.data-container {
+    display: flex;
+    gap: 10px; /* Espaço entre os campos */
+}
 
-    .data-container input {
-        width: calc(50% - 5px); /* Divide o espaço igualmente */
-    }
+.data-container input {
+    width: calc(50% - 5px); /* Divide o espaço igualmente */
+}
 
-    button {
-        background-color: #28a745;
-        color: white;
-        padding: 10px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        margin: 5px;
-    }
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
 
-    button:hover {
-        background-color: #218838;
-    }
+button:hover {
+    background-color: #218838;
+}
 
-    .list-container {
-        margin-top: 40px;
-        width: 60%;
-        margin-left: auto;
-        margin-right: auto;
-        background: white;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0px 0px 10px 0px #aaa;
-    }
+.list-container {
+    margin-top: 40px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #aaa;
+}
 
-    .emprestimo-item {
-        background: #f0fff0;
-        padding: 10px;
-        margin: 10px 0;
-        border-radius: 5px;
-        border: 1px solid #ccc;
-        text-align: left;
-    }
+.emprestimo-item {
+    background: #00ff0055;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
 
-    .emprestimo-item p {
-        margin: 5px 0;
-    }
+.emprestimo-item.atrasado {
+    background: #ff000050;
+}
 
-    .remove-btn {
-        background-color: #dc3545;
-        color: white;
-        border: none;
-        padding: 5px 10px;
-        border-radius: 5px;
-        cursor: pointer;
-        display: block;
-        margin-top: 10px;
-    }
+.emprestimo-item p {
+    margin: 5px 0;
+}
 
-    .remove-btn:hover {
-        background-color: #c82333;
-    }
+.remove-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin-top: 10px;
+}
 
-    .book-card p.book-available span.available {
-        font-weight: bold;
-        color: green;
-    }
-
-    .book-card p.book-available span.unavailable {
-        font-weight: bold;
-        color: red;
-    }
+.remove-btn:hover {
+    background-color: #c82333;
+}
 
 
 /* Messages Container */
@@ -384,8 +378,15 @@ body {
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
-.book-card h2 {
+.book-card h2.book-title.True {
     color: #2e7d32;
+    margin-top: 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.book-card h2.book-title.False {
+    color: #cb2828;
     margin-top: 0;
     border-bottom: 1px solid #eee;
     padding-bottom: 10px;
@@ -394,6 +395,16 @@ body {
 .book-card p {
     margin: 8px 0;
     color: #555;
+}
+
+.book-card p.book-available span.available {
+    font-weight: bold;
+    color: green;
+}
+
+.book-card p.book-available span.unavailable {
+    font-weight: bold;
+    color: #cb2828;
 }
 
 .no-books {

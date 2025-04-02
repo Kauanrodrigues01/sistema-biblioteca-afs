@@ -3,7 +3,7 @@
 {% block content %}
 <div class="list-container">
     {% for loan in emprestimos %}
-    <div class="emprestimo-item">
+    <div class="emprestimo-item {% if loan.is_late %}atrasado{% endif %}">
         <p><strong>Aluno:</strong> {{ loan.student }}</p>
         <p><strong>Turma:</strong> {{ loan.get_tier_display }}</p>
         <p><strong>Livro:</strong> {{ loan.book.title }}</p>
@@ -20,7 +20,7 @@
         <form method="post" action="{% url 'delete_loan' loan.id %}" class="delete-form">
             {% csrf_token %}
             <button type="submit" class="remove-btn" onclick="return confirm('Tem certeza que deseja remover este empréstimo?')">
-                Remover
+                Remover / Devolver
             </button>
         </form>
     </div>

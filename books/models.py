@@ -57,7 +57,7 @@ class Loan(models.Model):
         verbose_name_plural = 'Empréstimos'
 
     @property
-    def esta_atrasado(self):
+    def is_late(self):
         if self.returned:
             return False
         elif timezone.now().date() > self.return_date:

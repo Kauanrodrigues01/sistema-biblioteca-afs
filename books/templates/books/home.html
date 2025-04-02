@@ -14,8 +14,11 @@
 
 <div class="books-grid" id="booksContainer">
     {% for book in books %}
-    <div class="book-card" data-search="{{ book.title|lower }} {{ book.author|lower|default:'' }} {{ book.genre|lower|default:'' }}">
-        <h2>{{ book.title }}</h2>
+    <div class="book-card" 
+         data-title="{{ book.title|lower }}" 
+         data-author="{{ book.author|lower|default:'' }}" 
+         data-genre="{{ book.genre|lower|default:'' }}">
+        <h2 class="book-title {{ book.available }}">{{ book.title }}</h2>
         <p><strong>Autor:</strong> {{ book.author|default:"Não informado" }}</p>
         <p><strong>ISBN:</strong> {{ book.isbn }}</p>
         <p><strong>Editora:</strong> {{ book.publisher|default:"Não informada" }}</p>
@@ -42,30 +45,37 @@ document.addEventListener('DOMContentLoaded', function() {
     const bookCards = document.querySelectorAll('.book-card');
     
     searchInput.addEventListener('input', function() {
-        const searchTerm = this.value.toLowerCase();
+        const searchTerm = this.value.toLowerCase().trim();
+        
+        let hasVisibleBooks = false;
         
         bookCards.forEach(card => {
-            const searchData = card.getAttribute('data-search');
-            if (searchData.includes(searchTerm)) {
+            const title = card.getAttribute('data-title');
+            const author = card.getAttribute('data-author');
+            const genre = card.getAttribute('data-genre');
+            
+            if (title.includes(searchTerm) || 
+                author.includes(searchTerm) || 
+                genre.includes(searchTerm)) {
                 card.style.display = 'block';
+                hasVisibleBooks = true;
             } else {
                 card.style.display = 'none';
             }
         });
         
-        // Mostra mensagem se nenhum livro for encontrado
-        const visibleBooks = document.querySelectorAll('.book-card[style="display: block"]');
+        // Mostra ou esconde a mensagem de nenhum livro encontrado
         const noBooksMessage = document.querySelector('.no-books');
+        const booksContainer = document.getElementById('booksContainer');
         
-        if (visibleBooks.length === 0 && bookCards.length > 0) {
+        if (!hasVisibleBooks && bookCards.length > 0) {
             if (!noBooksMessage) {
-                const booksContainer = document.getElementById('booksContainer');
                 const messageDiv = document.createElement('div');
                 messageDiv.className = 'no-books';
                 messageDiv.textContent = 'Nenhum livro encontrado com esse critério.';
                 booksContainer.appendChild(messageDiv);
             }
-        } else if (noBooksMessage) {
+        } else if (noBooksMessage && noBooksMessage.textContent === 'Nenhum livro encontrado com esse critério.') {
             noBooksMessage.remove();
         }
     });

@@ -100,3 +100,6 @@ def delete_loan(request, emprestimo_id):
     
     messages.success(request, 'Empréstimo removido com sucesso!')
     return redirect('create_loan')  # Redireciona para a página de cadastro
+
+
+
