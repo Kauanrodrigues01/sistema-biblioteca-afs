@@ -41,6 +41,7 @@ def logout(request):
 
 @login_required
 def create_loan(request):
+    messages.error(request, 'Testando Testando Testando Testando')
     hoje = timezone.now().date()
     
     if request.method == 'POST':

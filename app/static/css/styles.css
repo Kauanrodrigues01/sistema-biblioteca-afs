@@ -155,7 +155,6 @@ button:hover {
 }
 
 .emprestimo-item {
-    background: #00ff0055;
     padding: 10px;
     margin: 10px 0;
     border-radius: 5px;
@@ -163,8 +162,16 @@ button:hover {
     text-align: left;
 }
 
-.emprestimo-item.atrasado {
-    background: #ff000050;
+.emprestimo-item.on_time {
+    background: #00ff002f;
+}
+
+.emprestimo-item.warning {
+    background: #ffe6007a;
+}
+
+.emprestimo-item.late {
+    background: #FF8A80;
 }
 
 .emprestimo-item p {
