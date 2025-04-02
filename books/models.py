@@ -4,11 +4,11 @@ from django.utils import timezone
 
 class Book(models.Model):
     title = models.CharField(max_length=100)
-    author = models.CharField(max_length=200, null=True)
+    author = models.CharField(max_length=200, null=True, blank=True)
     isbn = models.CharField(max_length=13)
-    publisher = models.CharField(max_length=100, null=True)
-    year = models.IntegerField(null=True)
-    genre = models.CharField(max_length=100, null=True)
+    publisher = models.CharField(max_length=100, null=True, blank=True)
+    year = models.IntegerField(null=True, blank=True)
+    genre = models.CharField(max_length=100, null=True, blank=True)
     available = models.BooleanField(default=True)
     
     class Meta:

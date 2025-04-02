@@ -17,13 +17,19 @@ class Command(BaseCommand):
                 
                 book_author_lower = book['author'].lower()
                 if book_author_lower == 'autor desconhecido' or book_author_lower == 'author unknown' or book_author_lower == 'author unknown' or book_author_lower == 'null':
-                    book['author'] == None
+                    self.stdout.write(self.style.WARNING(f'Book "{book['title']}" sem autor. Author: {book['author']}'))
+                    book['author'] = None
 
                 book_publisher_lower = book['publisher'].lower()
                 if book_publisher_lower == 'null' or book_publisher_lower == 'editora não especificada':
-                    book['publisher'] == None
+                    self.stdout.write(self.style.WARNING(f'Book "{book['title']}" sem editora. Editora {book['publisher']}'))
+                    book['publisher'] = None
 
                 try:
+                    if Book.objects.filter(title=book['title']).exists():
+                        self.stdout.write(self.style.ERROR(f'Book "{book["title"]}" exists.'))
+                        continue
+
                     Book.objects.create(
                         title=book['title'],
                         author=book['author'],
