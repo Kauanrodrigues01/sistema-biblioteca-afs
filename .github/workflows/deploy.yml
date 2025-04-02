@@ -1,0 +1,32 @@
+name: Continuous Integration in Django application with Deployment to AWS EC2
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy_sistema_biblioteca:
+    if: ${{ !contains(github.event.head_commit.message, '[skip ci]') }}
+    runs-on: ubuntu-22.04
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0  # Importante para obter todo o histórico do Git
+
+    - name: Deploy to AWS EC2
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.EC2_HOST }}
+        username: ${{ secrets.EC2_USERNAME }}
+        key: ${{ secrets.EC2_KEY }}
+        script: |
+          sudo su
+          cd /var/www/sistema-biblioteca
+          # Configurações para resolver problemas de permissão
+          sudo git config --global --add safe.directory /var/www/sistema-biblioteca
+          sudo chown -R ${{ secrets.EC2_USERNAME }}:${{ secrets.EC2_USERNAME }} /var/www/sistema-biblioteca/.git
+          sudo chmod -R 755 /var/www/sistema-biblioteca/.git
+          # Executa o script de atualização
+          ./update-image.sh
