@@ -13,7 +13,7 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
       with:
-        fetch-depth: 0  # Importante para obter todo o histórico do Git
+        fetch-depth: 0
 
     - name: Deploy to AWS EC2
       uses: appleboy/ssh-action@master
@@ -23,10 +23,22 @@ jobs:
         key: ${{ secrets.EC2_KEY }}
         script: |
           sudo su
-          cd /var/www/sistema-biblioteca
-          # Configurações para resolver problemas de permissão
+
+          # Acessa o diretório do projeto
+          cd /var/www/sistema-biblioteca || { echo "Falha ao acessar diretório"; exit 1; }
+          
+          # Configurações de segurança do Git
           sudo git config --global --add safe.directory /var/www/sistema-biblioteca
-          sudo chown -R ${{ secrets.EC2_USERNAME }}:${{ secrets.EC2_USERNAME }} /var/www/sistema-biblioteca/.git
-          sudo chmod -R 755 /var/www/sistema-biblioteca/.git
+          sudo git config --global pull.rebase false  # Define estratégia de merge padrão
+          
+          # Corrige permissões
+          sudo chown -R ${{ secrets.EC2_USERNAME }}:${{ secrets.EC2_USERNAME }} .
+          sudo find . -type d -exec chmod 755 {} \;  # Permissões para diretórios
+          sudo find . -type f -exec chmod 644 {} \;  # Permissões para arquivos
+          
+          # Permissões especiais para o diretório de workflows
+          sudo chmod -R 775 .github/workflows/
+          
           # Executa o script de atualização
-          ./update-image.sh
+          chmod +x ./update-image.sh
+          ./update-image.sh || { echo "Falha na execução do update-image.sh"; exit 1; }
