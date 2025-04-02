@@ -27,18 +27,6 @@ jobs:
           # Acessa o diretório do projeto
           cd /var/www/sistema-biblioteca || { echo "Falha ao acessar diretório"; exit 1; }
           
-          # Configurações de segurança do Git
-          sudo git config --global --add safe.directory /var/www/sistema-biblioteca
-          sudo git config --global pull.rebase false  # Define estratégia de merge padrão
-          
-          # Corrige permissões
-          sudo chown -R ${{ secrets.EC2_USERNAME }}:${{ secrets.EC2_USERNAME }} .
-          sudo find . -type d -exec chmod 755 {} \;  # Permissões para diretórios
-          sudo find . -type f -exec chmod 644 {} \;  # Permissões para arquivos
-          
-          # Permissões especiais para o diretório de workflows
-          sudo chmod -R 775 .github/workflows/
-          
           # Executa o script de atualização
           chmod +x ./update-image.sh
           ./update-image.sh || { echo "Falha na execução do update-image.sh"; exit 1; }
