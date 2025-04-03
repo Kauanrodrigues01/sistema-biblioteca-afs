@@ -58,11 +58,17 @@ class Loan(models.Model):
 
     @property
     def is_late(self):
-        if self.returned:
-            return False
-        elif timezone.now().date() > self.return_date:
-            return True
-        return False
+        if self.returned:  # Already returned → "on_time"
+            return "on_time"
+        
+        today = timezone.now().date()
+        
+        if today > self.return_date:  # Past due → "late"
+            return "late"
+        elif today == self.return_date:  # Due today → "warning"
+            return "warning"
+        else:  # Future due date → "on_time"
+            return "on_time"
             
     def __str__(self):
         return f"{self.student} - {self.book.title}"
