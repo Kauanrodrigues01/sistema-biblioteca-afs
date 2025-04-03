@@ -80,7 +80,7 @@ def delete_loan(request, emprestimo_id):
 
     # Libera o livro antes de deletar
     book = emprestimo.book
-    book.disponivel = True
+    book.available = True
     book.save()
 
     # Deleta o empréstimo
