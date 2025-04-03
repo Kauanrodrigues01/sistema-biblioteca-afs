@@ -1,7 +1,7 @@
 from django.contrib import admin
 from .models import Book, Loan
 
-# books/admin.py
+
 @admin.register(Loan)
 class LoanAdmin(admin.ModelAdmin):
     list_display = ('id', 'student', 'get_tier_display', 'book', 'loan_date', 'return_date')

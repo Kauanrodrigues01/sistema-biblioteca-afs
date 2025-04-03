@@ -10,11 +10,11 @@ class Command(BaseCommand):
 
         with open('./books.json', 'r', encoding='utf-8') as file:
             data = json.load(file)
-            
+
             for book in data:
                 if not book['year'].isnumeric():
                     book['year'] = None
-                
+
                 book_author_lower = book['author'].lower()
                 if book_author_lower == 'autor desconhecido' or book_author_lower == 'author unknown' or book_author_lower == 'author unknown' or book_author_lower == 'null':
                     self.stdout.write(self.style.WARNING(f'Book "{book['title']}" sem autor. Author: {book['author']}'))

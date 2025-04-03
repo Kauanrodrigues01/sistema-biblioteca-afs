@@ -3,7 +3,6 @@ from books.models import Loan, Book
 from django.utils import timezone
 
 
-
 class LoanForm(forms.ModelForm):
     class Meta:
         model = Loan
