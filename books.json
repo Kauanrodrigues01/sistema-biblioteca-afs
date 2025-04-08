@@ -88,6 +88,254 @@
         "genre": "Contos"
     },
     {
+        "title": "História & Livro e Leitura",
+        "author": "André Belo",
+        "isbn": "9788575260548",
+        "publisher": "Autêntica",
+        "year": "2007",
+        "genre": "História"
+    },
+    {
+        "title": "Interação Na Internet",
+        "author": "Bernadete Biasi, Julio Cesar Araujo",
+        "isbn": "9788586930508",
+        "publisher": "Lucerna",
+        "year": "2005",
+        "genre": "Tecnologia"
+    },
+    {
+        "title": "Leitura e Construção do Real: O Lugar da Poesia e da Ficção",
+        "author": "Guaraciaba Micheletti",
+        "isbn": "9788524907272",
+        "publisher": "Cortez",
+        "year": "1999",
+        "genre": "Literatura"
+    },
+    {
+        "title": "A Gente Mira no Amor e Acerta na Solidão",
+        "author": "Ana Suy",
+        "isbn": "9786555357028",
+        "publisher": "Paidos (Planeta)",
+        "year": "2019",
+        "genre": "Psicologia"
+    },
+    {
+        "title": "200 Dias de Leitura e Escrita na Escola",
+        "author": "Rossana Ramos",
+        "isbn": "9788524911446",
+        "publisher": "Cortez",
+        "year": "2005",
+        "genre": "Educação"
+    },
+    {
+        "title": "Ortografia: Ensinar e Aprender",
+        "author": "Autor Desconhecido",
+        "isbn": "9788508071890",
+        "publisher": "Ática",
+        "year": "1998",
+        "genre": "Educação"
+    },
+    {
+        "title": "Desvendando os Segredos do Texto",
+        "author": "Ingedore Grunfeld Villaça Koch",
+        "isbn": "9788524908378",
+        "publisher": "Cortez",
+        "year": "2002",
+        "genre": "Linguística"
+    },
+    {
+        "title": "O Texto na Sala de Aula",
+        "author": "João Wanderley Geraldi",
+        "isbn": "9788575952009",
+        "publisher": "Anglo",
+        "year": "2012",
+        "genre": "Educação"
+    },
+    {
+        "title": "Aprendizagem Contextualizada",
+        "author": "Maria Lucia Castanheira",
+        "isbn": "9788575261330",
+        "publisher": "Autêntica",
+        "year": "2004",
+        "genre": "Educação"
+    },
+    {
+        "title": "A Nova Lei da Educação: Trajetória, Limites e Perspectivas",
+        "author": "Dermeval Saviani",
+        "isbn": "9788585701451",
+        "publisher": "Autores Associados",
+        "year": "1997",
+        "genre": "Educação"
+    },
+    {
+        "title": "A Língua que Falamos",
+        "author": "Luiz Antônio da Silva",
+        "isbn": "9788525040602",
+        "publisher": "Editora Globo",
+        "year": "2004",
+        "genre": "Linguística"
+    },
+    {
+        "title": "O Aprendizado da Ortografia",
+        "author": "Artur Gomes de Morais",
+        "isbn": "9788586583513",
+        "publisher": "Autêntica",
+        "year": "1999",
+        "genre": "Educação"
+    },
+    {
+        "title": "Democratizando a Leitura: Pesquisas e Práticas",
+        "author": "Aparecida Paiva",
+        "isbn": "9788575261453",
+        "publisher": "Autêntica",
+        "year": "2004",
+        "genre": "Literatura"
+    },
+    {
+        "title": "Manual de Expressão Oral e Escrita",
+        "author": "Joaquim Mattoso Câmara Júnior",
+        "isbn": "9788532603234",
+        "publisher": "Vozes",
+        "year": "2003",
+        "genre": "Linguística"
+    },
+    {
+        "title": "A Língua de Eulália",
+        "author": "Marcos Bagno",
+        "isbn": "9788572443975",
+        "publisher": "Contexto",
+        "year": "2008",
+        "genre": "Linguística"
+    },
+    {
+        "title": "Por que (não) Ensinar Gramática na Escola",
+        "author": "Sirio Possenti",
+        "isbn": "9788585725242",
+        "publisher": "Mercado de Letras",
+        "year": "2004",
+        "genre": "Educação"
+    },
+    {
+        "title": "O Texto e a Construção dos Sentidos",
+        "author": "Ingedore Grunfeld Villaça Koch",
+        "isbn": "9788572440684",
+        "publisher": "Contexto",
+        "year": "2014",
+        "genre": "Linguística"
+    },
+    {
+        "title": "Do Mundo da Leitura para a Leitura do Mundo",
+        "author": "Marisa Lajolo",
+        "isbn": "9788508043835",
+        "publisher": "Ática",
+        "year": "1994",
+        "genre": "Literatura"
+    },
+    {
+        "title": "Novo Guia Ortográfico",
+        "author": "Celso Pedro Luft",
+        "isbn": "9788525036360",
+        "publisher": "Globo",
+        "year": "2003",
+        "genre": "Linguística"
+    },
+    {
+        "title": "Introdução à Teoria da Literatura",
+        "author": "António Soares Amora",
+        "isbn": "9788531602085",
+        "publisher": "Cultrix",
+        "year": "Não especificado",
+        "genre": "Literatura"
+    },
+    {
+        "title": "Vidas Secas",
+        "author": "Graciliano Ramos",
+        "isbn": "9786550971298",
+        "publisher": "Editora Arqueiro",
+        "year": "2024",
+        "genre": "Ficção"
+    },
+    {
+        "title": "Coraline",
+        "author": "Neil Gaiman",
+        "isbn": "9788551006757",
+        "publisher": "Intrínseca",
+        "year": "2020",
+        "genre": "Terror/Fantasia"
+    },
+    {
+        "title": "O Menino do Pijama Listrado",
+        "author": "John Boyne",
+        "isbn": "9788535911121",
+        "publisher": "Cia. das Letras",
+        "year": "2007",
+        "genre": "Drama Histórico"
+    },
+    {
+        "title": "O Diário de Anne Frank",
+        "author": "Anne Frank",
+        "isbn": "9786550970406",
+        "publisher": "Principis",
+        "year": "2020",
+        "genre": "Biografia"
+    },
+    {
+        "title": "Antes que o Café Esfrie",
+        "author": "Toshikazu Kawaguchi",
+        "isbn": "9786588490365",
+        "publisher": "Valentina",
+        "year": "2022",
+        "genre": "Ficção Contemporânea"
+    },
+    {
+        "title": "O Morro dos Ventos Uivantes",
+        "author": "Emily Brontë",
+        "isbn": "9788594318237",
+        "publisher": "Principis",
+        "year": "2019",
+        "genre": "Clássico"
+    },
+    {
+        "title": "É Assim que Acaba",
+        "author": "Colleen Hoover",
+        "isbn": "9788501112514",
+        "publisher": "Galera Record",
+        "year": "2018",
+        "genre": "Romance"
+    },
+    {
+        "title": "A Biblioteca da Meia-Noite",
+        "author": "Matt Haig",
+        "isbn": "9786558380542",
+        "publisher": "Bertrand (Record)",
+        "year": "2021",
+        "genre": "Ficção Contemporânea"
+    },
+    {
+        "title": "Com Amor, Simon",
+        "author": "Becky Albertalli",
+        "isbn": "9788551003053",
+        "publisher": "Intrínseca",
+        "year": "2018",
+        "genre": "Romance"
+    },
+    {
+        "title": "Os Sete Maridos de Evelyn Hugo",
+        "author": "Taylor Jenkins Reid",
+        "isbn": "9788584391509",
+        "publisher": "Editora não especificada",
+        "year": "2019",
+        "genre": "Drama"
+    },
+    {
+        "title": "A Marca de uma Lágrima",
+        "author": "Pedro Bandeira",
+        "isbn": "9786557795293",
+        "publisher": "Moderna",
+        "year": "2020",
+        "genre": "Romance Juvenil"
+    },
+    {
         "title": "Os Melhores Contos de Cães & Gatos",
         "author": "Flávio Moreira da Costa",
         "isbn": "9788500021985",
