@@ -169,7 +169,17 @@ function printCard() {
                     font-size: 14px; 
                     position: relative;
                     height: 100%;
-                    width: 300px;
+                    width: 800px;
+                    overflow: hidden; /* Adicionei para conter o fundo */
+                }
+                .fundo {
+                    width: 50%; /* Reduzi o tamanho para ficar mais elegante */
+                    opacity: 0.2;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    z-index: -1;
                 }
                 .cabecalho { 
                     background: #ccc; 
@@ -177,15 +187,6 @@ function printCard() {
                     border-radius: 10px; 
                     font-weight: bold; 
                     margin-bottom: 10px;
-                }
-                .fundo {
-                    width: 100%;
-                    opacity: 0.2;
-                    position: absolute;
-                    top: 50%;
-                    left: 50%;
-                    transform: translate(-50%, -50%);
-                    z-index: -1;
                 }
                 p { margin: 5px 0; }
             </style>
