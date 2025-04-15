@@ -2,17 +2,22 @@
 {% load static %}
 
 {% block content %}
-<div class="list-container">
+<!-- Barra de pesquisa -->
+<div class="search-container">
+    <input type="text" id="searchInput" placeholder="Pesquisar por aluno, turma ou livro..." onkeyup="filterLoans()">
+</div>
+
+<!-- Lista de empréstimos -->
+<div class="list-container" id="loansList">
     {% for loan in emprestimos %}
     <div class="emprestimo-item {{ loan.is_late }}" 
          data-id="{{ loan.id }}"
-         data-student="{{ loan.student }}"
-         data-tier="{{ loan.get_tier_display }}"
-         data-book="{{ loan.book.title }}"
+         data-student="{{ loan.student|lower }}"
+         data-tier="{{ loan.get_tier_display|lower }}"
+         data-book="{{ loan.book.title|lower }}"
          data-loan-date="{{ loan.loan_date|date:'Y-m-d' }}"
          data-return-date="{{ loan.return_date|date:'Y-m-d'|default:'' }}">
         
-        <!-- Seus campos existentes -->
         <p><strong>Aluno:</strong> {{ loan.student }}</p>
         <p><strong>Turma:</strong> {{ loan.get_tier_display }}</p>
         <p><strong>Livro:</strong> {{ loan.book.title }}</p>
@@ -32,9 +37,7 @@
                 Remover / Devolver
             </button>
         </form>
-        <!-- ... outros campos ... -->
         
-        <!-- Botão de imprimir -->
         <button class="print-btn" onclick="printLoanCard(this.parentElement)">
             Imprimir Cartão
         </button>
@@ -44,8 +47,47 @@
     {% endfor %}
 </div>
 
-<!-- Inclua isso no final do template, antes do endblock -->
+<style>
+    /* Estilo para a barra de pesquisa */
+    .search-container {
+        margin: 20px 0;
+        text-align: center;
+    }
+    
+    #searchInput {
+        width: 80%;
+        max-width: 600px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+    
+    /* Estilo para itens ocultos pela pesquisa */
+    .emprestimo-item.hidden {
+        display: none;
+    }
+</style>
+
 <script>
+function filterLoans() {
+    const input = document.getElementById('searchInput');
+    const filter = input.value.toLowerCase();
+    const loans = document.querySelectorAll('.emprestimo-item');
+    
+    loans.forEach(loan => {
+        const student = loan.getAttribute('data-student');
+        const tier = loan.getAttribute('data-tier');
+        const book = loan.getAttribute('data-book');
+        
+        if (student.includes(filter) || tier.includes(filter) || book.includes(filter)) {
+            loan.classList.remove('hidden');
+        } else {
+            loan.classList.add('hidden');
+        }
+    });
+}
+
 function printLoanCard(loanElement) {
     // Obtém os dados do elemento pai (div.emprestimo-item)
     const student = loanElement.getAttribute('data-student');
@@ -78,10 +120,10 @@ function printLoanCard(loanElement) {
                     position: relative;
                     height: 100%;
                     width: 800px;
-                    overflow: hidden; /* Adicionei para conter o fundo */
+                    overflow: hidden;
                 }
                 .fundo {
-                    width: 30%; /* Reduzi o tamanho para ficar mais elegante */
+                    width: 30%;
                     opacity: 0.2;
                     position: absolute;
                     top: 50%;
@@ -114,7 +156,6 @@ function printLoanCard(loanElement) {
     `);
     janela.document.close();
     
-    // Espera o conteúdo carregar antes de imprimir
     setTimeout(() => {
         janela.print();
         janela.close();
