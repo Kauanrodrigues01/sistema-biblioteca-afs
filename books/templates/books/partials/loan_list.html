@@ -3,7 +3,15 @@
 {% block content %}
 <div class="list-container">
     {% for loan in emprestimos %}
-    <div class="emprestimo-item {{ loan.is_late }}">
+    <div class="emprestimo-item {{ loan.is_late }}" 
+         data-id="{{ loan.id }}"
+         data-student="{{ loan.student }}"
+         data-tier="{{ loan.get_tier_display }}"
+         data-book="{{ loan.book.title }}"
+         data-loan-date="{{ loan.loan_date|date:'Y-m-d' }}"
+         data-return-date="{{ loan.return_date|date:'Y-m-d'|default:'' }}">
+        
+        <!-- Seus campos existentes -->
         <p><strong>Aluno:</strong> {{ loan.student }}</p>
         <p><strong>Turma:</strong> {{ loan.get_tier_display }}</p>
         <p><strong>Livro:</strong> {{ loan.book.title }}</p>
@@ -23,10 +31,93 @@
                 Remover / Devolver
             </button>
         </form>
+        <!-- ... outros campos ... -->
+        
+        <!-- Botão de imprimir -->
+        <button class="print-btn" onclick="printLoanCard(this.parentElement)">
+            Imprimir Cartão
+        </button>
     </div>
     {% empty %}
     <div class="alert alert-info">Nenhum empréstimo cadastrado ainda.</div>
     {% endfor %}
 </div>
-</div>
+
+<!-- Inclua isso no final do template, antes do endblock -->
+<script>
+function printLoanCard(loanElement) {
+    // Obtém os dados do elemento pai (div.emprestimo-item)
+    const student = loanElement.getAttribute('data-student');
+    const tier = loanElement.getAttribute('data-tier');
+    const book = loanElement.getAttribute('data-book');
+    const loanDate = loanElement.getAttribute('data-loan-date');
+    const returnDate = loanElement.getAttribute('data-return-date');
+
+    // Formata as datas (DD/MM/AAAA)
+    const formatarData = (dataString) => {
+        if (!dataString) return '-';
+        const [ano, mes, dia] = dataString.split('-');
+        return `${dia}/${mes}/${ano}`;
+    };
+
+    let janela = window.open('', '', 'width=800,height=600');
+    janela.document.write(`
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Cartão de Empréstimo</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 0; padding: 20px; display: flex; justify-content: center; }
+                .cartao { 
+                    text-align: center; 
+                    border: 1px solid #000; 
+                    border-radius: 10px; 
+                    padding: 5px; 
+                    font-size: 14px; 
+                    position: relative;
+                    height: 100%;
+                    width: 800px;
+                    overflow: hidden; /* Adicionei para conter o fundo */
+                }
+                .fundo {
+                    width: 30%; /* Reduzi o tamanho para ficar mais elegante */
+                    opacity: 0.2;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    z-index: -1;
+                }
+                .cabecalho { 
+                    background: #ccc; 
+                    padding: 5px; 
+                    border-radius: 10px; 
+                    font-weight: bold; 
+                    margin-bottom: 10px;
+                }
+                p { margin: 5px 0; }
+            </style>
+        </head>
+        <body>
+            <div class="cartao">
+                <div class="cabecalho">CARTÃO DE EMPRÉSTIMO</div>
+                <img src="/static/images/fundo_cartao_bibloteca.png" alt="CARTAO" class="fundo">
+                <p><strong>Aluno:</strong> ${student}</p>
+                <p><strong>Turma:</strong> ${tier}</p>
+                <p><strong>Livro:</strong> ${book}</p>
+                <p><strong>Empréstimo:</strong> ${formatarData(loanDate)}</p>
+                <p><strong>Devolução:</strong> ${formatarData(returnDate)}</p>
+            </div>
+        </body>
+        </html>
+    `);
+    janela.document.close();
+    
+    // Espera o conteúdo carregar antes de imprimir
+    setTimeout(() => {
+        janela.print();
+        janela.close();
+    }, 500);
+}
+</script>
 {% endblock %}

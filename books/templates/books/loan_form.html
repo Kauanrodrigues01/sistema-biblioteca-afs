@@ -15,7 +15,12 @@
     <div class="container">
         <form method="POST">
             {% csrf_token %}
-            
+            <div class="form-group">
+                <label class="form-label">Livro:</label>
+                {{ form.book }}
+                {{ form.book.errors }}
+            </div>
+
             <div class="form-group">
                 <label class="form-label">Aluno(a):</label>
                 {{ form.student }}
@@ -26,12 +31,6 @@
                 <label class="form-label">Turma:</label>
                 {{ form.tier }}
                 {{ form.tier.errors }}
-            </div>
-
-            <div class="form-group">
-                <label class="form-label">Livro:</label>
-                {{ form.book }}
-                {{ form.book.errors }}
             </div>
 
             <div class="form-group">
