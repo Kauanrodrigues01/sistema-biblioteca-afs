@@ -7,7 +7,7 @@ from datetime import datetime
 class LoanForm(forms.ModelForm):
     class Meta:
         model = Loan
-        fields = ['student', 'tier', 'book', 'loan_date', 'return_date']
+        fields = ['book', 'student', 'tier', 'loan_date', 'return_date']
         widgets = {
             'loan_date': forms.DateInput(attrs={
                 'type': 'date',
