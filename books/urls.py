@@ -1,6 +1,5 @@
 from django.urls import path
-from .views import login_view, create_loan, list_loan, logout, delete_loan, home, create_book
-
+from .views import login_view, create_loan, logout, delete_loan, home, create_book
 
 
 urlpatterns = [
@@ -9,6 +8,5 @@ urlpatterns = [
     path('logout/', logout, name='logout'),
     path('criar/livro', create_book, name='create_book'),
     path('emprestimos/criar/', create_loan, name='create_loan'),
-    path('emprestimos', list_loan, name='list_loan'),
     path('emprestimo/deletar/<int:emprestimo_id>/', delete_loan, name='delete_loan'),
 ]
