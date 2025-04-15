@@ -1,10 +1,19 @@
-{% extends "books/base.html" %}
 {% load static %}
 
-{% block content %}
-<!-- Barra de pesquisa -->
-<div class="search-container">
-    <input type="text" id="searchInput" placeholder="Pesquisar por aluno, turma ou livro..." onkeyup="filterLoans()">
+<!-- Barra de pesquisa e filtros -->
+<div class="filters-container">
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Pesquisar por aluno, turma ou livro..." onkeyup="filterLoans()">
+    </div>
+    
+    <div class="status-filter">
+        <select id="statusFilter" onchange="filterLoans()">
+            <option value="all">Todos os empréstimos</option>
+            <option value="late">Atrasados</option>
+            <option value="warning">Vencendo hoje</option>
+            <option value="on_time">Em dia</option>
+        </select>
+    </div>
 </div>
 
 <!-- Lista de empréstimos -->
@@ -15,6 +24,7 @@
          data-student="{{ loan.student|lower }}"
          data-tier="{{ loan.get_tier_display|lower }}"
          data-book="{{ loan.book.title|lower }}"
+         data-status="{{ loan.is_late }}"
          data-loan-date="{{ loan.loan_date|date:'Y-m-d' }}"
          data-return-date="{{ loan.return_date|date:'Y-m-d'|default:'' }}">
         
@@ -30,6 +40,15 @@
         </p>
         <p><strong>Empréstimo:</strong> {{ loan.loan_date|date:"d/m/Y" }}</p>
         <p><strong>Devolução:</strong> {{ loan.return_date|date:"d/m/Y"|default:"-" }}</p>
+        <p><strong>Status:</strong> 
+            {% if loan.is_late == "late" %}
+                Atrasado
+            {% elif loan.is_late == "warning" %}
+                Vencendo hoje
+            {% else %}
+                Em dia
+            {% endif %}
+        </p>
         
         <form method="post" action="{% url 'delete_loan' loan.id %}" class="delete-form">
             {% csrf_token %}
@@ -48,45 +67,103 @@
 </div>
 
 <style>
-    /* Estilo para a barra de pesquisa */
-    .search-container {
+    /* Container para os filtros */
+    .filters-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
         margin: 20px 0;
-        text-align: center;
+        align-items: center;
+    }
+    
+    .search-container {
+        flex: 1;
+        min-width: 300px;
+        max-width: 600px;
+    }
+    
+    .status-filter select {
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 16px;
+        min-width: 200px;
     }
     
     #searchInput {
-        width: 80%;
-        max-width: 600px;
+        width: 100%;
         padding: 10px;
         border: 1px solid #ddd;
         border-radius: 5px;
         font-size: 16px;
     }
     
-    /* Estilo para itens ocultos pela pesquisa */
+    /* Estilo para itens ocultos */
     .emprestimo-item.hidden {
         display: none;
+    }
+    
+    /* Estilos para os status */
+    .emprestimo-item.late {
+        border-left: 5px solid #dc3545;
+    }
+    .emprestimo-item.warning {
+        border-left: 5px solid #ffc107;
+    }
+    .emprestimo-item.on_time {
+        border-left: 5px solid #28a745;
     }
 </style>
 
 <script>
 function filterLoans() {
     const input = document.getElementById('searchInput');
-    const filter = input.value.toLowerCase();
+    const searchTerm = input.value.toLowerCase();
+    const statusFilter = document.getElementById('statusFilter').value;
+    
     const loans = document.querySelectorAll('.emprestimo-item');
     
     loans.forEach(loan => {
         const student = loan.getAttribute('data-student');
         const tier = loan.getAttribute('data-tier');
         const book = loan.getAttribute('data-book');
+        const loanStatus = loan.getAttribute('data-status');
         
-        if (student.includes(filter) || tier.includes(filter) || book.includes(filter)) {
+        // Verifica o status conforme o valor de data-status (is_late do model)
+        let statusMatch = false;
+        
+        switch(statusFilter) {
+            case 'all':
+                statusMatch = true;
+                break;
+            case 'late':
+                statusMatch = loanStatus === 'late';
+                break;
+            case 'warning':
+                statusMatch = loanStatus === 'warning';
+                break;
+            case 'on_time':
+                statusMatch = loanStatus === 'on_time';
+                break;
+        }
+        
+        // Verifica a pesquisa
+        const searchMatch = searchTerm === '' || 
+                          student.includes(searchTerm) || 
+                          tier.includes(searchTerm) || 
+                          book.includes(searchTerm);
+        
+        if (statusMatch && searchMatch) {
             loan.classList.remove('hidden');
         } else {
             loan.classList.add('hidden');
         }
     });
 }
+
+// Aplica o filtro ao carregar a página
+document.addEventListener('DOMContentLoaded', filterLoans);
 
 function printLoanCard(loanElement) {
     // Obtém os dados do elemento pai (div.emprestimo-item)
@@ -162,4 +239,3 @@ function printLoanCard(loanElement) {
     }, 500);
 }
 </script>
-{% endblock %}
