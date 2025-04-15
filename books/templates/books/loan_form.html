@@ -8,7 +8,7 @@
 <div class="mainContent">
     <div class="header">
         <img src="{% static "images/logo_biblioteca.png" %}" alt="Logo Biblioteca">
-        <h1>Cadastro de Emprestimos</h1>
+        <h1>Cadastro de Empréstimos</h1>
         <img src="{% static "images/logo_escola.png" %}" alt="Logo Escola">
         <a href="{% url "logout" %}" class="logout-btn">Sair</a>
     </div>
@@ -145,5 +145,87 @@ $(document).ready(function() {
         }
     });
 });
+
+
+function printCard() {
+    // Obtém os valores do formulário atual
+    const student = $('#id_student').val();
+    const tier = $('#id_tier option:selected').text();
+    const book = $('#id_book option:selected').text();
+    const loanDate = $('#id_loan_date').val();
+    const returnDate = $('#id_return_date').val();
+
+    // Verifica se todos os campos estão preenchidos
+    if (!student || !tier || !book || !loanDate || !returnDate) {
+        alert('Preencha todos os campos do formulário antes de imprimir o cartão.');
+        return;
+    }
+
+    // Formata as datas (DD/MM/AAAA)
+    const formatarData = (dataString) => {
+        if (!dataString) return '';
+        const [ano, mes, dia] = dataString.split('-');
+        return `${dia}/${mes}/${ano}`;
+    };
+
+    let janela = window.open('', '', 'width=1500,height=1000');
+    janela.document.write(`
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Cartão de Empréstimo</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 0; padding: 10px; }
+                .cartao { 
+                    text-align: center; 
+                    border: 1px solid #000; 
+                    border-radius: 10px; 
+                    padding: 5px; 
+                    font-size: 14px; 
+                    position: relative;
+                    height: 100%;
+                    width: 800px;
+                    overflow: hidden; /* Adicionei para conter o fundo */
+                }
+                .fundo {
+                    width: 50%; /* Reduzi o tamanho para ficar mais elegante */
+                    opacity: 0.2;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    z-index: -1;
+                }
+                .cabecalho { 
+                    background: #ccc; 
+                    padding: 5px; 
+                    border-radius: 10px; 
+                    font-weight: bold; 
+                    margin-bottom: 10px;
+                }
+                p { margin: 5px 0; }
+            </style>
+        </head>
+        <body>
+            <div class="cartao">
+                <div class="cabecalho">CARTÃO DE EMPRÉSTIMO</div>
+                <img src="{% static 'images/logo_biblioteca.png' %}" alt="CARTAO" class="fundo">
+                <p><strong>Aluno:</strong> ${student}</p>
+                <p><strong>Turma:</strong> ${tier}</p>
+                <p><strong>Livro:</strong> ${book}</p>
+                <p><strong>Empréstimo:</strong> ${formatarData(loanDate)}</p>
+                <p><strong>Devolução:</strong> ${formatarData(returnDate)}</p>
+            </div>
+        </body>
+        </html>
+    `);
+    janela.document.close();
+    
+    // Espera o conteúdo carregar antes de imprimir
+    setTimeout(() => {
+        janela.print();
+        janela.close();
+    }, 500);
+}
 </script>
 {% endblock %}
