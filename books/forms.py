@@ -1,7 +1,7 @@
 from django import forms
 from books.models import Loan, Book
 from django.utils import timezone
-
+from datetime import datetime
 
 
 class LoanForm(forms.ModelForm):
@@ -34,3 +34,29 @@ class LoanForm(forms.ModelForm):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.fields['book'].queryset = Book.objects.all().filter(available=True)
+
+
+class CreateBook(forms.ModelForm):
+    class Meta:
+        model = Book
+        fields = ['title', 'author', 'isbn', 'publisher', 'year', 'genre']
+        labels = {
+            'title': 'Título',
+            'author': 'Autor',
+            'isbn': 'ISBN',
+            'publisher': 'Editora',
+            'year': 'Ano de Publicação',
+            'genre': 'Gênero',
+        }
+        widgets = {
+            'year': forms.NumberInput(attrs={
+                'min': 1000,
+                'max': datetime.now().year + 1
+            }),
+        }
+
+        def clean_isbn(self):
+            isbn = self.cleaned_data.get('isbn')
+            if len(isbn) not in [10, 13] or not isbn.isdigit():
+                raise forms.ValidationError("ISBN deve conter 10 ou 13 dígitos numéricos.")
+            return isbn

@@ -4,12 +4,14 @@ from django.contrib import auth
 from django.contrib.auth.decorators import login_required
 from django.http import JsonResponse
 from .models import Book, Loan
-from books.forms import LoanForm
+from books.forms import LoanForm, CreateBook
 from django.contrib import messages
 from django.utils import timezone
-
 from django.shortcuts import render
 from .models import Book
+from django.urls import reverse
+
+
 
 def home(request):
     livros = Book.objects.order_by('title')
@@ -102,5 +104,16 @@ def delete_loan(request, emprestimo_id):
     messages.success(request, 'Empréstimo removido com sucesso!')
     return redirect('create_loan')  # Redireciona para a página de cadastro
 
+@login_required
+def create_book(request):
+    if request.method == 'POST':
+        form = CreateBook(request.POST)
+        if form.is_valid():
+            book = form.save()
+            return redirect(reverse('create_loan') + f'?book_id={book.id}')
+        return render(request, 'books/create.html', {'form': form})
+    
+    form = CreateBook()
+    return render(request, 'books/create_book.html', {'form': form})
 
 

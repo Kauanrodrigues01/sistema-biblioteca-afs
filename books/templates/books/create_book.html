@@ -17,48 +17,49 @@
             {% csrf_token %}
             
             <div class="form-group">
-                <label class="form-label">Aluno(a):</label>
-                {{ form.student }}
-                {{ form.student.errors }}
+                <label class="form-label">Titulo:</label>
+                {{ form.title }}
+                
             </div>
 
             <div class="form-group">
-                <label class="form-label">Turma:</label>
-                {{ form.tier }}
-                {{ form.tier.errors }}
+                <label class="form-label">Autor:</label>
+                {{ form.author }}
+                
             </div>
 
             <div class="form-group">
-                <label class="form-label">Livro:</label>
-                {{ form.book }}
-                {{ form.book.errors }}
+                <label class="form-label">ISBN:</label>
+                {{ form.isbn }}
+                
             </div>
 
             <div class="form-group">
-                <label class="form-label">Data de Emprestimo:</label>
-                {{ form.loan_date }}
-                {{ form.loan_date.errors }}
+                <label class="form-label">Publicação:</label>
+                {{ form.publisher }}
+                
             </div>
 
             <div class="form-group">
-                <label class="form-label">Data de Devolução:</label>
-                {{ form.return_date }}
-                {{ form.return_date.errors }}
+                <label class="form-label">Ano:</label>
+                {{ form.year }}
+                
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">Gênero:</label>
+                {{ form.genre }}
+                
             </div>
 
             <div class="button-group">
-                <button type="submit" name="save">Cadastrar Empréstimo</button>
-                <a href="{% url "create_book" %}" nae>Adicionar livro</a>
-                <button type="button" onclick="window.print()">Imprimir Cartão</button>
+                <button type="submit" name="save">Adicionar Livro</button>
             </div>
         </form>
     </div>
 </div>
 
-<div class="list-container">
-    <h2>Lista de Empréstimos</h2>
-    {% include "books/partials/loan_list.html" %}
-</div>
+
 
 <style>
     .messages {
@@ -79,20 +80,6 @@
     .button-group {
         display: flex;
         gap: 10px;
-    }
-    .button-group a {
-    padding: 15px 20px;
-    background: #28a745;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: 300;
-    text-align: center;
-    transition: background 0.3s;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-    }
-    .button-group a:hover {
-        background: #186d2c;
     }
     .logout-btn {
         padding: 5px 15px;
