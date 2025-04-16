@@ -26,6 +26,7 @@ jobs:
 
           # Acessa o diretório do projeto
           cd /var/www/sistema-biblioteca || { echo "Falha ao acessar diretório"; exit 1; }
+          sudo chown -R $(whoami) .
           
           # Executa o script de atualização
           chmod +x ./update-image.sh
