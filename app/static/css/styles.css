@@ -168,8 +168,7 @@ button:hover {
     border-radius: 5px;
     border: 1px solid #ccc;
     text-align: left;
-    max-width: 500px;
-    min-width: 350px;
+    width: 400px;
 }
 
 .emprestimo-item p {
