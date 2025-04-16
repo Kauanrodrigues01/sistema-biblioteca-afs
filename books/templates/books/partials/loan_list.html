@@ -17,7 +17,7 @@
 </div>
 
 <!-- Lista de empréstimos -->
-<div class="list-container" id="loansList">
+<div class="list-loan-container" id="loansList">
     {% for loan in emprestimos %}
     <div class="emprestimo-item {{ loan.is_late }}" 
          data-id="{{ loan.id }}"
@@ -50,16 +50,18 @@
             {% endif %}
         </p>
         
-        <form method="post" action="{% url 'delete_loan' loan.id %}" class="delete-form">
-            {% csrf_token %}
-            <button type="submit" class="remove-btn" onclick="return confirm('Tem certeza que deseja remover este empréstimo?')">
-                Remover / Devolver
+        <div class="loan-buttons">
+            <form method="post" action="{% url 'delete_loan' loan.id %}" class="delete-form">
+                {% csrf_token %}
+                <button type="submit" class="remove-btn" onclick="return confirm('Tem certeza que deseja remover este empréstimo?')">
+                    Remover / Devolver
+                </button>
+            </form>
+            
+            <button class="print-btn" onclick="printLoanCard(this.parentElement)">
+                Imprimir Cartão
             </button>
-        </form>
-        
-        <button class="print-btn" onclick="printLoanCard(this.parentElement)">
-            Imprimir Cartão
-        </button>
+        </div>
     </div>
     {% empty %}
     <div class="alert alert-info">Nenhum empréstimo cadastrado ainda.</div>
@@ -103,7 +105,7 @@
     .emprestimo-item.hidden {
         display: none;
     }
-    
+
     /* Estilos para os status */
     .emprestimo-item.late {
         border-left: 5px solid #dc3545;
@@ -113,6 +115,22 @@
     }
     .emprestimo-item.on_time {
         border-left: 5px solid #28a745;
+    }
+
+    .loan-buttons{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .loan-buttons .print-btn {
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        display: block;
+        margin-top: 10px;
     }
 </style>
 
