@@ -2,6 +2,7 @@ from django import forms
 from books.models import Loan, Book
 from django.utils import timezone
 from datetime import datetime
+from datetime import date, timedelta
 
 
 class LoanForm(forms.ModelForm):
@@ -34,6 +35,15 @@ class LoanForm(forms.ModelForm):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.fields['book'].queryset = Book.objects.all().filter(available=True)
+
+        today = date.today()
+        self.fields['loan_date'].initial = today
+        self.fields['return_date'].initial = today + timedelta(days=14)
+
+        if 'readonly' in self.fields['loan_date'].widget.attrs:
+            del self.fields['loan_date'].widget.attrs['readonly']
+        if 'readonly' in self.fields['return_date'].widget.attrs:
+            del self.fields['return_date'].widget.attrs['readonly']
 
 
 class CreateBook(forms.ModelForm):
