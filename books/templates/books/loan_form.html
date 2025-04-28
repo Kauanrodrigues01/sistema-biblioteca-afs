@@ -229,5 +229,21 @@ function printCard() {
         janela.close();
     }, 500);
 }
+
+// Garante que as datas sejam preenchidos (formato YYYY-MM-AA)
+document.addEventListener('DOMContentLoaded', function() {
+    // Preenche apenas se os campos estiverem vazios
+    const loanDate = document.getElementById('id_loan_date');
+    const returnDate = document.getElementById('id_return_date');
+    
+    if (loanDate && !loanDate.value) {
+        loanDate.value = new Date().toISOString().split('T')[0];
+    }
+    if (returnDate && !returnDate.value) {
+        const nextWeek = new Date();
+        nextWeek.setDate(nextWeek.getDate() + 14);
+        returnDate.value = nextWeek.toISOString().split('T')[0];
+    }
+});
 </script>
 {% endblock %}
